@@ -1,0 +1,677 @@
+﻿Incomplete Contracts and Control
+
+Prize Lecture, December 8, 2016 by Oliver Hart
+
+Department of Economics, Harvard University, USA
+
+1. INTRODUCTION
+
+e work on incomplete contracts cited by the prize committee began in the summer of 1983, but it may be useful to say a bit about how I reached that point. As a graduate student, rst at the University of Warwick and then at Princeton University, with a degree in mathematics behind me, I was drawn to general equilibrium theory, and my Ph.D. thesis was on general equilibrium theory with incomplete markets. 1 Although I ended up focusing on optimality and existence problems that could arise even in exchange economies, one of my primary inter- ests was the theory of production. In a complete market Arrow-Debreu economy with perfect competition, it makes sense for a rm to maximize pro t or net market value. But with incomplete markets, what is the generalization of this goal? More fundamentally, what happens if shareholders disagree about what the rm should do? 2
+
+I started to work on this topic a er my thesis and as a result of a serendipitous assignment continued the work with Sanford Grossman in the summer of 1976. 3 At some point we decided that, interesting though the disagreement between shareholders was, an empirically more important con ict was that between managers and shareholders. 4    is led rst to work on corporate takeovers as a mechanism for disciplining management and then to a paper on debt as a bonding device. 5 At some stage we realized that since we were studying ways to incentivize management, maybe we should analyze directly the optimal incentive scheme between an owner and a manager. is led to Grossman and Hart (1983), a paper squarely in the principal-agent tradition.
+
+371
+
+-----------------------------------------------------Page 1-----------------------------------------------------
+﻿
+372                                         The Nobel Prizes
+
+is rather circuitous path helps to explain how my thinking evolved from markets to contracts as the unit of analysis, and provides the backdrop to the summer of 1983. Sitting in Grossman’s University of Chicago o ce, the two of us were considering what to work on next. A er some discussion we decided that a question that was ripe for analysis was: Why would one rm ever buy another rm rather than conduct business with that rm through a contract? In other
+
+words, what are the limits of contracts and why do we have rms?
+
+Of course, this was hardly a new question: there is a literature on the bound- aries of the rm that goes back to Coase (1937) and includes Oliver Williamson’s many works (see, e.g., Williamson (1975)), and Klein et al. (1978). I think that it is fair to say that we were aware of this literature without being intimate with it. (Intimacy came later.) One thing that we knew for sure is that the literature was informal (or in the prize committee’s felicitous language, “not formalized”). As economic theorists with a formal training we thought that we might be able to add something.
+
+We worked on the di erence between rms and contracts for ten very intense days. With apologies to John Reed these were ten days that shook my world. 6 I recall that initially we thought that the di erence had to do with authority. An employer can choose the task of an employee. 7 But what is the conceptual dif- ference between this and a requirements contract between two rms where one, the buyer say, can choose how many widgets q to buy from the other, the seller, with payment determined by a pre-agreed schedule: p = p ( q )? One could say that the buyer has authority over q in this case. Perhaps more seriously, once we are in a world where a buyer obtains private information about a demand shock and a seller obtains private information about a supply shock, then, according to mechanism design theory, the quantity q should depend on both parties’ reports about their shocks: neither party should have authority over q .
+
+At some point it dawned on us that we were thinking about the issue the wrong way. We were viewing the problem in complete contracting terms. But what if the contract between the buyer and seller is incomplete?
+
+2. INCOMPLETE CONTRACTS
+
+e formal literature to that point was all about complete contracts. ese are contracts where everything that can ever happen is written into the contract. ere may be some incentive constraints arising from moral hazard or asym-
+
+metric information but there are no unanticipated contingencies.
+
+Actual contracts are not like this, as lawyers have realized for a long time. ey are poorly worded, ambiguous, and leave out important things. ey are
+
+-----------------------------------------------------Page 2-----------------------------------------------------
+﻿
+Incomplete Contracts and Control                             373
+
+incomplete. At some stage Grossman and I realized that a critical question that arises with an incomplete contract is, who has the right to decide about the missing things? We called this right the residual control or decision right. e question is, who has it?
+
+Further thought led us to the idea that this is what ownership is. e owner of an asset has the right to decide on how the asset is used to the extent that its use is not contractually speci ed. is naturally leads to a theory of the di erence between contracts and rms. ink of a rm as consisting of assets. If rm A and rm B sign an arms-length (incomplete) contract, then the owner of rm A has residual control rights over the A assets and the owner of rm B has residual control rights over the B assets. In contrast if, say, rm A buys rm B, then the owner of rm A has residual control rights over the A and B assets.
+
+Why should it matter who has residual control rights? Residual control rights are like any other good: there is an optimal allocation of them. Sometimes it is more e cient for one owner to hold all the residual control rights, and sometimes it is more e cient for these control rights to be split between several owners. Which is the case will determine whether rms A and B should merge or stay as separate entities.
+
+Grossman and I constructed a formal model along these lines (see Grossman and Hart (1986)), and I developed the ideas and model further in work with John Moore (see Hart and Moore (1990)). Collectively these papers are o en referred to as “property rights theory” (PRT).
+
+It is useful to illustrate the model with a real-world example. Consider a power plant that locates next to a coal mine with the purpose of burning coal to make electricity. 8 One way to regulate the transaction is for the power plant to sign an arms-length long-term contract with the coal mine. Such a contract would specify the quantity, quality, and price of coal for many years to come. But any such contract will be incomplete. Events will occur that the parties could not foresee when they started out.
+
+For example, suppose that the power plant needs the coal to be pure but that it is hard to specify in advance what purity means, given that there are many potential impurities. Imagine that ten years into the relationship, ash content is the relevant impurity and that high-ash-content coal is more expensive for the power plant to burn than low-ash-content coal but cheaper for the coal mine to produce. Given that the contract is incomplete, the coal mine may be within its rights under the contract to supply high-ash-content coal.
+
+e power plant and coal mine can, of course, renegotiate the contract. How- ever, the coal mine is in a strong bargaining position. It can demand a high price for switching to low-ash-content coal. e reason is that the power plant does not
+
+-----------------------------------------------------Page 3-----------------------------------------------------
+﻿
+374                                         The Nobel Prizes
+
+have a good alternative: it may be very expensive for the power plant to transport coal from a di erent coal mine given that it is located next to this one. Economists refer to this situation as the “hold-up” problem. e coal mine can hold up the power plant because the power plant, by locating next to the coal mine, has become dependent on it. e next point to realize is that although it may be impossible to write a contract that is complete enough to avoid hold-up, this does not mean that the parties will be unable to anticipate hold-up. Indeed, the assumption made in the theory is that the power plant does anticipate that it will be at the mercy of the coal mine, and that a substantial share of its future pro t may be expropriated by the coal mine. Fearing such expropriation, the power plant may choose not to become so dependent on the coal mine in the rst place. For example, it may locate at an equal distance between several coal mines rather than right next to this one, even though this may increase the cost of transporting coal.
+
+At the risk of belaboring the point, it is worth pinpointing the source of the coal mine’s hold-up power. It arises because the owner of the coal mine has residual rights of control over the mine. In this case the key residual right of control is the decision about what kind of coal to mine: high-ash-content or low-ash-content.
+
+Is there anything the power plant can do to avoid this situation? Short of writing a better contract, one thing it can do is to buy the coal mine in advance. at way the power plant as owner of the coal mine will have the key residual control right. e coal mine can no longer extract a high price by threatening to produce high-ash-content coal: the power plant can order the coal mine man- ager to mine low-ash-content coal. In an extreme case, if the coal mine manager threatens to disobey the order, the power plant can re the manager and replace her with someone else.
+
+One consequence is that the power plant may now be willing to become dependent on the mine. Given that it does not fear hold-up, it may locate next to it. us the theory identi es a bene t of integration, where integration in this case means the purchase of the coal mine by the power plant. e value of inte- gration is that the power plant may undertake e ciency-enhancing relationship- speci c investments—in this case locating next to the coal mine—that it would not carry out if it was protected only by an incomplete contract.
+
+So far we have discussed the bene ts of integration. But just as the transfer of residual control rights from the coal mine to the power plant empowers the owner of the power plant, it disempowers the owner of the coal mine, and this is likely to have costs in terms of her incentive to make relationship-speci c invest- ments. Assume that the coal mine was previously an owner-managed rm. A er
+
+-----------------------------------------------------Page 4-----------------------------------------------------
+﻿
+Incomplete Contracts and Control                             375
+
+the acquisition by the power plant the coal mine manager stays on but is now an employee of the power plant. Suppose that the coal mine manager has an idea about how to run the mine more e ciently. When the coal mine was separate, the manager had the authority (residual control rights) to implement, and bene t from, this idea. Now that the manager is an employee she has to get permission to implement the idea from her boss: the owner of the power plant has veto power. e owner of the power plant can use his veto right to extract some of the gains from the idea for himself. Knowing that she faces the risk of expropriation, the coal mine manager’s incentive to innovate is reduced.
+
+So integration has costs as well as bene ts. Whether it makes sense for the power plant to purchase the coal mine will depend on whether the distortion in the power plant’s investment is more important than the distortion in the coal mine manager’s investment. It is also worth noting that a further possibil- ity is for the coal mine to purchase the power plant. is is not the same as the power plant purchasing the coal mine since now the residual control rights are concentrated in the hands of the coal mine manager rather than the power plant manager. Finally, the theory can be generalized beyond the case of two managers and two assets to many assets and many workers, and to more general ownership structures, such as joint and shared ownership; see Hart and Moore (1990). at paper also shows that synergistic assets should be owned together and that assets should be owned by indispensable human capital.
+
+Let us pause to make some observations. First, the formal models in Gross- man and Hart (1986) and Hart and Moore (1990) take the view that ex post renegotiation of an incomplete contract occurs under conditions of symmetric information—both parties can see what has been le out of the contract—and that, given that there are no wealth constraints, the bargaining proceeds e - ciently, as in Coase (1960). Ine ciencies arise solely because ex ante relationship- speci c investments are distorted.
+
+Second, the distortion in ex ante investments can be overcome if these invest- ments are contractible. In this case the parties can write a contract that speci- es, say, that the power plant must locate next to the coal mine in return for an upfront payment: in e ect the mine compensates the power plant for its later hold-up power. For the theory to work, one has to suppose that some aspects of the investment are not contractible (or are costly to contract on): for example, even if the location decision is contractible, whether the power plant installs a boiler that burns this particular mine’s coal e ciently might not be. Similarly, one must assume that the coal mine manager’s investment in innovation is non- contractible (a highly plausible assumption).
+
+ird, the focus on distortions in noncontractible investments distinguishes
+
+-----------------------------------------------------Page 5-----------------------------------------------------
+﻿
+376                                         The Nobel Prizes
+
+the approach from those of Williamson and Klein et al. Most of Williamson’s work is concerned with ex post bargaining ine ciencies and how integration can reduce these. Klein et al. do discuss ex ante ine ciencies but do not distinguish between contractible and noncontractible investments. 9
+
+Fourth, the prior work of Coase and Williamson emphasizes authority over human capital as the de ning feature of the rm: An employer can tell an employee what to do. In contrast, PRT emphasizes control over physical (more generally non-human) assets. When the power plant purchases the coal mine it acquires residual control rights over the mine. To see the di erence, note that, according to PRT, purchasing the mine would not be worth much if the coal mine manager is indispensable. In that case the manager would retain her hold- up power even as an employee. If the power plant wants a shi from high-ash- content coal to low-ash-content coal, the coal mine manager could demand a huge increase in salary for doing this. It is because typically the coal mine man- ager is somewhat replaceable that the power plant is in a stronger bargaining position a er it has acquired the mine than before.
+
+3. APPLICATION TO FINANCIAL CONTRACTING
+
+As well as helping us to understand asset ownership and rm boundaries, PRT has a number of applications. One is to nancial contracting. 10
+
+Understanding the nancial structure of a rm has been challenging since Modigliani and Miller (1958) showed that under some plausible assumptions, a rm’s nancial structure has no e ect on its total value. One strand of the lit- erature (notably, Jensen and Meckling (1976)) argues that the Modigliani-Miller irrelevance result no longer holds if managers cannot be relied on to act on behalf of shareholders. However, a problem with this approach is that it supposes that nancial structure is used to solve an incentive problem. Once incentive schemes
+
+are allowed to ful ll this task the irrelevance result is restored.
+
+PRT o ers a di erent perspective in which nancial structure is thought of in control terms. 11 To understand the approach, replace the power plant by a nan- cial investor. Speci cally, suppose that the coal mine needs money to expand/ modernize, and approaches an investor with deep pockets. How does it persuade this person to invest?
+
+One possibility is to o er him a share of the future pro t from the coal mine. But this may not be enough. e reason is that the nancial contract between the investor and the coal mine is likely to be incomplete. ere are many actions or decisions that will be taken during the course of the relationship that the contract will not (cannot) specify.
+
+-----------------------------------------------------Page 6-----------------------------------------------------
+﻿
+Incomplete Contracts and Control                             377
+
+For example, the investor may worry that the manager of the coal mine will divert earnings: she could pay herself a large salary or reinvest pro ts rather than paying dividends. Another possibility is that the manager could adopt a strategy for running the coal mine that the investor does not approve of. Or the manager might hold on to her position as CEO even when a di erent CEO might be better. Opportunistic behavior is similar to hold-up in the previous analysis. One way to protect the investor against such behavior is to give him residual control rights or votes. For example, the investor could become the owner of the coal mine, rather than having an arms-length contract with the coal mine. is would allow him to intervene to stop opportunistic behavior, e.g., he could control the manager’s salary or replace her.
+
+But as we have seen, there can be a downside to taking away control from the manager. According to the previous analysis one cost is that the manager’s incentive to have ideas may be reduced. us there will be an optimal balancing of control between the investor and the manager.
+
+is optimal balancing of control has been analyzed in an important paper by Aghion and Bolton (1992). Aghion and Bolton dispense with noncontractible investments by the manager (the incentive to have ideas) and focus instead on her private bene ts. 12   ese private bene ts include the psychic satisfaction from pursuing a vision for the company, the job satisfaction from being CEO, and the remuneration associated with being in a position of power. e private bene ts are something that only the manager enjoys; they cannot be transferred to the investor. In contrast, monetary returns are veri able and can be transferred to the investor.
+
+In the Aghion-Bolton model the cost of allocating control to the investor is that the investor may pursue a ruthless pro t-maximizing strategy that destroys managerial private bene ts. e manager could try to o er a side-payment to the investor to persuade the investor not to choose such a strategy, but the problem is that the manager is wealth constrained and so her ability to renegotiate with the investor is limited. e Coase theorem fails because one party is wealth- constrained. us there is a fundamental trade-o . On the one hand, allocating all the control rights to the manager means that the manager may pursue private bene ts at the expense of pro t; as a result, the investor may not be compensated adequately and may not invest in the project. On the other hand, allocating all the control rights to the investor means that ex post decisions may not be rst- best e cient.
+
+Aghion and Bolton show that under some assumptions, the solution to this trade-o is to make control state-contingent. Speci cally, the manager will have control in states of the world where private bene ts are important relative to
+
+-----------------------------------------------------Page 7-----------------------------------------------------
+﻿
+378                                         The Nobel Prizes
+
+pro ts and the investor in states of the world where pro ts are important relative to private bene ts. To the extent that private bene ts do not vary much with the state, but pro ts do, this suggests that the investor should have control in bad states of the world. In a bad state the manager may want to keep the company going to preserve her private bene ts even if the assets could have much greater value if deployed elsewhere.
+
+Signi cant support for the Aghion-Bolton model can be found in Kaplan and Stromberg’s work on venture capital contracts (see Kaplan and Stromberg (2003)). Kaplan and Stromberg study start-up deals in the information technol- ogy, so ware, and telecommunication sectors. ey nd that the allocation of voting and control rights is frequently made contingent on veri able measures of nancial performance. For instance, the venture capitalist may obtain voting or board control if the rm’s earnings before interest and taxes fall below a pre- speci ed level or if the rm’s net worth falls below a threshold. If the rm per- forms poorly, the venture capitalist obtains full control. As rm performance improves, the entrepreneur retains/obtains more control rights, and, if the rm performs very well, the venture capitalist relinquishes most of his control rights. One interesting feature of both the Aghion-Bolton model and the Kaplan- Stromberg study is that control does not shi to the investor as a result of the manager’s failure to make a promised payment. Rather control shi s because a particular state of the world occurs. In other words, the nancial contract does not correspond to a classic debt contract. In the venture capital context one reason for this may be that start-ups do not generate signi cant cash ows for a while. Still debt contracts are ubiquitous in other settings and it is desirable to explain them. One attempt to do so is contained in Hart and Moore (1998) and Hart and Moore (1994). 13 In Hart and Moore (1998), the assumption that monetary returns are veri able and transferable is dropped. Instead it is supposed that the manager can walk o with them. What can persuade the manager to pay over some of these cash ows to the investor is that the investor has a threat: he can seize the assets underlying the project and liquidate them. Here liquidation means using the assets in some second-best manner, perhaps for some other activity or with a di erent manager. (It could refer to a sale of the assets.) In this setting, Hart and Moore (1998) show that a debt contract works well. With a debt contract the manager of the coal mine promises to make a xed stream of payments to the investor. As long as these payments are made the manager remains in charge, that is, she retains (residual rights of) control over the coal mine. If a payment is not made control shi s to the investor, who can decide whether to liquidate the mine. At this stage renegotiation is possible.
+
+-----------------------------------------------------Page 8-----------------------------------------------------
+﻿
+Incomplete Contracts and Control                             379
+
+e motivation for the manager to make a debt payment is very simple: she wants to retain control of the assets. Why is control valuable? Because the manager can use the assets to produce future monetary returns that she can then pocket. To put it another way, there are two reasons why the manager may default on a debt payment. One is if she cannot make the payment: revenue is too small as a result of an adverse shock, say. is corresponds to an involuntary default. e other reason is that the manager does not want to make the payment. In turn there can be two explanations for this. e rst is that future revenues, which the manager can pocket, are worth less than what she is being asked to pay. For example, suppose that the assets will last for one more period and will generate $100, but the current debt payment is $120. (Ignore discounting.) It is not worth it for the manager to pay $120 to be able to earn $100 in the future; it is better to default and pocket the $120 now. e second explanation is that, even though the debt payment is less than the future revenues (say the debt payment is $80), the manager may be able to default and renegotiate the payment down to close to the liquidation value of the assets (which might be $60).
+
+ese last cases, where the manager can pay but won’t pay, correspond to a
+
+voluntary or strategic default.
+
+is model has several interesting features. First, it shows how important collateral is. An investor will be less concerned about strategic default if the liquidation value of the assets is high, since the manager cannot renegotiate the debt below this level. us the manager will be able to borrow more in this case and more good projects can go forward. Similarly, if the assets are durable— their liquidation value remains high over time—the maturity of the debt can be longer: the investor will not be vulnerable to strategic debt renegotiation late in the project’s life. Empirical support for both these predictions has been obtained by Benmelech (2009) and Benmelech and Bergman (2008). 14
+
+Second, the model has the feature that ine cient liquidation can occur. Go back to the numerical example where the assets generate $100 next period, the current debt payment is $80, and the liquidation value is $60. Suppose that cur- rent revenue is $40. Clearly the manager will default since her $40 does not cover the debt payment. e investor can liquidate for $60 but the assets are worth more than this—$100—if they are le in place. In an ideal world, a Coasian renegotiation would ensure that the assets are indeed le in place. In such a renegotiation the manager would compensate the investor for the $60 liquida- tion value that he gives up by promising part of next period’s $100. However, the parties are not operating in an ideal world. e promise to pay part of the $100 next period is not credible. Since this is the end of the project, and the assets will
+
+-----------------------------------------------------Page 9-----------------------------------------------------
+﻿
+380                                         The Nobel Prizes
+
+have no further value, the investor knows that he will have no leverage then: the manager can pocket all the $100 with impunity. us the only way for the inves- tor to be paid is to liquidate now.
+
+In Hart and Moore (1994), the assumption that the manager can pocket the monetary returns is replaced by the assumption that the manager can withdraw her human capital. Suppose that a project costs $100 at date 0 and yields $120 at date 2. e manager borrows the $100 and promises to repay this amount at date 2. At date 1 the manager could threaten to withdraw her human capital unless the debt is reduced. If the parties have equal bargaining power, and the project has zero value without the manager, then the debt can be renegotiated down to $60, and an investor who foresees this will not lend money. Collateral can again help here. If the assets have an alternative use at date 1, then the investor is at least partially protected against strategic default.
+
+e Hart-Moore (1994) model reminds us again of the distinction between human and non-human assets. A project that consists mainly of human capital is di cult to nance because an investor is subject to hold-up by the human capi- tal. Conversely, a project that has signi cant non-human assets can be nanced without the fear of hold-up. 15
+
+In some interesting recent work, Kaplan et al. (2009) have investigated the importance of human vs. non-human assets in the context of start-ups. eir paper, whose title suggestively begins, “Should Investors Bet on the Jockey or the Horse?,” nds evidence that non-human assets in the form of a business plan are an important and durable source of value. However, Bernstein et al. (2017) nd that human assets are also very important in the early stages of a start-up. Indeed, as Rajan (2012) suggests, the balance may shi over time: part of the transforma- tion of a start-up into a successful, mature rm may be a standardization process that ensures that no individual’s human capital is that important.
+
+is latest research is notable because it connects to one of the original moti- vations of Grossman and Hart (1986) and Hart and Moore (1990). Both papers start o with the same question: What is a rm? e answer given is that non- human assets are an important part of any rm; they are the glue that holds the rm together (see also Hart (1995)). e work by the above authors is helping
+
+to clarify this. 16
+
+4. APPLICATION TO PUBLIC VS. PRIVATE OWNERSHIP
+
+Economists generally agree that there are some goods and services that will not be provided at an adequate level through private markets, and that therefore need to be nanced by the government. Clear examples are national defense, the
+
+-----------------------------------------------------Page 10-----------------------------------------------------
+﻿
+Incomplete Contracts and Control                             381
+
+police, foreign policy, and prisons. Examples about which there might be greater debate are health care and schools.
+
+Government nancing does not necessarily imply government provision. e government has a choice about whether to provide the good or service itself or to contract with a private provider. e incomplete contracting approach can be helpful in elucidating the trade-o .
+
+Andrei Shleifer, Robert Vishny, and I (Hart et al. (1997)) explore the public- private choice, focusing particularly on prisons. 17 Suppose that the government, acting on behalf of society, wants to incarcerate prisoners. e government may have several goals: to prevent the prisoners from escaping, to treat them humanely, and to maximize the chance that they can return to society as well- functioning citizens. e government can own a prison and use government employees to run it; or it can contract with a private company to run the prison. Which is better?
+
+e rst point to note is that in an ideal world, where everything can be antic- ipated and written into a contract, the choice does not matter since a complete contract will be written in both cases. In a complete contracting world, owner- ship and residual rights of control are irrelevant since all decisions are speci ed in the contract. e presence of asymmetric information and moral hazard does not change this conclusion: these factors simply lead to the addition of various incentive-compatibility constraints in the solution for the optimal contract. When contracts are incomplete, residual control rights become important. e contracts that the federal or state governments write with private prison companies are in fact quite elaborate and cover a number of aspects of prisoner treatment including food, hygiene, health care, work, education, recreation, etc. However, Hart et al. (1997) argue that the contracts are signi cantly incomplete with respect to two important factors: the use of force by guards and the qual- ity of personnel. As a result of this incompleteness a private contractor can use its residual rights of control to save money by hiring cheap, unquali ed guards. ese guards may not have the skill to respond to violent situations e ectively. e prison company hiring cheap unskilled guards is analogous to the coal mine choosing to mine high-ash-content rather than low-ash-content coal. In each case the supplier is choosing an action permitted by the contract that saves money at the expense of quality: in one case the quality e ect is borne by the power plant, in the other case by the government or society. Of course, if the quality reduction has greater value than the saving in costs, ex post renegotiation of the contract should occur. Indeed, the model in Hart et al. (1997) supposes that it does. However, there is still a distortion: the private provider will have an excessive incentive to develop cost-saving, quality-reducing ideas.
+
+-----------------------------------------------------Page 11-----------------------------------------------------
+﻿
+382                                         The Nobel Prizes
+
+If the government owns the prison the same problem does not arise. Just as the power plant can require the provision of low-ash-content coal if it owns the coal mine, the government can forbid the prison warden from hiring cheap, unskilled guards.
+
+Hart et al. (1997) cite some evidence that the level of violence is indeed
+
+higher in private prisons. 18
+
+Of course, private provision can yield some bene ts too. In the case of the coal mine, we argued that the manager will have a greater incentive to innovate when the mine is independent. e same is true of prisons. e warden of a pri- vate prison will have a greater incentive to nd socially e cient ways of saving money or to develop socially valuable rehabilitation programs. 19   is might tip the balance in favor of private provision in situations where innovation matters and violence is a relatively small problem, e.g., half-way houses or youth correc- tional facilities. However, in maximum security prisons, where the prevention of violence by prisoners against guards and other prisoners is paramount, Hart et al. (1997) conclude that the case for private provision is weak.
+
+Hart et al. (1997) use the same logic to argue that private provision makes sense for garbage collection, does not make sense for the army, police or foreign policy, and may or may not make sense for schools and health care. Competi- tion strengthens the case for privatization since actions that reduce quality will elicit a negative market response. Competition may work fairly well in the case of schools and hospitals, but it is hard to imagine it operating in the case of prisons. Perhaps the most valuable lesson of the analysis is that it suggests that the public-private choice should be seen as a matter of e ciency, not ideology.
+
+5. FOUNDATIONS
+
+e property rights theory described in Section 2 is based on the idea that own- ership of non-human assets is a source of bargaining power when contracts are incomplete. e formal models of Grossman and Hart (1986) and Hart and Moore (1990) justi ed contractual incompleteness by appealing to the idea that it may be di cult to describe in advance what kind of good a buyer wants from a seller; this may depend on a future state of the world and there may be many such states. In contrast, once the state is realized, it is easy to describe the good and hence a perfect spot contract can be written. Unfortunately, when bargain- ing takes place ex post, ex ante investments will already have been sunk, hold- up is possible, and, anticipating this, the parties will choose these investments ine ciently.
+
+e challenge is to turn this informal story into a formal one.
+
+-----------------------------------------------------Page 12-----------------------------------------------------
+﻿
+Incomplete Contracts and Control                             383
+
+It turns out that this is not easy. Consider rst the issue of bargaining power. Return to the power plant-coal mine example. Suppose that it is desirable for the power plant to be in a strong bargaining position ex post in order to give it an incentive to locate next to the coal mine ex ante. Why not allocate bargaining power directly rather than through asset ownership? For example, the initial contract could specify that whenever renegotiation occurs it will proceed by the power plant making an o er to the coal mine that the coal mine can only accept or reject. Any attempt by the coal mine to make a counter-o er will be heavily penalized.
+
+Indeed imagine that this is all the contract says; it does not specify the quan-
+
+tity, quality or price of coal at all!
+
+Consider the situation where the power plant wants the coal mine to produce low-ash-content coal. en the power plant will make an o er to the coal mine for low-ash-content coal in return for a payment that slightly exceeds the cost c of mining low-ash-content coal; say the price p = c + . Assume that there is a deadline by which the deal must be done. e coal mine can always threaten to reject such a low o er, but the power plant can ignore such threats, con dent that at the last moment the coal mine will accept the o er since is better than noth- ing. is is the power of subgame perfection. As a result the power plant obtains all the ex post surplus from the transaction, and will locate next to the coal mine. Indeed, as Hart and Moore (1988) show, it is not even necessary to stipulate in the contract that the coal mine will be penalized for making counter-o ers. e contract could instead state that both sides can make o ers and that neither party needs to accept an o er before trade occurs; instead they can trade and then produce a signed acceptance later. Suppose that absent any signed docu- ment, trade is assumed to be a gi from the coal mine to the power plant. Imag- ine now that the power plant makes the proposal described above while the coal mine proposes a much higher price, p , say. en trade will occur at price p . Why? On the one hand the coal mine can ensure itself p by trading and then signing and disclosing the power plant’s o er in the event of a dispute. On the other hand the power plant will never sign and disclose the coal mine’s proposal in the event of a dispute since it would prefer to reveal nothing and claim that the coal is a gi .
+
+Of course, allocating all the bargaining power to the power plant gives it an incentive to locate next to the coal mine, but it does not give the manager of the coal mine an incentive to innovate. Suppose that the manager nds a way to reduce the cost of coal from c to c . en the power plant will change its o er from c + to c + . e coal mine’s innovation will be completely expropriated by the power plant. is suggests that asset ownership may be useful a er all.
+
+-----------------------------------------------------Page 13-----------------------------------------------------
+﻿
+384                                         The Nobel Prizes
+
+Allocate bargaining power to the power plant through the contract but assign ownership of the coal mine to the mine manager. Ownership of the coal mine may provide the manager with a good outside option—perhaps selling the coal elsewhere—and since this outside option will increase if the manager becomes more e cient, some of the gains from increased e ciency will now accrue to the manager.
+
+Unfortunately, this is not the end of the story. Suppose that the manager’s outside option if she owns the mine = ̄p – c , where c is the cost of supplying coal to the power plant and 0 <   < 1 re ects the fact an increase in e ciency from supplying the power plant translates partially but not completely into gains from supplying coal to others. Obviously, asset ownership would be irrelevant if the coal mine manager could be o ered an incentive scheme directly of the form ̄p + (1 – ) c . (Since the manager incurs the cost of supplying coal this makes her net payment ̄p – c .) is would indeed be possible if c were veri able, but at
+
+rst sight seems impossible if c is merely observable.
+
+But there is a way to do it, as Eric Maskin and Jean Tirole (1999) have pointed out, drawing on work of Maskin (1999) and Moore and Repullo (1988). e following game, to be played ex post, is written into the contract. e coal mine manager announces her cost of supplying (low-ash-content) coal to the power plant, c , say. e power plant can accept this and pay the manager ̄p + (1 – ) c or he can challenge, claiming the cost is c (presumably lower than c , so that the manager is paid less). If the power plant challenges, the coal mine manager pays a large ne F to a third party. At this point the challenge is tested: the mine manager is asked whether she wants to supply coal at a price = 1/2 c + 1/2 c . If she does supply, this establishes that the coal mine manager lied since she would be losing money by supplying if her true cost were c . In this case the power plant receives F from the third party. If the mine manager does not supply, that is, the challenge is proved incorrect, the power plant pays F to the third party. e unique subgame perfect equilibrium of this mechanism is for the coal mine manager to tell the truth about her cost and for the manager to receive a net payment of ̄p – c . e need for asset ownership has been avoided. Are there ways of ruling out Maskin-Tirole mechanisms? One objection is that collusion could take place between the buyer or seller and the third party. 20 However, it is not clear how such a collusive agreement would be enforced since the parties could make clear in the contract that it is illicit. Also Maskin and Tirole have shown that if at least one of the parties is risk-averse, a cleverly- designed lottery can substitute for the third party. Nonetheless, if one is prepared to assume that (a) the buyer and the seller are both risk neutral, (b) third par- ties cannot be used, (c) the parties can always renegotiate the contract a er any
+
+-----------------------------------------------------Page 14-----------------------------------------------------
+﻿
+Incomplete Contracts and Control                             385
+
+procedures for revising it have been completed, e.g., because there is no clear deadline; then the incomplete contracting story, and the role for asset ownership, can be resurrected. is is shown in Segal (1999) and Hart and Moore (1999). But these are strong assumptions and I, for one, do not feel very comfortable with them. If the model accurately captures reality, one would expect to see some attempts to use Maskin-Tirole mechanisms, as well as to allocate bargaining power contractually. I know of no cases of the rst and not many of the second. Also the model as it stands cannot explain ex post ine ciency (except if parties are wealth-constrained). is seems a signi cant limitation since the earlier work of Coase and Williamson argues convincingly that reducing ex post ine ciency is at least one of the rationales for the existence of rms.
+
+Of course, one could try to incorporate ex post ine ciency by supposing that the parties are asymmetrically informed. 21 However, as long as there is sym- metric information at the contracting date, a further set of mechanisms (also not seen in practice) can be used to overcome this. 22 For these reasons in recent work I have turned to a di erent approach.
+
+6. DROPPING RATIONALITY
+
+If parties are fully rational I do not see why they would not include in their con- tracts mechanisms of the type suggested by Maskin and Tirole. As I have said, as far as I know, there are no examples of this in practice. One can, of course, always put the blame on judges: they would not understand and/or would not enforce such mechanisms. 23 But this just pushes the question one step further: there are many smart judges and if mechanism design is the solution to incom- plete contracting problems one would expect judges eventually to understand, embrace, and enforce contracts based on the mechanism design approach. It has been eighteen years since the publication of Maskin and Tirole’s paper and I do not see any move in this direction.
+
+My view is that the reason we do not see these mechanisms is that parties are not fully rational. is is in many ways an unfortunate conclusion since while there is one way to model rationality there are many ways, perhaps in nitely many, to model irrationality. e lack of discipline makes many economists uncomfortable, and they are willing to hold on to the rationality approach at all cost. However, I think that there is no alternative but to abandon it.
+
+I began to do this in a paper with John Moore (Hart and Moore (2008)). Looking back, one can say that our motivation was three-fold. In no particu- lar order of importance: First, we wanted to develop a theory immune to the Maskin-Tirole critique. Second, we wanted to explain why parties do not allocate
+
+-----------------------------------------------------Page 15-----------------------------------------------------
+﻿
+386                                         The Nobel Prizes
+
+bargaining power contractually to solve the hold-up problem. ird, we wanted to develop a model that allows for ex post ine ciency. It is this multiplicity of motives that perhaps explains why we did not try to introduce cognitive limi- tations for the parties but instead focused on ideas of fairness and reasonable behavior. In this respect we were much in uenced by the large behavioral litera- ture on the latter topic. 24
+
+To understand our approach, consider a simple situation of a buyer B and a seller S, who meet at date 0. At that time there is a competitive market for buyers and sellers, but a er date 0 B and S will pair o and will be isolated from the market. At date 1 there are gains from trade. S can supply one widget at cost c and B obtains value v > c from it. All returns are measured in money (but these returns are not veri able).
+
+For simplicity, suppose that the seller’s reservation utility determined in the date 0 market for buyers and sellers is zero. One contract that B could o er to S that will give B all the gains from trade is the following: e contract states that at date 1, B will make an o er to S that S can accept or reject; S cannot make any o ers to B. As we have seen, under standard rationality assumptions, B will o er S just above c at date 1, S will supply the widget, and B will receive the full surplus v – c . Now the evidence from the famous ultimatum game experiments suggests that things may not work this way in practice. ese experiments nd that in situations like this B will end up o ering considerably more than c , and that moreover if B does not do so S will reject the o er. 25 Note, however, that the parallel between the ultimatum game and our case is not exact since there is no prior contract in the ultimatum game.
+
+Moore and I could have constructed a model based directly on the idea that S will turn down ungenerous o ers. We did not do so for two reasons. First, we were concerned about the possible criticism that the ultimatum game evidence concerns relatively small payo s. 26 Second, we wanted our model to apply to more general situations than just ones where a seller can choose not to trade. For example, what is the analogy of ultimatum game behavior when parties are asked to play a Maskin-Tirole mechanism?
+
+We therefore proceeded as follows. We assumed that even ex post perfect contracts cannot be written and so it is possible for both the buyer and seller to provide less than ideal performance while staying within the terms of the contract: we refer to less than ideal performance as “shading.” In the buyer-seller example, the seller might shade by supplying a widget of de cient quality, while the buyer might shade by not providing information that would make the seller’s task easier. A critical assumption is that a party will shade if and only if he does not feel well treated. So in the case of the seller who receives a low ball, but
+
+-----------------------------------------------------Page 16-----------------------------------------------------
+﻿
+Incomplete Contracts and Control                             387
+
+nonetheless pro table, o er, the seller will accept the o er but then punish the buyer by shading.
+
+We made the further crucial assumption that the initial contract circum- scribes what parties feel is fair. e date 0 competitive market for buyers and sellers is an important element here. e idea is that the broad terms of the contract are regarded by both parties as reasonable since they are negotiated at arms-length and neither party blames the other for the equilibrium terms of trade. As a result, neither B nor S feels entitled to an outcome outside the contract. In contrast any discretionary decision made by one of the parties at date 1—when the competitive market is no longer there to provide an objective benchmark—may be found unreasonable by the other party and may lead to shading. To make things as stark as possible, Hart and Moore (2008) suppose that each party is subject to an extreme self-serving bias and feels that a reasonable outcome is one that maximizes that party’s payo over all outcomes permitted by the contract that are individually rational for the other party.
+
+Return to the widget example and the contract that speci es that B will make a take-it-or-leave-it o er to S. Let B o er a price just above c . S will consider this unreasonable given that B could have been more generous. Indeed, the best outcome for S under the contract would be for B to o er v (anything more than v would involve B’s making a loss and so would not be individually rational). How much does S shade given the actual o er c ? Hart and Moore (2008) assume that shading is a fraction of how much S is shortchanged or aggrieved, where the latter is the di erence between the payo S feels entitled to—here v – c —and what she gets—zero. Speci cally, S reduces B’s payo by ( v – c ), where 0 <   < 1. Shading does not a ect the payo of the party doing the shading.
+
+In sum, under the contract that gives B the right to make a take-it-or-leave-it o er to S, there will be a deadweight loss of ( v – c ). Note that there is no way of negotiating around this. Coasian bargaining fails because shading is noncon- tractible. B could, of course, o er more than c to reduce S’s aggrievement, but it is not in his interest to do this: o ering a dollar more increases B’s cost by a dollar but reduces shading by only .
+
+ere is, however, a solution to this problem in this simple example. B and S could x the price in advance: they could write a contract at date 0 that speci es the date 1 price of the widget to be c . In this case neither party has any discretion at date 1. B and S both regard the price c as fair since it is negotiated at arms- length in a competitive market at date 0. ere will be no shading or deadweight losses at date 1 and the full surplus v – c will be earned. e rst-best is achieved. is simple framework suggests an alternative rationale for the existence of a contract. A contract negotiated before parties are locked into each other gets
+
+-----------------------------------------------------Page 17-----------------------------------------------------
+﻿
+388                                         The Nobel Prizes
+
+them onto the same page and avoids bad feeling later on. is is di erent from (but complementary to) the traditional view that contracts are useful to encour- age noncontractible investments. (In the above example there are no noncon- tractible investments.)
+
+Once we depart from the case of certainty, it will typically not be possible to achieve the rst-best. To illustrate this, consider a simpli ed version of the Hart- Moore model in which the further assumption is made that S has zero wealth; this version will also be helpful for describing some experimental work. Suppose that v = 20 for sure but c = 16 with probability   and 10 with probability 1 – . e uncertainty about c will be resolved shortly before date 1 and the realization of c is then observable to both parties. However, c is not veri able. e prob- ability distribution of c is common knowledge ex ante. Assume further that ex post trade is voluntary: either party can refuse to trade and not be penalized, perhaps because a third party cannot verify who is responsible for the absence of trade. B and S are both risk neutral. ere are many more buyers than sellers in the date 0 market and so the reservation utility level for S is zero. Finally, ignore renegotiation for the moment.
+
+What is an optimal contract for B to o er in this setting? ere are only two possibilities. Either B wants to ensure trade in both states or only in the low cost state. In the rst case the optimal contract will specify a price range [10,16] and allow B to pick from this range at date 1. at way B can guarantee trade whether c is high or low, given that trade is voluntary. Moreover, this is the smallest price range that will do the job, which minimizes aggrievement and shading. With such a contract B will choose p = 10 when c = 10 and p = 16 when c = 16. In the low cost state S will be aggrieved since B could have been more gener- ous and have chosen the best outcome for S, p = 16. S’s level of aggrievement is 6. S punishes B by shading by 6 , and so B’s net payo = 10 – 6 . In the high cost state, S is not aggrieved since she receives the highest price permitted by the contract. B’s payo = 4.
+
+e expected payo s for the two parties are, respectively, U B = (10 – 6 ) (1 – ) + 4 ,              (1)
+
+U S = 0.                    (2)
+
+Call this exible contract, contract 1.
+
+On the other hand, B can choose a contract that permits trade only in the low cost state. e best such contract xes the price at 10. e expected payo s of the two parties are, respectively,
+
+U B = 10 (1 – ),                 (3)
+
+-----------------------------------------------------Page 18-----------------------------------------------------
+﻿
+Incomplete Contracts and Control                             389
+
+U S = 0.                    (4)
+
+Call this rigid contract, contract 2.
+
+Obviously, contract 2 is better than contract 1 if and only if 10(1 – ) > (10 – 6 )(1 – ) + 4 .             (5)
+
+is will be true if   is small.
+
+In other words, B will o er S a xed price contract that precludes trade in the high cost state if that state is unlikely to occur. e intuition is simple. It is not worth expanding the price range from 10 to [10, 16] just to realize trade in the high cost state if it has low probability, given that this causes a large deadweight loss from shading in the low cost state that has high probability.
+
+Note also the importance of S’s wealth constraint. In the absence of such a constraint, B could o er a contract that speci es p = 16, leading to trade in both states. B could charge S upfront 6(1– ) for this contract, thus recouping all of S’s expected pro t.
+
+is model achieves the main goals described above. First, it is immune to the Maskin-Tirole critique. Mechanisms or take-it-or-leave-it o ers do not achieve the rst-best. Indeed, contract 1 contains such a mechanism and leads to shading. Second, there can be ex post ine ciency. If (5) holds, B will deliberately choose a contract that causes trade not to occur with some probability. 27 e Hart-Moore model relies on a number of non-standard assumptions. While several of these are similar to behavioral assumptions that have been vali- dated, there are some signi cant di erences. It therefore seemed desirable to test the model directly, and Ernst Fehr, Christian Zehnder, and I have done this in the lab. 28   e following is a rough description of the lab experiment in Fehr et al. (2011); see also Fehr et al. (2009). (Some simpli cations and liberties have been taken in describing it.) We divide the student participants into buyers and sellers; their roles stay the same during the experiment. Each buyer meets with two sell- ers, who can bid for the buyer’s contract. ( e purpose of this is to achieve ex ante competition.) e buyer can choose between two types of contract: one, a exible contract of the form [ p ,16], the other, a xed price contract p . Once the contract type has been selected the sellers compete for the contract though a clock auc- tion. e auction determines the level of p : p starts o at 10 and rises a small amount every second until one of the sellers accepts. As in many experiments of this type the resulting p is close to 10, and we shall treat it as 10 in what follows. us at the end of the auction a seller has agreed to a contract that is either [10, 16] if B chose a exible contract at the earlier stage, or p = 10 if B chose a rigid contract. e buyer and the winning seller then move to the next stage, date
+
+-----------------------------------------------------Page 19-----------------------------------------------------
+﻿
+390                                         The Nobel Prizes
+
+1. A randomization device determines c and both parties see the outcome. Under the exible contract B then chooses p from the range [10,16]; p is required to be at least c. Trade then occurs. At this point S can choose whether to shade. In the experiment shading is a discrete action that imposes a small cost on the seller and a large cost on the buyer.
+
+In contrast, under the rigid contract, trade takes place only if c = 10. Again
+
+a er trade the seller can choose whether to shade.
+
+e probability   of the high cost state is chosen to be relatively small. e experiment is repeated several times with buyers and sellers being re-matched randomly each time.
+
+If buyers and sellers are fully rational, we would predict a very simple out- come. Start at the end. Since shading is costly a rational seller will never engage in it. (Notice that this is why we modi ed the assumption from the theoretical model that shading is costless.) Hence a buyer can safely ignore shading and will choose the exible contract since this guarantees trade in both states. B will choose p = 10 when c = 10 and p = 16 when c = 16. e rst-best is achieved. is is not what happens in the experiment. Buyers choose rigid contracts a signi cant fraction of the time, and these contracts are more pro table than exible contracts. With the exible contract buyers o er more than 10, and sig- ni cant shading occurs, in the low cost state. Shading is rare in the rigid contract. ese results are broadly consistent with the Hart-Moore model. It is par- ticularly striking that there is little shading in the rigid contract. is is in spite of the fact that this contract allocates all of the surplus to the buyer. It appears that the seller accepts and is not angry about her low (zero) payo given that this was determined competitively. 29
+
+Fehr et al. (2015) extend the experiment to permit communication and rene- gotiation. Allowing the buyer to send a message to the seller at the contract formation stage, explaining how he plans to choose price in each state, improves the e ciency of the exible contract but the trade-o between rigid and exible contracts remains. 30 Allowing for renegotiation improves the e ciency of the rigid contract relative to the exible contract. Under the rigid contract trade occurs if c = 10. On the other hand, if c = 16, the buyer can o er a new (renegoti- ated) contract. Some shading occurs in this case, since the seller is aggrieved that she does not receive 20. Still trade now takes place in both states. Interestingly, we nd that the seller does not expect renegotiation to occur when c = 10, and is not aggrieved and does not shade when this fails to happen.
+
+e Hart-Moore model can be used to re-examine some of the issues dis- cussed in property rights theory. First, given that there may be some ex post ine ciency, asset ownership will matter, but for di erent reasons from before.
+
+-----------------------------------------------------Page 20-----------------------------------------------------
+﻿
+Incomplete Contracts and Control                             391
+
+Since an ine cient allocation may occur (as in the rigid contract without rene- gotiation), outside options, determined by asset ownership, may be exercised even if they are rst-best ine cient. Hence ex ante asset allocation will a ect ex post surplus. Also asset ownership will determine the size of the gains from trade, and therefore entitlements and shading. Hence, even if the nal outcome is independent of asset ownership, the deadweight losses from shading will gen- erally depend on the asset allocation. Hart (2009) uses these ideas to develop a theory of asset ownership based on payo uncertainty rather than relationship- speci c investments.
+
+Second, the model can throw light on the employment relationship. Suppose that, instead of uncertainty about the seller’s cost, there is uncertainty about what type of good a buyer wants from a seller. Refer to the type of good as the seller’s task. In Hart and Moore (2008), it is shown that under some assumptions the optimal contract will take the following form: the price paid to the seller is xed and one of the parties is given the right to choose the task. If the buyer is allo- cated the right, this can be interpreted as an employment contract. If the seller is allocated the right, it can be interpreted as independent contracting. e reason for xing the price is that there will be less shading if ex post disagreement over entitlements is limited to the choice of task rather than to the choice of the price and the task.
+
+is version of the model relates to earlier ideas about the employment rela- tionship (see Coase (1937), Simon (1951), and Alchian and Demsetz (1972)). But in the earlier work of Coase and Simon it was assumed that the price or wage is
+
+xed. Here there is an explanation.
+
+is model of employment is used in Hart and Holmström (2010) to develop a theory of rm scope. Consider two rms that want to coordinate on a techno- logical platform. ey can do this as separate rms and write a contract. Or they can merge. In the rst case since it is hard to specify all the details of coordination there will be ex post ine ciency, either because renegotiation fails or because of shading. In the second case, a boss of the merged rm can require coordination (the boss chooses the task), but in doing so will not fully internalize the work- ers’ costs of shi ing to the new technology. Hart and Holmström (2010) show that the relative importance of these e ects will determine which organizational form is better.
+
+Finally, in some recent work with Maija Halonen-Akatwijuka, I have explored dynamic issues that arise when contracts are reference points. If parties write a sequence of contracts, then the rst contract will become a reference point for the second contract, and so on. is interdependence can make it easy for the parties to write a new contract if not much changes over time, since the parties
+
+-----------------------------------------------------Page 21-----------------------------------------------------
+﻿
+392                                         The Nobel Prizes
+
+can agree that the terms of the contract should be roughly the same as before. However, if outside conditions change then notions of fairness and good faith emanating from earlier contracts may make it di cult for the parties to adjust to the new environment, and they may fail to trade even though this is e cient. For details, see Halonen-Akatwijuka and Hart (2016).
+
+7. LOOKING AHEAD
+
+When Sanford Grossman and I sat in his o ce in the summer of 1983, our goal was to develop a formal model of the limits of contracts and the boundaries of the rm. I can report only partial success in this endeavor. ere is as yet no tractable, widely agreed upon, theory of incomplete contracts. Indeed, to the extent that, as I have argued, one must depart from rationality to make progress, there may never be.
+
+At the same time I believe that the incomplete contracts approach yields some valuable insights. I have tried to describe some of them here, but there are many other applications, including in the areas of law and political science. Economists are drawn to areas with simple, elegant, and uncontroversial models. e area of incomplete contracts is not like that; it is messy. But contracts are incomplete in reality and contractual incompleteness underlies numerous signi cant phenomena, some of which have great policy relevance. I hope that economists, particularly young ones, will, in spite of the messiness, continue to work on this challenging topic.
+
+REFERENCES
+
+Aghion, P. and P. Bolton (1992), An Incomplete Contracts Approach to Financial
+
+Contracting, Review of Economic Studies 59 : 473–494.
+
+Aghion, P., D. Fudenberg. R. Holden, T. Kunimoto, and O. Tercieux (2012), Subgame- Perfect Implementation under Information Perturbations, Quarterly Journal of Economics 127 : 1843–1881.
+
+Alchian, A.A. and H. Demsetz (1972), Production, Information Costs, and Economic
+
+Organization, American Economic Review 62 : 777–795.
+
+Andersen, S., U. Gneezy, M. Ho man, S. Ertac, and J.A. List (2011), Stakes Matter in
+
+Ultimatum Games, American Economic Review 101 : 3427–3439.
+
+Antras, P. (2003), Firms, Contacts, and Trade Structure, Quarterly Journal of Economics
+
+118 : 1375–1418.
+
+Antras, P. and E. Helpman (2004), Global Sourcing, Journal of Political Economy
+
+112 : 552–580.
+
+Baker, G. and T.N. Hubbard (2003), Make versus Buy in Trucking: Asset Ownership, Job
+
+Design, and Information, American Economic Review 93 : 551–572.
+
+-----------------------------------------------------Page 22-----------------------------------------------------
+﻿
+Incomplete Contracts and Control                             393
+
+Baker, G. and T.N. Hubbard (2004), Contractibility and Asset Ownership: On-Board Computers and Governance in U.S. Trucking, Quarterly Journal of Economics 119 : 1443–1479.
+
+Baliga, S. and T. Sjöström (2016), A eory of the Firm Based on Haggling, Coordination
+
+and Rent Seeking, Northwestern University working paper.
+
+Bartling, B. and K. Schmidt (2015), Reference Points, Social Norms, and Fairness in Contract Renegotiations, Journal of the European Economic Association 13 : 98–129 Benmelech, E. (2009), Asset Salability and Debt Maturity: Evidence from Nineteenth-
+
+Century Railroads, Review of Financial Studies 22 : 1545–1584.
+
+Benmelech, E. and N. Bergman (2008), Liquidation Values and the Credibility of Financial Contract Renegotiation: Evidence from U.S. Airlines, Quarterly Journal of Economics 123 : 1635–1677.
+
+Bernstein, S., A. Korteweg, and K. Laws (2017), Attracting Early Stage Investors: Evidence
+
+from a Randomized Field Experiment, forthcoming in Journal of Finance .
+
+Bolton, P. and D. Scharfstein (1990), A eory of Predation Based on Agency Problems
+
+in Financial Contracting, American Economic Review 80 : 93–106.
+
+Bolton, P. and D. Scharfstein (1996), Optimal Debt Structure and the Number of Creditors,
+
+Journal of Political Economy 104 : 1–25.
+
+Borek, C.T., A. Frattarelli, and O. Hart (2014), Tax Shelters or E cient Tax Planning? A eory of the Firm Perspective on the Economic Substance Doctrine, Journal of Law
+
+and Economics 57 : 975–1000.
+
+Brandts, J., G. Charness, and M. Ellman (2016), Let’s Talk: How Communication A ects
+
+Contract Design, Journal of the European Economic Association 14 : 943–974.
+
+Camerer, C. (2003), Behavioral Game eory: Experiments in Strategic Interaction,
+
+Princeton University Press.
+
+Coase, R.H. (1937), e Nature of the Firm, Economica 4 : 386–405.
+
+Coase, R.H. (1960), e Problem of Social Cost, Journal of Law and Economics 3 : 1–44. d’Aspremont, C. and L.A. Gérard-Varet (1979), Incentives and incomplete information,
+
+Journal of Public Economics 11 : 25–45.
+
+Drèze, J. (1974), Investment Under Private Ownership: Optimality, Equilibrium and Stability, In J. Drèze ed. Allocation Under Uncertainty: Equilibrium and Optimality, Chp. 9, 129–166, Macmillan, London.
+
+Fehr, E. and K.M. Schmidt (2003), eories of Fairness and Reciprocity: Evidence and Economic Applications. In Mathias Dewatripont, Lars Peter Hansen and Stephen J Turnovsky eds. Advances in Economics and Econometrics, Econometric Society Monographs , Eighth World Congress, Volume 1, 208–257.
+
+Fehr, E., O. Hart, and C. Zehnder (2009), Contracts, Reference Points, and Competition— Behavioral E ects of the Fundamental Transformation, Journal of the European Economic Association 7 : 561–572.
+
+Fehr, E., O. Hart, and C. Zehnder (2011), Contracts as Reference Points—Experimental
+
+Evidence, American Economic Review 101 : 493–525.
+
+Fehr, E., O. Hart, and C. Zehnder (2015), How do Informal Agreements and Revision Shape Contractual Reference Points?, Journal of the European Economic Association 13 : 1–28.
+
+Gale, D., and M. Hellwig (1985), Incentive-Compatible Debt Contracts: e One-Period
+
+Problem, Review of Economic Studies 52 : 647–663.
+
+-----------------------------------------------------Page 23-----------------------------------------------------
+﻿
+394                                         The Nobel Prizes
+
+Grossman, S. and O. Hart (1979), A eory of Competitive Equilibrium in Stock Market
+
+Economies, Econometrica 47 : 293–330.
+
+Grossman, S. and O. Hart (1980) Takeover Bids, the Free-Rider Problem, and the eory
+
+of the Corporation, Bell Journal of Economics 11 : 42–64.
+
+Grossman, S. and O. Hart (1982), Corporate Financial Structure and Managerial Incentives. In J. McCall ed.   e Economics of Information and Uncertainty , University of Chicago Press: Chicago IL.
+
+Grossman, S. and O. Hart (1983), An Analysis of the Principal-Agent Problem,
+
+Econometrica 51 : 7–45.
+
+Grossman, S. and O. Hart (1986), e Costs and Bene ts of Ownership: A eory of
+
+Vertical and Lateral Integration, Journal of Political Economy 94 : 691–719.
+
+Güth, W., R. Schmittberger, and B. Schwarze (1982), An Experimental Analysis of Ultimatum Bargaining, Journal of Economic Behavior and Organization 3 : 367–388. Had eld, G.K. and I. Bozovic (2016), Sca olding: Using Formal Contracts to Support Informal Relations in Support of Innovation, Wisconsin Law Review 5 : 981–1032. Halonen-Akatwijuka, M. and O. Hart (2016), Continuing Contracts, Harvard University
+
+working paper.
+
+Hart, O. (1975), On the Optimality of Equilibrium when the Market Structure is
+
+Incomplete, Journal of Economic eory 11 : 418–443.
+
+Hart, O. (1979), On Shareholder Unanimity in Large Stock Market Economies,
+
+Econometrica 47 : 1057–1083.
+
+Hart, O. (1995), Firms, Contracts, and Financial Structure, Clarendon Press: Oxford UK. Hart, O. (2009), Hold-Up, Asset Ownership, and Reference Points, Quarterly Journal of
+
+Economics 124 : 267–300.
+
+Hart, O. and B. Holmström (2010), A eory of Firm Scope, Quarterly Journal of
+
+Economics 125 : 483–513.
+
+Hart, O. and J. Moore (1988), Incomplete Contracts and Renegotiation, Econometrica
+
+56 : 755–785.
+
+Hart, O. and J. Moore (1990), Property Rights and the Nature of the Firm, Journal of
+
+Political Economy 98 : 1119–1158.
+
+Hart, O. and J. Moore (1994), A eory of Debt Based on the Inalienability of Human
+
+Capital, Quarterly Journal of Economics 109 : 841–879.
+
+Hart, O. and J. Moore (1998), Default and Renegotiation: A Dynamic Model of Debt,
+
+Quarterly Journal of Economics 113 : 1–41.
+
+Hart, O. and J. Moore (1999), Foundations of Incomplete Contracts, Review of Economics
+
+Studies 66 : 115–138.
+
+Hart, O. and J. Moore (2008), Contacts as Reference Points, Quarterly Journal of
+
+Economics 73 : 1–48.
+
+Hart, O., A Shleifer, and R. Vishny (1997), e Proper Scope of Government: eory and
+
+an Application to Prisons, Quarterly Journal of Economics 112 : 1127–1161.
+
+Herweg, F. and K.M. Schmidt (2015), Loss Aversion and Ine cient Renegotiation, Review
+
+of Economic Studies 82 : 297–332.
+
+Holmström, B. (1979), Moral Hazard and Observability, Bell Journal of Economics
+
+10 : 74–91.
+
+Holmström, B. and P. Milgrom (1991), Multi-Task Principal Agent Analyses, Journal of
+
+Law, Economics, and Organization 7 : 24–52.
+
+-----------------------------------------------------Page 24-----------------------------------------------------
+﻿
+Incomplete Contracts and Control                             395
+
+Holmström, B. and J. Tirole (1998), Private and Public Supply of Liquidity, Journal of
+
+Political Economy 106 : 1–40.
+
+Innes R. (1990), Limited Liability and Incentive Contracting with Ex Ante Action Choices,
+
+Journal of Economic eory 52 : 45–67.
+
+Jensen, M. and W. Meckling (1976), eory of the Firm: Managerial Behavior, Agency
+
+Costs, and Ownership Structure, Journal of Financial Economics 3 : 305–360.
+
+Joskow, P. (1987), Contract Duration and Relationship Speci c Investments: Empirical
+
+Evidence from Coal Markets, American Economic Review 77 : 168–185.
+
+Kaplan, S. and P. Strömberg (2003), Financial Contracting eory Meets the Real World,
+
+Review of Economic Studies 70 : 281–315.
+
+Kaplan, S., B, Sensoy, and P. Strömberg (2009), Should Investors Bet on the Jockey or the Horse? Evidence from the Evolution of Firms from Early Business Plans to Public Companies, Journal of Finance 64 : 75–115.
+
+Klein, B., R. Crawford, and A. Alchian (1978), Vertical Integration, Appropriable Rents and the Competitive Contracting Process, Journal of Law and Economics 21 : 297–326. Maskin, E. (1999), Nash Equilibrium and Welfare Optimality, Review of Economic Studies
+
+66 : 23–38.
+
+Maskin, E. and J. Tirole (1999), Unforeseen Contingencies and Incomplete Contracts,
+
+Review of Economic Studies 66 : 83–114.
+
+Matouschek, N. (2004), Ex Post Ine ciencies in a Property Rights eory of the Firm,
+
+e Journal of Law, Economics, and Organization 20 : 125–147.
+
+Mirrlees, J.A. (1999), e eory of Moral Hazard and Unobservable Behavior, Review
+
+of Economic Studies 66 : 3–21.
+
+Modigliani, F. and M. Miller (1958), e Cost of Capital, Corporation Finance and the
+
+eory of Investment, American Economic Review 68 : 261–297.
+
+Moore, J. and R. Repullo (1988), Subgame Perfect Implementation, Econometrica 56 :
+
+1191–1220.
+
+Rajan, R. (2012), Presidential Address: e Corporation in Finance, Journal of Finance
+
+67 : 1173–1217.
+
+Schmidt, K. (1996), e Costs and Bene ts of Privatization: An Incomplete Contracts
+
+Approach, Journal of Law, Economics, and Organization 12 : 1–24.
+
+Segal, I. (1999), Complexity and Renegotiation: A Foundation for Incomplete Contracts,
+
+Review of Economic Studies 66 : 57–82.
+
+Shleifer, A. and R. Vishny (1997), A Survey of Corporate Governance, Journal of Finance
+
+52 : 737–783.
+
+Simon, H.A. (1951), A Formal eory of the Employment Relationship, Econometrica
+
+19 : 293–305.
+
+Townsend, R. (1979), Optimal Contacts and Competitive Markets with Costly State
+
+Veri cation, Journal of Economic eory 21 : 265–293.
+
+U.S. Department of Justice (2016), Review of the Federal Bureau of Prisons’ Monitoring
+
+of Contract Prisons, https://oig.justice.gov/reports/2016/e1606.pdf#page=1
+
+Williamson, O. (1975), Markets and Hierarchies: Analysis and Antitrust Implications , e
+
+Free Press: New York.
+
+Woodru , C. (2002), Non-contractible Investments and Vertical Integration in the Mexican Footwear Industry, International Journal of Industrial Organization 20 : 1197–1224.
+
+-----------------------------------------------------Page 25-----------------------------------------------------
+﻿
+396                                         The Nobel Prizes
+
+NOTES
+
+1. See Hart (1975).
+
+2. See, e.g., Dreze (1974).
+
+3. is led to Grossman and Hart (1979); see also Hart (1979).
+
+4.    ere was already active work on this question. See, e.g., Mirrlees (1999) and Holmström (1979) on principal-agent theory and Jensen and Meckling (1976) on corporate nance.
+
+5. See Grossman and Hart (1980) and Grossman and Hart (1982).
+
+6. I refer here to the American journalist who died in 1920, not the former CEO of
+
+Citigroup.
+
+7. is is very much along the lines of Coase (1937) and Simon (1951).
+
+8. Paul Joskow has studied such situations and the relationships can last for decades
+
+(see Joskow (1987)).
+
+9. Empirical support for the idea that ownership a ects noncontractible investments can be found in Baker and Hubbard (2003, 2004) and Woodru (2002). An interest- ing application of PRT has been to explain the outsourcing decisions of multinational
+
+rms. See Antras (2003) and Antras and Helpman (2004).
+
+10.    e control rights approach is only one strand of a very active literature on nancial contracting that has developed over the last thirty or so years. Important work has been done on asymmetric information by Townsend (1979) and Gale and Hellwig (1985), and on moral hazard by Innes (1990) and Holmström and Tirole (1998). e control rights approach is complementary to these contributions.
+
+11. In what follows we consider the relationship between one party who needs funds and one party who has funds. For a more general discussion of corporate governance and control, see Shleifer and Vishny (1997).
+
+12.    ey also assume that the nancial investment is contractible. is is no longer an analytical issue since the manager, being wealth constrained, cannot compensate the investor for making it.
+
+13.    e rst version of the Hart-Moore (1998) paper appeared in 1989 and circulated for several years before being published. A simple exposition of it is contained in Hart (1995, Chapter 5). Related and companion papers are Bolton and Scharfstein (1990, 1996).
+
+14. It should be noted that while a debt contract is optimal when project returns are perfectly certain, contracts that shi control in more elaborate ways can perform better under uncertainty. For conditions for a debt contract to be optimal, see Hart and Moore (1998).
+
+15. In reality the distinction between human and non-human assets is not quite as stark as we have suggested. ere are ways that people can reduce their hold-up power, e.g., by signing non-compete contracts. However, there are limits to the control of human assets that do not exist in the case of non-human assets.
+
+16. I have been involved in two legal cases where the question of what is a rm was important. In Black and Decker v. U.S.A., Black and Decker argued that it created a new entity to manage employee and retiree health care bene ts for e ciency rather than tax reasons. I argued for the U.S. government that the new entity was equivalent
+
+-----------------------------------------------------Page 26-----------------------------------------------------
+﻿
+Incomplete Contracts and Control                             397
+
+to a division of Black and Decker since Black and Decker retained control. e case was settled. In a second case, WFC Holdings (Wells Fargo) v. U.S.A., WFC argued that there was a business purpose from moving its real estate lease operations into a separate subsidiary. I argued, again on behalf of the U.S. government, that the subsidiary was equivalent to a division of WFC given that WFC had total control. e case went to trial and the U.S. government won. For a discussion of these cases,
+
+see Borek et al. (2014).
+
+17.   Related ideas are developed in Schmidt (1996).
+
+18.   Further evidence can be found in the recent report of the U.S. Department of Justice (2016). Another way to discourage the choice of cost-saving, quality-reducing actions is to set up the private prison as a non-pro t. However, to the extent that the non-pro t can use cost savings to increase salaries this is unlikely to fully resolve the problem.
+
+19.    e idea that the prison manager can engage in some cost-reducing activities that are socially desirable and other quality-reducing activities that are socially undesir- able is in the spirit of the multi-tasking model of Holmström and Milgrom (1991). 20.   Another objection is that Maskin-Tirole mechanisms are not robust to small depar-
+
+tures from common knowledge. See Aghion et al. (2012).
+
+21.   See, e.g., Matouschek (2004).
+
+22.   See, e.g., d’Aspremont and Gerard-Varet (1979).
+
+23.   For recent work along these lines, see Baliga and Sjostrom (2016). 24.   See, e.g., Camerer (2003) and Fehr and Schmidt (2003). 25.   See, e.g., Güth et al. (1982). 26.   See Andersen et al. (2011).
+
+27.   Herweg and Schmidt (2015) develop an alternative and complementary theory of ine cient outcomes. In their model parties write a contract that has to be renegoti- ated a er the state of the world is realized. e parties take the initial contract as a reference point to which they compare the gains and losses of the renegotiated transaction. As a result of loss aversion some e cient renegotiations will not occur. 28.   For some non-laboratory evidence consistent with the idea that contracts are refer- ence points, see Had eld and Bozovic’s recent study of how companies involved in innovation manage their relationships (Had eld and Bozovic (2016)).
+
+29.    ere is some evidence that terms implied by a contract are regarded as fair even in
+
+the absence of competition. See Bartling and Schmidt (2015).
+
+30.   Brandts et al. (2016), in a somewhat di erent setting, nd that under free-form (ex
+
+post) communication exible contracts dominate rigid contracts.
+
+-----------------------------------------------------Page 27-----------------------------------------------------

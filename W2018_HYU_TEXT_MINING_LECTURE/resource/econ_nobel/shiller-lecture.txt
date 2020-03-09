@@ -1,0 +1,1265 @@
+﻿Speculative Asset Prices 1
+
+Prize Lecture, December 8, 2013 by Robert J. Shiller 2
+
+Yale University, New Haven, CT, U.S.A.
+
+will start this lecture with some general thoughts on the determinants of long- term asset prices such as stock prices or home prices: what, ultimately, drives these prices to change as they do from time to time and how can we interpret these changes? I will consider the discourse in the profession about the role of rationality in the formation of these prices and the growing trend towards behavioral finance and, more broadly, behavioral economics, the growing ac- ceptance of the importance of alternative psychological, sociological, and epide- miological factors as affecting prices. I will focus on the statistical methods that allow us to learn about the sources of price volatility in the stock market and the housing market, and evidence that has led to the behavioral finance revolution in financial thought in recent decades.
+
+The broader purpose here is to appreciate the promise of financial technol- ogy. There is a great deal of popular skepticism about financial institutions afoot these days, after the financial and economic crisis that has dragged on ever since the severest days in 2008. I want to consider the possibilities for the future of finance in general terms, rather than focusing on current stopgap measures to
+
+1   This is a substantial revision (February 1, 2014) of the lecture I gave for the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel, on December 8, 2013, www.nobelprize.org/mediaplayer/index.php?id=1996.
+
+2   Sterling Professor of Economics, Yale University, New Haven CT 06511 (e-mail rob- ert.shiller@yale.edu). I am grateful to Nicholas C. Barberis, John Y. Campbell, Peter J. Dougherty, and Bengt Holmstrom for help on interpretation of the literature and com- ments on drafts of this lecture.
+
+459
+
+I
+
+-----------------------------------------------------Page 1-----------------------------------------------------
+﻿
+460                                         The Nobel Prizes
+
+deal opportunistically with symptoms of our current economic crisis. The talk about the rationality of markets is a precursor to this talk of financial technol- ogy, for it underpins our notions of what is possible with technology. I will conclude that the market have already been “human-factors-engi- neered” to function remarkably well, and that as our understanding of the kind of psychology that leads to bubbles and related problems is improved, we can further innovate to improve the functioning of these markets.
+
+1. PRICE VOLATILITY, RATIONAL EXPECTATIONS, AND BUBBLES
+
+The history of thought in financial markets has shown a surprising lack of con- sensus about a very fundamental question: what ultimately causes all those fluc- tuations in the price of speculative assets like corporate stocks, commodities, or real estate? One might think that so basic a question would have long ago been confidently answered. But the answer to this question is not so easily found. 3 At the same time, there has been an equally widespread acceptance in other quarters of the idea that markets are substantially driven by psychology. Indeed, since 1991 Richard Thaler and I have been directors of the National Bureau of Economic Research program in behavioral economics, which has featured hundreds of papers that seem mostly at odds with a general sense of rationality in the markets. 4
+
+The term “speculative bubble” is often used and applied carelessly. The word “bubble” first became popular at the time of the Mississippi Bubble in European stock markets that came to an end in the 1720, a time often mentioned as one of craziness, but whether that was best described as a time of wild irrationality still remains controversial, see Garber (2000) and Goetzmann et al. (2013). I would say that a speculative bubble is a peculiar kind of fad or social epidemic that is regularly seen in speculative markets; not a wild orgy of delusions but a natural consequence of the principles of social psychology coupled with imperfect news media and information channels. In the second edition of my book Irrational Exuberance I offered a definition of bubble that I thought represents the term’s best use:
+
+A situation in which news of price increases spurs investor
+
+enthusiasm which spreads by psychological contagion from person to person, in the process amplifying stories that might justify the
+
+3   There is a similarly disconcerting lack of consensus in the economics profession over what drives fluctuations from quarter to quarter in aggregate economic activity, as mea- sured by gross domestic product, see Shiller (1987), Akerlof, and Shiller (2009). 4   http://www.econ.yale.edu/~shiller/behfin/index.htm
+
+-----------------------------------------------------Page 2-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    461
+
+price increase and bringing in a larger and larger class of investors, who, despite doubts about the real value of the investment, are drawn to it partly through envy of others’ successes and partly through a gambler’s excitement.
+
+My definition puts the epidemic nature, the emotions of investors, and the nature of the news and information media at center of the definition of the bub- ble. Bubbles are not, in my mind, about craziness of investors. They are rather about how investors are buffeted en masse from one superficially plausible the- ory about conventional valuation to another. One thinks of how a good debater can take either side of many disputes, and, if the debater on the other side has weak skills, can substantially convince the audience of either side. College de- bate teams demonstrate this phenomenon regularly, and they do it by suppress- ing certain facts and amplifying and embellishing others. In the case of bubbles, the sides are changed from time to time by the feedback of price changes—at the proliferation caused by price increases of reminders of basic facts that a debater might use to defend the bubble—and the news media are even better at present- ing cases than are typical college debaters.
+
+Investing ideas can spread like epidemics. Economists traditionally have not shown much interest in epidemiology, sociology, social psychology, or commu- nications and journalism, and it takes some effort for them to consider such alien academic traditions.
+
+There is a troublesome split between efficient markets enthusiasts (who be- lieve that market prices incorporate accurately all public information and so doubt that bubbles even exist) and those who believe in behavioral finance (who tend to believe that bubbles and other such contradictions to efficient markets can be understood only with reference to other social sciences such as psychol- ogy). I suspect that some of the apparent split is illusory, from the problem that there is not a widely accepted definition of the term “bubble.” The metaphor might suggest that speculative bubbles always burst suddenly and irrevocably, as soap bubbles seem to do, without exception. That would be silly, for history does not generally support the catastrophic burst notion. Though the abrupt ends of stock market booms in 1929, 2000 and 2007 might seem consonant with such a metaphor, these booms were reflated again before long (1933–37, 2003–2007, and 2009–present respectively).
+
+I think that the eventuality of a sudden irrevocable burst is not essential to the general term speculative bubble as the term is used appropriately. The meta- phor may be misleading: It suggests more drama than there in fact is, imparting a sense of uniqueness to current events, which might help explain the popularity of the term by news reporters vying for the attention of readers. Just as reporters
+
+-----------------------------------------------------Page 3-----------------------------------------------------
+﻿
+462                                         The Nobel Prizes
+
+like to stir people up by reporting that an index has hit another record high (dis- regarding the fact that record highs occur quite often, especially since reporters hardly ever correct for inflation) so too they like to suggest the possibility of a collapse in the offing that will be remembered many years later.
+
+I sometimes wish we had a different metaphor. One might consider substi- tuting the term “wind trade,” Dutch Windhandel a term that was used during the Tulipmania, the famous boom and burst in tulip prices in the early 1600s, sharing the reference to thin air, but not encapsulating it in a fragile bubble. Curiously, in his Nobel Lecture in Medicine during the 2013 Nobel Week in Stockholm, James E. Rothman (2013) brought in soap bubbles too, for their analogy to the cell vesicles that his Nobel Prize research was about. He showed a movie of two soap bubbles being physically pressed together, and, surpris- ingly to most of us, they did not burst but merged into a single larger bubble. That’s analogous to what cell vesicles can do, he said. It led me to wonder if we could say that the stock market bubble and the housing bubble of the early 2000s somehow merged into a larger bubble that created the financial crisis that burst around 2008. Imaginative thinking is fun, and maybe even inspirational, but we cannot let the bubble metaphor, or any simple metaphor, guide our models beyond the very beginnings, for any metaphor will surprise if we carried it to its absurd conclusions.
+
+A. Efficient Markets Theory
+
+From the very beginning, in his 1964 Ph.D. dissertation, written under the su- pervision of Merton Miller and Harry Roberts, Eugene Fama found that stock prices are not very forecastable. He found then that the average correlation co- efficient between successive days’ log price changes over the thirty Dow Jones Industrial Average stocks between 1957 and 1962 was only 0.03, which he de- scribed as “probably unimportant for both the statistician and the investor.” 5 The same year saw the appearance of Paul Cootner’s The Random Character of Stock Market Prices , which reached similar conclusions about market efficiency. The “efficient markets theory,” widely attributed to Fama and the academic work that he stimulated, maintains that prices have a rational basis in terms of fundamentals like the optimal forecast of earnings, or assessments of the stan- dard deviation of risk factors facing corporations. As the theory went, because they are rationally determined, they are changed from day to day primarily by genuine news, which is by its very nature essentially unforecastable. There
+
+5   Fama (1964), Table 10 and p. 70.
+
+-----------------------------------------------------Page 4-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    463
+
+was an efficient markets revolution in finance, propelled by Fama’s work. I was part of the movement then, less than a decade later, with my Ph.D. dissertation (1972) about the efficiency of the long-term bond market.
+
+B. Alternative Views and Forecastability of Returns
+
+These conclusions came against a backdrop of public interest then in speculative bubbles encouraged by the strong bull market in the United States: real stock prices more than quadrupled in the 16 years from 1948 to 1964. John Kenneth Galbraith’s best-selling 1954 book The Great Crash, 1929 , described in literary terms the follies of the boom of the 1920s and subsequent collapse and con- cluded that “the chances for a recurrence of a speculative orgy are rather good” 6 His book was followed up by another popular book, Charles Poor Kindle- berger’s Manias, Panics, and Crashes , 1978, which used a similar method of re- counting of human events laced with descriptions of human foolishness. Nei- ther of them made much use of academic research in psychology or sociology, writing many years before the behavioral finance revolution, and so they came across to some as insubstantial. While both Galbraith and Kindleberger were respected academics, and the stories in their books were often compelling, many felt that their works did not have the scientific credibility of the careful data analysis that was widely taken to support market efficiency, though then again, they were provocative.
+
+Ultimately, the question in reconciling the apparently conflicting views comes down to that of constructing the right statistical tests. It turns out that the apparently impressive evidence for market efficiency was not unimpeachable.
+
+2. EXPECTED PRESENT VALUE MODELS AND EXCESS VOLATILITY
+
+The simplest version of the efficient markets model—which maintains that stock price movements can be interpreted entirely as reflecting information about fu- ture payouts of dividends, and that hence that there is never a good time or bad time to enter the market—has, ever since the efficient markets revolution began, maintained a powerful hold on scholarly imaginations as a worthy approxima- tion to more complex models. This form sets price equal to the expectation, conditional on publicly available information at the time of the present value of future dividends discounted at a constant rate through time:
+
+6   Galbraith 1954 p. 194.
+
+-----------------------------------------------------Page 5-----------------------------------------------------
+﻿
+464                                         The Nobel Prizes
+
+∞
+
+k = 0 (1 + r ) k + 1                   (1)
+
+One way to test this efficient markets model is to regress the return between t and t + 1, t = 1, . . . , n onto information variables known at time t , I t , t = 1, . . . , n . Often, these tests can be described approximately as tests of the “random walk hypothesis,” that price changes are purely random and unforecastable. One ac- cepts the efficient markets model if the coefficients of the information variables used to forecast future returns or price changes are not significantly different from zero. Moreover, even if the model is rejected, if the proportion of variance in returns that is predicted is small, one concludes that the model is a good ap- proximation to reality.
+
+These tests, and various analogues of them, are the kinds of tests of market efficiency that abounded in the literature. But the power of such tests of perpet- ual unforecastability of returns against an alternative that represents the world as driven entirely by temporary fads and fashions—with no fundamental rea- son for any change in prices—can be very low, since plausible such alternatives also imply that only a tiny fraction of month-to-month returns is forecastable. Shiller (1984, 1989), Summers (1986).
+
+Many tests of market efficiency use daily observations of prices, and because the observations come so frequently, there may be many hundreds of observa- tions, even if the span of the data is only a few decades. There is a tendency for many people to think that hundreds of observations must be a lot of data, but it is not necessarily a lot of data from the standpoint of distinguishing an efficient markets model from a relevant alternative.
+
+We might, for example, be trying to distinguish using price time series data a random walk from a continuous-time first-order autoregressive process. 7 In the former, whether prices are too high or too low has no ability to predict future changes. In the latter, when prices are too high relative to the mean they should tend eventually to fall (a sort of bursting of the bubble, though not a sudden catastrophic one). But, tests may have very little power to distinguish the two models, if the autoregressive parameter is close enough to one, even with a large number of observations, even with millions of minute to minute observations. With a fixed span of data increasing the frequency of observation, even to the limit of continuous observation, does not bring power to one, Shiller and Perron (1985), Phillips and Perron (1988).
+
+7   In continuous time, we are speaking of distinguishing a Wiener process from an Orn- stein-Uhlenbeck process.
+
+P t = E t ∑   D t + k
+
+-----------------------------------------------------Page 6-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    465
+
+The Scientific Background for the 2013 Nobel Prize in Economics (Economic Sciences Prize Committee of the Royal Swedish Academy of Sciences 2013) em- phasized the results of this year’s laureates as confirming that there is better forecastability (in terms of R squared) of speculative asset returns for longer time horizons. This accords with longstanding advice that investors should be patient, that they cannot expect to see solid returns over short time intervals. But this is just the opposite of what one would expect in weather forecasting, where experts can forecast tomorrow’s temperature fairly well but can hardly forecast a year from tomorrow’s temperature.
+
+It is easy to see why short-term forecastability of price changes in investable assets should in some sense be unlikely: if investment returns were substantially forecastable from day to day, it would be too easy to get rich in a year or so by trading on these forecasts, and we know it cannot be easy to make a lot of money trading. This notion was formalized in a continuous-time framework by Sims (1990), who defined “instantaneous unpredictability” of a speculative asset price by the requirement that the R squared of the prediction from time t to time t + s goes to zero as s goes to zero. He showed under certain regularity conditions that if prices are not instantaneously unpredictable then simple rapid-trading schemes could achieve unbounded profits, which of course cannot match reality. Taking these primal reasons to doubt that returns are forecastable over short horizons into account, the low R squared in many tests of short-run market ef- ficiency is neither surprising nor interesting. The tests tell us only the obvious, and do not tell us about the rationality of markets beyond that people are not missing easy opportunities to get rich very fast.
+
+I proposed that an alternative class of tests, based on the estimated volatility of returns, tests for “excess volatility” would have more power against the im- portant alternatives to efficient markets theory, first for the bond market, reject- ing the expectations model of the term structure of interest rates with U.S. and U.K. data (Shiller 1979) and then rejecting the simplest efficient markets model for the U.S. stock market (1981a). 8 Independent work by Kenneth Singleton (1980) used a variance bounds test to reject the expectations model of the term structure of interest rates with U.S. data, and Stephen LeRoy and Richard Porter (1981) rejected the simple efficient markets theory for the U.S. stock market. Variance bounds tests were also used to test consumption-discount-based ef- ficient markets models, (Shiller 1982, Lars Hansen and Ravi Jagannathan 1991).
+
+8   The volatility tests were partly inspired by work Jeremy Siegel did (1977) which involved calculation of ex-post rational price series.
+
+-----------------------------------------------------Page 7-----------------------------------------------------
+﻿
+466                                         The Nobel Prizes
+
+Efficient markets models also imply bounds on the covariance between asset prices (Beltratti and Shiller 1993).
+
+These tests may be more powerful than regression tests of the basic efficient markets notions against important alternatives. It is true that under the conven- tional assumptions of the regression model the usual t-test for the coefficient of a forecasting variable in a regression with excess return as the dependent variable has well-known optimality properties. But testing market efficiency by regressing excess returns on information variables makes no use of the terminal condition that requires that all movements in prices need to be justified by in- formation about subsequent movements in fundamentals. I showed (1981) that if we broaden the maintained hypothesis for this condition, then a regression test is not optimal. In fact, under certain extreme assumptions about data align- ment, a simple variance ratio test, instead of a regression test, may be uniformly most powerful. 9
+
+Another kind of test of market efficiency is the event study, which is an anal- ysis of the effects of a specified event (such as a stock split) on the price of an asset in the days before and after the event, taking many different examples of a kind of event and showing the average price performance. It is analogous to a regression test, of a panel of time series of daily returns of many stocks on a dummy variable representing the day of a certain kind of event and on dummies representing the days after the event became public. The test of market efficiency is a test for significance of the coefficients of the dummies corresponding to days after the event. The first event study in the academic literature has been taken to be Dolley (1933), but, as the Scientific Background for the 2013 Nobel Prize in Economics notes, it was not until the impressive 1969 paper by Eugene Fama, Lawrence Fisher, Michael Jensen and Richard Roll that it was shown that, conditioning on an event, one tends to see a lack of any consistent and impor- tant further price response after the event is public knowledge. Dolley in his 1933 article was immersed in all the details of stock splits, and of course did not mention efficient markets theory. Fama, Fisher, Jensen and Roll instead showed evidence for this newly developed and expanded theory, evidence that could be seen visually impressively in a plot of stock returns before and after the event.
+
+9   John Cochrane, in his review of my volatility tests (1991), stressed a sense in which there is an equivalence of volatility tests and regression tests. But this is about the equiv- alence of null hypotheses, not equivalence of test power. Cochrane later followed this up with a paper (2008) recognizing the importance of the terminal condition; see also Lewellen and Campbell and Yogo (2006).
+
+-----------------------------------------------------Page 8-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    467
+
+But again, the efficient markets tests, which are essentially the same as re- gression tests, do not have the power to tell us whether there are also bubbles af- fecting prices, or even whether the major component of stock price movements comes from bubbles.
+
+The variance bounds test rejections of market efficiency could not be dis- missed as correct but unimportant, as were the inefficiencies that the efficient markets literature had discovered, for they suggested that most of the variabil- ity of the aggregate stock market was not explainable as related to information about future fundamentals.
+
+Critics of the variance bounds tests became abundant, and I endeavored at first to answer some of them, answering Terry Marsh and Robert Merton (1986) in Shiller (1986) and answering Allan Kleidon (1986) in Shiller (1988). But the volume of the literature expanded beyond my abilities to respond, and signifi- cantly changed its direction as well. Sometimes the disagreements got abstract and seemed to raise deep issues about epistemology or the philosophy of logic. I must leave it to a broader professional consensus what is the outcome of this debate.
+
+I collected my papers on the subject and summarized the literatures in my book Market Volatility , 1989, at which point I largely abandoned my economet- ric work on excess volatility. Others continued the line of work, and much more has happened since.
+
+A. Visual Portrayals of Excess Volatility and of the Stock Market as Forecaster
+
+Just as event studies visually convinced many readers of some merits of efficient markets theory by showing event study plots of stock prices before and after an event, so too other simple plots seem to have been convincing in a different way that stock market are really not so efficient.
+
+Figure 1 is an updated version of one that I showed in my 1981 paper, a third of a century ago, of the real level of the stock market since 1871, as well as the behavior through time of the actual present value of future real dividends discounted at a constant rate. The real stock price series is one published by Standard & Poor’s, called the S&P Composite (after 1957 the S&P 500) deflated by the U.S. consumer price index.
+
+The earlier version of this plot turned out to be the centerpiece of that paper, judging from the attention that others gave to it. Sometimes a simple plot seems to be more disturbing than a formal analysis. Looking at the data is like seeing a photojournalist’s account of a historical event rather than reading a chronology: it is more immediate and invites intuitive comparisons.
+
+-----------------------------------------------------Page 9-----------------------------------------------------
+﻿
+468                                         The Nobel Prizes
+
+To produce this figure, the present value of dividends for each date in 1871– 2013 was computed from the actual subsequent real dividends using a constant real discount rate r = 7.6% per annum, equal to the historical average real re- turn on the market since 1871. For this figure, we can make use of the actual dividends, as published by Standard & Poor’s since 1926 (and extended back to 1871 by Alfred Cowles 1939 as I described in my book (1989)). We did not know dividends after 1979 when I published the original version of this figure, and we do not know at this writing of dividends after 2013.
+
+For this lecture, in 2013 as I did in 1981, I made some simple assumptions about the as-yet-unseen future dividends, beyond 2013. This time I used a con- ventional dividend discount model, the Gordon Model, using the most recent 2013 S&P 500 real dividend as a base for forecasts of dividends after 2013 show- ing two alternative assumptions about dividends after 2013. In one, I assumed that real dividends will grow forever from the last observed dividend, in 2013, at the same average growth rate as over the most recent ten years, 5.1% per year, which gives a 2013 value of 1292 for P *. In another, the calculations are the same but the growth rate of dividends after 2013 are taken as the geometric average growth rate over the last thirty years, 2.5% a year. This gives a 2013 value of 669 for P*. Both of these may be contrasted with real market values of the S&P 500 index over the year 2013 ranging from 1494 to 1802. 10
+
+Should we take the latest ten years real dividend growth as a guide to the future, rather than the last 30 years or some other interval? The ten-year data are more recent, but ten years is a short time historically speaking, and the years 2003 to 2013 were unusual, starting with the aftermath of the 2001 recession, and encompassing the biggest financial crisis and government stimulus pack- ages since the Great Depression. Reasonable people will certainly find reasons to differ. Worse than that, there is no objective way to forecast dividends out for decades, which is why I showed both here, as a crude indication of uncertainty today about future dividends and why it is hard to imagine that the market somehow “knows” the correct optimal forecast.
+
+The point of showing the two different P* series is that, clearly, there is sub- stantial uncertainty about the present value of dividends after 2013, but there is
+
+10   Jeremy Siegel (2005), (2008) has made the point that since the dividend payout rate for earnings has been trending down since World War II, dividend growth should be higher in the future than it was. If companies reinvest earnings rather than pay them out, they should have more dividends to pay in the future. The validity of this theory is not without doubters. Arnott and Asness (2003) point out that perhaps lower dividend payouts may reflect managers’ decision in the face of evidence that they have that earnings growth will be lower.
+
+-----------------------------------------------------Page 10-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    469
+
+not so much variability from year to year, as seen today, about the present value of subsequent dividends for earlier years. For earlier years, say before 1980, 2013 is so far in the future and is discounted so heavily that over a wide range of pos- sible 2013 dividend values there is not much difference in P*.
+
+The striking fact is that by either assumption the present value of dividends (on the log scale used in the figure) looks pretty much like a steady exponential growth line, while the stock market oscillates a great deal around it. I asked in 1981: if, as efficient markets theory asserts, the actual price is the optimal fore- cast as of any date of the present value as of that date, why is the stock market so volatile?
+
+Different people have different reactions to this figure, but a common reac-
+
+tion is that the efficient markets model P = E t ( P * ) looks implausible here. Why
+
+is price jumping around so much if the value it is tracking is just such a simple trend? It is not that P t should always look smoother through time than P * , for it is consistent with the model that there can be sudden shifts in price when there is important new information about subtle changes in trend. But it would seem that important new information should be something that occurs only rarely, given the smooth nature of dividends.
+
+To see the problem for efficient markets here, imagine that the series labeled
+
+*
+
+of the temperature for that day t . We might be inclined to label this weather
+
+5000
+
+500
+
+Data used in original 1981 publication
+
+Perfect
+
+Foresight Price P* endpoint based on last ten years
+
+dividend growth
+
+Actual stock price P                                Perfect
+
+Foresight Price P* endpoint based on last 30 years
+
+dividend growth
+
+50
+
+1860     1880     1900     1920     1940 Year 1960    1980    2000    2020    2040 FIGURE 1. Real Standard & Poor’s Composite Stock Price Index along with Present values with constant discount rate of subsequent real dividends accruing to the index 1871– 1913. The two present values differ in their assumption about dividend growth after 2013.
+
+Price: P and P *
+
+P t is not price but air temperature, and that P t is a weather forecaster’s forecast
+
+-----------------------------------------------------Page 11-----------------------------------------------------
+﻿
+470                                         The Nobel Prizes
+
+forecaster as insane. Even though in the stock market there isn’t immediate feedback to the forecaster about forecast errors, still a forecaster should avoid adjusting forecasts up and down frequently, unless there is actual new informa- tion, and clearly there wasn’t, not information about something that actually happened in stock market history.
+
+One very basic thing that is learned from this figure is that the model that people essentially know the future, a model that is often suggested as an ap- proximation, is wildly wrong in all periods. Sometimes people have suggested that the low stock prices seen in the Great Depression of the 1930s were justified because people rationally saw the damage to future real dividends caused by the Depression. But, in fact, at the worst of the stock market depression, in 1932, subsequent dividends just weren’t low enough for long enough to depress P *1932 by much at all. Nothing has ever deflected real dividends for very long from a long-run growth trend of a couple percent a year.
+
+In my original paper (1981), I detrended the data (as is shown in a repro- duction of that plot in the Scientific Background (2013) shown on the Nobel Foundation website), thinking that it is reasonable to assume that people know the trend. Under that assumption, the efficient markets model implies that the variance around trend should be less for P than for P *, which is plainly not the case in Figure 1. But, there was a lot of negative reaction by critics of my paper to the assumption that the trend is essentially known.
+
+Generally, these criticisms held that there was always some reason to think that the path of dividends might eventually depart markedly from its histori- cal growth path, and that investors were evaluating constant new information about that possibility, and that they were rational to do so even if the dividend growth path never deviated far for long from a trend. This assumes that all the fluctuations are because of genuine information about those “black swan” out- lier events that might have happened in more than a century but just didn’t hap- pen. Some of the criticism had to do with the possibility that the dividend series might have a unit root, and so that the apparent smooth trend was just a chance outcome that might not be continued into the future. 11
+
+The uncertainty about the present value of dividends after 2013 as shown in Figure 1 does highlight an important problem. At every point in history there must have been some such uncertainty about future dividends. There are always
+
+11   Unit root problems pose potentially serious problems for financial econometrics, see Torous (2004), Campbell, and Yogo (2006), Cochrane (2007). Campbell and I (1988) pro- posed log-differencing to recast excess volatility tests in more robust terms, West (1988) showed another elegant approach, which strengthened the evidence for excess volatility.
+
+-----------------------------------------------------Page 12-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    471
+
+factors that creative minds can bring up that would suggest a higher or lower rate of growth of dividends in the future.
+
+For example, can we tell an efficient markets story why the stock market was so low in the Great Depression? The present value of actual future dividends was not particularly low in the Depression, but maybe people thought that they would be low, given the extant theories of the time. Or maybe they thought that the government would eventually nationalize the stock market without com- pensation. One might say that it would not be manifestly irrational, not crazy, to believe such stories. But, why, then, do these stories come and go through time, causing the fluctuations in the market?
+
+B. Variations on the Present Value Model
+
+Of course, as we have noted, the basic notion of efficient markets does not nec- essarily require that discount rates are constant or that returns are not forecast- able. A more general form of efficient markets would allow discount rates to depend on the time-varying one-period rate of interest:
+
+∞ k
+
+k = 0 j = 0
+
+1
+
+Or, in a model proposed by LeRoy (1973) and Lucas (1978), it could depend on consumption, using the marginal rate of substitution between consumption in successive periods as a discount rate:
+
+∞ k
+
+k = 0 j = 0
+
+(3)
+
+where M t = marginal rate of substitution in consumption between t and t + 1, which is, assuming constant relative risk aversion A , ρ ( C t / C t +1 ) A and C t is real per capita consumption at time t .
+
+Figure 2 shows the actual stock price in the U.S. and the perfect foresight stock price corresponding to each of the three measures. 12 Once again, the fig- ure reveals that there is little correspondence between any of these measures
+
+12   The parameter φ was estimated to make the average r t + φ equal the average real return on the stock market 1871-2013. The parameter A was set at four and ρ at one. The one- year interest rate is pieced together from various sources as described in Shiller (1989, 2005) and real per capita consumption is from the U.S. National Income and Product Accounts.
+
+P t = E t ( P t * r ) = E t ∑ ∏
+
+(1 + r t + j + ϕ )   D t + k         (2)
+
+P t = E t ( P t * C ) = E t ∑ ∏ M t + j D t + k
+
+-----------------------------------------------------Page 13-----------------------------------------------------
+﻿
+472                                         The Nobel Prizes
+
+5000
+
+500
+
+P* r (Dividends
+
+Discounted with Actual
+
+Future Interest Rates,
+
+Equation 2)
+
+P* (Dividends Discounted with
+
+Constant Discount Rate,
+
+Equation 1)
+
+Actual Real Stock Price ( P )
+
+P* C (Consumption-Discounted
+
+Dividends, Equation 3)
+
+50
+
+1860      1880      1900      1920      1940      1960      1980      2000      2020
+
+Year
+
+FIGURE 2. Real Standard & Poor’s Composite Stock Price Index along with three present values of subsequent real dividends accruing to the index, 1871–2013. All three present values assume real dividend growth 2003–13 will continue forever after 2013. The three present values differ from each other only in the assumed time series of discount rates.
+
+of ex-post rational price and actual stock price. People did not behave, in set- ting stock prices, as if they knew the future of these variables and reacted ratio- nally to this knowledge. Moreover, if we assume that they did not actually have knowledge of the future, then one is led to wonder why the actual stock prices varied through time as much or more than the perfect foresight prices did. There are continuing attempts to modify the consumption-based model to improve its fit, Campbell and Cochrane (1999) and Lars Hansen, in his Nobel Lecture (2013) but not yet any model that could be set alongside Figure 2 here as an inspiring vindication of efficient markets theory.
+
+John Campbell and John Ammer (1993) did a variation decomposition of unexpected excess returns using time series methods and U.S. postwar data. The decomposition is based on the log linearization of the present value relation used in Campbell and Shiller (1988). The time t +1 innovation E t +1 – E t in the excess return over the risk free rate e t +1 can be shown, with a terminal stationar- ity condition, as a tautology, to be the sum of three innovations:
+
+∞ ∞
+
+⎩⎪ j = 0 j = 0 j = 1 ⎭⎪
+
+Price
+
+⎧ ∞ ⎫
+
+e t + 1 − E t e t + 1 = ( E t + 1 − E t ) ⎨ ∑ ρ j Δ d t + 1 + j − ∑ ρ j r t + 1 + j − ∑ ρ j e t + 1 + j ⎬
+
+-----------------------------------------------------Page 14-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    473
+
+Using this decomposition and a vector-autoregressive model in difference form, with post World War II stock market returns, Campbell and Ammer found that excess returns innovations have a standard deviation that is two or three times greater than the standard deviation of innovations in future divi- dend growth. Aggregate stock market fluctuations have therefore been domi- nated by fluctuations in predicted future returns, not by news about future divi- dends paid to investors. 13
+
+C. Interpretations of Return Predictability
+
+Sociologists have a possible interpretation of these results, an interpretation that reflects a body of thought that goes back over a hundred years. The mar- ket fluctuates as the sweep of history produces different mindsets at different points of time, different zeitgeists. Emile Durkheim (1893) spoke of the “collec- tive consciousness” that represents the shared beliefs, attitudes and moral judg- ments that characterize a time. Maurice Halbwachs (1925) spoke of the “collec- tive memory,” the set of facts that are widely remembered at any point of time, but that are forgotten eventually if word of mouth and active news media do not perpetuate their memory. News media tend to slant their stories towards ideas of current interest, rather than useful facts that readers no longer find interesting. 14 Surely simple forgetting of past experiences affects popular judg- ments. How many people today could give any account of the financial panic of 1907, or of the housing boom of the late 1940s? One could stop anyone on the street in those times and get a ready account, now blank ignorance from almost everyone. When a bubble is building, the suppression of some facts and embel- lishment of other facts (just as with winning college debaters) occurs naturally through the decay of collective memory, when media and popular talk are no longer reinforcing memories of them, and because of the amplification of other facts through the stories generated by market events.
+
+It is hardly plausible that speculative prices make effective use of all infor- mation about probabilities of future dividends. It is far more plausible that the aggregate stock market price changes reflect inconstant perceptions, changes which Keynes referred to with the term “animal spirits,” changes that infect the thinking even of the most of the so-called “smart money” in the market. Keynes
+
+13   These results have been criticized by Goyal and Welch (2003), (2008), Chen and Zhao (2009) and Chen, Da, and Zhao (2013), and rebutted by Campbell, Polk, and Vuolteen- aho (2010) and Engsted, Pedersen, and Tanggaard (2012). 14   See Shiller (2000) and Mullainathan and Shleifer (2005).
+
+-----------------------------------------------------Page 15-----------------------------------------------------
+﻿
+474                                         The Nobel Prizes
+
+anticipated this in his 1921 Treatise on Probability , which asserted that prob- abilities are not precisely measurable in the sense that decision theory supposes; that there are always ambiguities. He said that because of this fundamental am- biguity, in financial transactions there is inevitably an “element of caprice.” 15 Critical decisions are made on impulse rather than calculation. One may have done calculations of probabilities, but one usually does not fully believe one’s own calculations, and proceeds on gut feeling.
+
+In an early behavioral finance paper of mine, that I wrote thirty years ago, “Stock Prices and Social Dynamics” (1984), I proposed yet another expected present value model for consideration as a model of stock prices, though it is one that we cannot plot back to 1871 as we did with the three expected present models shown and plotted above, because it depends on a time-varying factor that is not objectively quantifiable, at least for now. I have been attempting to measure a stock market factor like this with survey techniques, of individual and institutional investors, but only since 1989. There are other surveys of investor sentiment as well, but the results are hardly definitive. My surveys of individual and institutional investors starting in 1989 16 as well as my surveys with Karl E. Case of homebuyers starting in 1988 17 are being continued by the Yale School of Management.
+
+Thirty years ago I called this as yet unmeasured factor the demand for stocks by ordinary investors, but today let us call it animal spirits, A t . A t represents the demand for stocks per share at time t by everyone who is not smart money, people not really paying attention, not systematic, not engaged in research, buf- feted by casually-encountered information. They are certainly the majority of investors. Suppose, to take this model to an extreme, that their opinions reflect nothing more than changing fashions and fads and idle talk and overreaction to irrelevant news stories. A t is likely to be sluggish through time (usually people don’t all change their naïve opinions en masse on a dime).
+
+The core idea here was that there are also smart money investors, who are not subject to illusion, but have to be wary of investing in the stock market not only because future dividends are not known with certainty, but also be- cause these ordinary investors are somewhat unpredictable and their erratic
+
+15   Keynes (1921) p. 23.
+
+16    http://som.yale.edu/faculty-research/our-centers-initiatives/international-center-fi- nance/data/stock-market-confidence. Greenwood and Shleifer (2013) examine the rela- tion to stock price data of investor sentiment indices from six different survey sources including mine.
+
+17   Case and Shiller (1988, 2004), Case, Shiller, and Thompson (2012).
+
+-----------------------------------------------------Page 16-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    475
+
+behavior could cause price changes that might produce losses in the market for the smart money if they invest too much in it. For these investors, informa- tion is constantly coming in about the likely future values of A t and, as with all genuinely new information, this new information is uncorrelated and unpre- dictable through time. I supposed the demand per share for stocks by the smart money equals their rationally expected excess return on the stock market over and above an alternative riskless return r which I take for simplicity to be con- stant through time, the difference divided by a constant risk factor φ . The two demands, the demand of the ordinary investors plus the demand of the smart money, must add up to one for the markets to clear. Solving the resulting ratio- nal expectations model forward leaves us with our fourth present value model: 18
+
+∞
+
+k = 0
+
+1
+
+(1 + r + ϕ ) k + 1
+
+( D t + k + ϕ A t + k )        (4)
+
+If φ = 0, smart money dominates and this collapses to equation (1) above. As φ goes to infinity, smart money drops out, it collapses to P t = A t , and ordi- nary investors completely determine the price. It is the intermediate case that is interesting. In this intermediate case, price may have low predictability from day to day or month to month, consistent with efficient markets theory, even if animal spirits dominate the broad movements in P t . The price is responding to news about animal spirits, not just news about future dividends. Event study tests, described above, testing market reaction over time to news about and sub- sequently reality of such events as stock splits, may come out as beautifully sup- porting efficient markets, for much of the effect of the event on both dividends and animal spirits will be incorporated into price as soon as the event becomes news to the smart money, not when the event actually happens.
+
+There is another important argument widely used for efficient markets, the argument that a model like (4) with an intermediate φ cannot represent a stable equilibrium because the smart money would get richer and richer and eventu- ally take over the market, and φ would go to zero. In fact this will not generally happen, for there is a natural recycling of investor abilities. The smart money people usually do not start out with a lot of money and it takes them many years to acquire significant wealth, meanwhile they get old and retire, or they rationally lose interest in doing the work to pursue their advantage after they have acquired sufficient wealth to live comfortably on. The market will be ef- ficient enough that advantages to beating the market are sufficiently small and
+
+18   This is equation (3) in that paper, with slight changes in notation.
+
+P t = E t ( P t * A ) = E t ∑
+
+-----------------------------------------------------Page 17-----------------------------------------------------
+﻿
+476                                         The Nobel Prizes
+
+uncertain and slow to repay one’s efforts, so most smart people will devote their time to more personally meaningful things—like managing a company, getting a Ph.D. in finance, or some other more enjoyable activity—leaving the market substantially to ordinary investors. Genuinely smart money investors cannot in their normal life cycle amass enough success experience to prove to ordinary investors that they can manage their money effectively: it takes too many years and there is too much fundamental uncertainty for them to be able to do that assuredly. By the time they prove themselves they may have lost the will or abil- ity to continue (Shleifer and Vishny 1997).
+
+D. Individual Stocks
+
+These conclusions about the aggregate stock market, however, do not carry over fully to individual stocks. Paul Samuelson has asserted that:
+
+“[The market is] micro efficient but macro inefficient. That is, individual stock price variations are dominated by actual new
+
+information about subsequent dividends, but aggregate stock market variations are dominated by bubbles.” 19
+
+Tuomo Vuolteenaho (2002), using methodology analogous to that of Camp- bell and Ammer, concluded that for individual stocks the variance of expected return news is approximately one half of the variance of cash-flow news. For market-adjusted individual stock log returns (log return minus cross-sectional average log return) the variance of the expected return news is only one fifth of the variance of cash-flow news. Thus, bubbles and their bursts cannot have more than a minor impact on the returns of individual stocks, and most of the variation in their returns comes from news about the future payouts the firms will make.
+
+In a 2005 paper I did with Jeeman Jung, which looked at long-span data sets of stocks which had survived without significant capital changes for over half a century, we reached similar conclusions. To give a visual impression how well the
+
+19   Samuelson went on to say “Modern markets show considerable micro efficiency (for the reason that the minority who spot aberrations from micro efficiency can make money from those occurrences and, in doing so, tend to wipe out any persistent inefficienes). In no contradiction to the previous sentence, I had hypothesiszed considerable macro inef- ficiency, in the sense of long waves in the time series of aggregate indexes of security prices below and above various definitions of fundamental values.” From a private letter from Paul Samuelson to John Campbell and Robert Shiller.
+
+-----------------------------------------------------Page 18-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    477
+
+efficient markets theory works for individual firms, we felt that we could display how successfully dividend growth could be predicted from the dividend-price ratio. Simple efficient markets suggests that firms with relatively low dividend price ratios should eventually, in future years, show higher dividend increases as a fraction of today’s price. To make such a visual diagram in such simple terms, we sought out long-lived firms (though such a procedure risks a selection bias) We found all firms on the CRSP tape that remained alive and for which there was uninterrupted data from 1926 to 1976. There were only 49 such firms, giv- ing us 2499 firm-year observations 1926–76. Each point on the scatter in Figure
+
+24
+
+3 shows
+
+next twenty-five years (measured in dollars, and discounted by the historical
+
+average stock market return) divided by current dollar price, against   D t − 1
+
+current dividend divided by current price. Efficient markets with constant dis- count rate, equation (1), imply—if there is not a problem with our truncation of the present value at 25 years—that a regression line through these points should have a slope of minus one and a constant term equal to the constant discount rate. In words, if markets are efficient then a high dividend price yield for a par- ticular stock today occurs only if people have a real reason to expect dividends to decline, and so demand to be compensated today for that future loss if they are to hold the stock today. Similarly, low dividend yield stocks must be those for
+
+FIGURE 3. Present value of future changes in dividends plotted against the dividend price ratio for 49 U.S. individual stocks, 1926–1976, from Jung and Shiller (2005).
+
+D t + k / P t
+
+k = 0 ( 1 + r ) k ,   the present value of future changes in dividends for the
+
+P t   , the
+
+-----------------------------------------------------Page 19-----------------------------------------------------
+﻿
+478                                         The Nobel Prizes
+
+which there is genuine evidence that dividends will rise in the future, eventually compensating today’s investors for the low dividend return they are receiving. The estimated slope of a line fitted through this scatter is –0.5, far from the ideal –1.0 but negative as expected. The dividend-price ratio predicts subse- quent dividend changes in the right direction for these firms. Zero-dividend firms (which one can see strung out along the vertical axis) tended to have ap- propriately high subsequent dividend growth relative to price. The right-most observation, which corresponds to the firm Schlumberger in 1931, a firm that had tried to maintain its dividend despite falling fortunes in the Great Depres- sion, had a dividend payment that was 40% of its current price. People in the market then apparently figured out that the firm could not continue to pay such a dividend, that it would not be followed by another significant dividend for a very long time, and reflected that knowledge in the approximately 40% divi- dend-price ratio. In individual firms there is sometimes a lot of action in the ratios, and the action in fact often reflects real knowledge about future cash flows. That is an example of the kind of idiosyncratic knowledge about indi- vidual firms that makes the efficient markets model a useful approximation of reality for individual firms. 20
+
+E. Real Estate Prices
+
+The market for real estate is larger in valuation than that of the entire stock market. According to the Financial Accounts of the United States, in 2013 the value of real estate owned by households and nonprofit organizations was $21.6 trillion, while their holdings of corporate equity shares, whether directly or in- directly, had a market value of on only $20.3 trillion. 21
+
+And yet, when I first joined with Karl Case to do joint work on real estate prices in the 1980s, we found that hardly any scholarly research had been done on the efficiency of real estate markets. The state of knowledge about these mar- kets was abysmal. Under the influence of a widely-held presumption at that time that all markets must be efficient, many economists, at least in their popular pro- nouncements, seemed to assume that real estate markets must be efficient too.
+
+20   Ang and Bekaert (2007) conclude that the dividend yield’s ability to predict dividends is not robust over sample periods or countries, but do not include individual stock data in their study.
+
+21   U.S. Federal Reserve Board, Z.1, Financial Accounts of the United States, Table B.100 Balance Sheet of Households and Nonprofit Organizations and Table B.100.e Balance Sheet of Households and Nonprofit Organizations with Equity Detail, December 9, 2013.
+
+-----------------------------------------------------Page 20-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    479
+
+This presumption appeared to us as quite possibly wrong, based on anecdotal evidence suggesting that real estate prices are not at all well approximated by a random walk as is the case for stocks, but often tend to go in the same direction, whether up or down, again and again for years and years.
+
+Case and I decided to try to test the efficiency of this market for single family homes, but quickly discovered the importance of a stumbling block that had in- hibited research: individual homes sell extremely infrequently, with interval be- tween sales for individual homes measured not in seconds as with stocks but in years or decades. One cannot do any of the most popular tests of efficiency with such data. No runs tests or event studies would ever be possible with individual homes, and so tests of market efficiency would have to be based on indices. There were some home price indices of sorts available then, but they had serious problems. There was a median sales price of existing homes, published by the National Association of Realtors, but it often appeared to jump around erratically. It was just the median price of whatever homes were selling now, was not controlled for anything, and it appeared that different kinds of homes sold in different months. It had a very strong seasonality, which we suspected arose because people who sold in the summer, in phase with the academic year and the job market, typically had bigger or higher-quality homes which had higher prices.
+
+There was also at that time a “Price of New Homes Sold,” also called “Con- stant Quality Index,” produced by the U.S. Department of Census, that was a more sophisticated hedonic index, holding constant such things as square feet of floor space and number of bedrooms, but again it was obviously not trustworthy for testing market efficiency through time since it was based on different homes every quarter, whatever and wherever homes had just been built that quarter. So Case and I constructed our own “repeat sales” home price index based on an inspiration of his (Case 1986) and then on a method we devised that inferred price changes only from the change in prices of individual existing homes (Case and Shiller 1987, 1989, 1990). We showed how a quarterly index could be com- puted even if homes sell much less frequently than quarterly. We discovered that Case’s inspiration was largely anticipated by Baily, Muth and Nourse (1963), but we had a number of improvements, taking better account of heteroscedasticity. Later, I made the index arithmetic and value weighted, as are the most promi- nent stock price indices (Shiller 1991). With my former student Allan Weiss we founded Case Shiller Weiss, Inc. in 1991 and we were the first to produce repeat sales indices in real time for regular publication. Our indices are now produced by CoreLogic, Inc., and the major indices are managed by Standard & Poor’s Corporation.
+
+-----------------------------------------------------Page 21-----------------------------------------------------
+﻿
+480                                         The Nobel Prizes
+
+A plot of our quarterly national index corrected for CPI inflation is shown in Figure 4, along with the Census Constant Quality Index, also converted to real terms.
+
+Simply producing these data and looking at a plot, as shown in Figure 4, yields some surprises. First of all, the home price data are generally extremely smooth through time, except for a small amount of seasonality. Home prices do indeed go through years of price increases and then years of price decreases. So, the random walk model of home price behavior is just not even close to being true for home prices (Case and Shiller 1988). Home prices might seem to be de- scribed as in accordance with model (4) above with the parameter φ extremely large, so that the smart money, who might go in and out of the market quickly in response to news, is hardly a factor.
+
+Secondly, while it was not apparent when we first computed these indices, it is clear from these data from today’s vantage point that there was a huge boom in home prices after 2000 that was not very visible from the Census Constant Quality Index. Why is the boom and bust in home prices after 2000 so much more prominent in our repeat sales index? New homes are built where it is pos- sible and profitable to build them, typically outside congested urban areas where price swings may be most pronounced, and so their level through time may be
+
+180
+
+160
+
+140
+
+120
+
+100
+
+S&P/Case-Shiller
+
+National Home Price Index, Real, 1987=100
+
+80
+
+60
+
+40
+
+20
+
+U.S. Census Price of New Single-Family Houses Sold
+
+Based on Kinds of
+
+Houses Sold in 2005, Real, 1987=100
+
+0
+
+1985        1990        1995        2000        2005        2010        2015
+
+FIGURE 4. Two indices of U.S. home prices divided by the consumer price index (CPI-U), both then scaled to 1987 = 100, monthly 1987–2013.
+
+Real Price Index 1987=100
+
+Date
+
+-----------------------------------------------------Page 22-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    481
+
+more nearly determined by simple construction costs. Thus, our data collection revealed not only market inefficiencies, but much bigger price swings as well. The inefficiency that we documented in single family home prices must be related to market conditions, and so efficiency must be improvable with changes in market institutions. The inefficiency of the market for single family homes relative to that of the stock market must be partly traced to the relatively much higher cost of trading in that market. It is much more costly for professional traders to trade in and out of the market for single family homes to profit from predictable price movements. It is difficult to do short sales of overpriced indi- vidual homes. Buying and selling individual homes may not work well for pro- fessionals also because of high carrying costs, low rental income, moral hazard of the renters who have relatively little incentive to care for the property, and difficulty keeping up with all the local factors that might change the demand for individual houses, so that remote institutional investors would risk being picked off as ignorant losers. Some institutional investors are in the news re- cently thinking they can survive and make money in this market. We will see if they succeed.
+
+We thought that the market efficiency could be improved if an index of home prices could be made tradable. Working with Standard & Poor’s, and with the people in our company MacroMarkets LLC, we helped the Chicago Mercantile Exchange with plans to set up futures markets based on our indices for ten U.S. cities. These markets were launched in 2006, and are still trading today, albeit with nothing close to the volume of trade that we hoped to see in these mar- kets. 22 We hoped that the creation of these new markets would change the na- ture of prices in real estate markets, with price discovery that made the price of homes behave more like the random walk that efficient markets theory suggests. Real estate markets remain wildly inefficient all over the world. We can only look forward to the day when liquid markets support more trade that might per- mit something rather closer to the efficient markets that theorists have expected. To achieve such improvements in efficiency, in real estate markets, in stock markets, or in any speculative markets, it is most helpful to understand the
+
+22   The market maker John Dolan has a website with up-to-date information about this market, http://homepricefutures.com. Our firm MacroMarkets LLC led by Allan Weiss and Sam Masucci also created paired long and short securities, MacroShares, with ticker symbols UMM (for up major metro) and DMM (for down major metro) based on the S&P/Case-Shiller Ten-City Index that traded on the New York Stock Exchange from Au- gust to December 2010.
+
+-----------------------------------------------------Page 23-----------------------------------------------------
+﻿
+482                                         The Nobel Prizes
+
+causes of market inefficiency, and that requires serious study from the broad perspective afforded by an array of other sciences outside of economics.
+
+3. BEHAVIORAL FINANCE AND BEHAVIORAL ECONOMICS
+
+The behavioral economics revolution, which brings psychology and other social sciences into economics, saw its first beginnings in the 1980s, but did not attract public attention until the 1990s. Richard Thaler and I started our behavioral economics workshops at the National Bureau of Economic Research in 1991, and there behavioral finance played the dominant role. 23 There are a number of surveys of the behavioral finance literature, notably Baker and Wurgler (2011), Barberis (2003), Shefrin (2008), Shiller (2003) and Shleifer (2000).
+
+The behavioral finance revolution seemed to take its beginnings from the evidence of market inefficiency that was by then starting to look significant. Once we acknowledge that the efficient markets theory has no special claim to priority for price determination, we can look more sympathetically to other fac- tors to understand market fluctuations. The anomalies literature points indeed to some oddball factors as playing a role. Benos and Jochec (2013) showed that patriotism affects stock prices, in that U.S. stocks with the words “America(n)” or “USA” in their names earn an abnormal return of 6% a year during wartime. Saunders (1993) found that the weather in New York affects stock prices. If such silly things as these affect stock prices, it should be no surprise if more plausible but half-baked theories (about the central bank, fiscal policy, energy prices, the future of capitalism, and on and on) would also affect market prices. Most stock market investors do not pay much attention to fundamental in- dicators of value. We might argue that their inattention is in some sense rational, since there is a cost to collecting information. Christopher Sims has devised a model of rational inattention (2003). But, it is hard to believe that their inatten- tion is systematic and thoughtful. The dominance of mutual funds that charge fees but consistently underperform the market is itself a puzzle for efficient mar- kets theory (Gruber 1996).
+
+A. Early History of Behavioral Finance
+
+Behavioral finance until the 1980s was mostly relegated to the community of investment analysts who did not generally attract notice in academia, and who did not generally draw on research from the social sciences. There were however
+
+23   See http://www.econ.yale.edu/~shiller/behfin/index.htm
+
+-----------------------------------------------------Page 24-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    483
+
+some gems from this period. Notable among these analysts were Benjamin Gra- ham and David Dodd, who, in the 1940 edition of their book Security Analysis , based their investing method on their observations of “ignorance, of human greed, of mob psychology, of trading costs, of weighting of the dice by insiders and manipulators.” 24
+
+Keynes gave a view of speculative markets that was ahead of its time. In his 1936 book The General Theory of Employment, Interest and Money . Keynes de- scribed speculative markets as akin to a newspaper competition he saw offered by a local newspaper to its readers. His metaphor is widely referred to as Keynes’ “beauty contest” theory of the stock market. Each reader was invited to submit from a page with one hundred photos of pretty faces a list of the six that he or she thought prettiest. The winner would be the one whose list most closely cor- responded to the most popular faces among all the lists of six that readers sent in. Of course, to win this contest a rational person would not pick the faces that personally seem prettiest. Instead one should pick the six faces that one thinks others will think prettiest. Even better, one should pick the faces one thinks that others think that others think prettiest, or one should pick the faces one thinks that others think that others think that others think prettiest. The same is true with stock market investing. Keynes thought that “there are some, I believe, who practice the fourth, fifth and higher degrees,” 25 further degrees of removal from reality than was embodied in equation (4) above. That is how speculative markets function, Keynes said. Active participants are trying to buy into their predictions of the conventional valuation of assets in the near future, not the true value.
+
+A key Keynesian idea is that the valuation of long-term speculative assets is substantially a matter of convention, just as it is with judgments of facial beauty. Whatever price people generally have come to accept as the conventional value, and that is embedded in the collective consciousness, will stick as the true value for a long time, even if the actual returns fail for some time to live up to expecta- tions. If an asset’s returns are carefully tabulated and disappoint for long enough, people will eventually learn to change their views, but it may take the better part of a lifetime. And many assets, such as owner-occupied homes, do not have un- ambiguously measured returns, and a mistaken “conventional valuation” based on a faulty popular theory can persist indefinitely. The presumed investment advantages of, say, living in an expensive land-intensive single family home near
+
+24   Graham and Dodd (2002), p. 276.
+
+25   Keynes General Theory (1936), Chapter 12 p. 156 (Harbinger 1965 edition).
+
+-----------------------------------------------------Page 25-----------------------------------------------------
+﻿
+484                                         The Nobel Prizes
+
+a big city rather than renting a cheaper and more convenient apartment in a high-rise there may just not exist, and most people will never figure that out. Conventional valuation can be a very subtle phenomenon at any point of time, reflecting popular theories of the time that are perceived by many, who have never studied the theories, as reflecting professional wisdom. In a beauty contest, people have even less incentive to consider the validity of this wis- dom, since they view it as substantially entrenched in others’ thinking. I am reminded, for example, of Modigliani and Cohn’s (1979) study showing that inflation-induced biases in conventional accounting practices caused a massive understatement of earnings, a study which allowed them to call roughly, within a few years, the historic bottom of the stock market in 1982. The absence of im- mediate reaction to their study was just the kind of thing one might expect to see in a beauty contest world, since no one expected anyone else to react much to their paper.
+
+B. The Blossoming of Behavioral Finance after 1980
+
+The idea that speculative prices are somehow uniquely authoritative, as the best possible judgment of true value, still has its popular appeal even today. But, it has lost its unique claim on the attention of economic theorists. Theoreti- cal models of speculative markets that are analogous to Keynes’ beauty contest theory, that stress the expectation of reselling to other people who may have op- timistic beliefs, have been offered by Harrison and Kreps (1978), Morris (1996), Scheinkman and Xiong (2003), Wu and Guo (2004), Hong Scheinkman and Xiong (2006), Allen Morris and Shin (2006), and Hong and Sraer (2011). In ad- dition, there are also models that represent bubbles as related to leverage cycles tied in with heterogeneous beliefs: Fostel and Geanakoplos (2008), Geanakoplos (2009), Cao (2010), and He and Xiong (2012). Noise trader models (Kyle 1985, De Long et al. 1990) and Campbell and Kyle (1993) have begun to replace mod- els with all rational agents.
+
+Moreover, there are models of financial markets that replace the assump- tion of rational expected-utility-maximizing agents with alternative models of human behavior, such as Prospect Theory (Kahneman and Tversky 1979). Pros- pect theory, which is a theory of human choice in the face of risk that is based on experimental evidence in the psychology laboratory, is not a theory of ratio- nality in the traditional sense, for it recognizes violations of the basic axioms of rational behavior (Savage, 1954).The human behavior prospect theory describes is vulnerable to the arbitrariness of psychological framing; insignificant changes in context or suggestion can produce profound differences in human behavior.
+
+-----------------------------------------------------Page 26-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    485
+
+Barberis, Huang and Santos showed (2001) that prospect theory with in- vestors who derive direct utility from fluctuations in the value of their wealth can help explain the excess volatility of stock market. returns. A “house money effect” can help make bubbles grow even bigger—an analogy to gamblers at ca- sinos who, after they have won some money, become very risk tolerant with that money because they frame it as somebody else’s money that they can afford to lose. Investors’ “narrow framing” (Barberis, Huang and Thaler 2006) and the disposition to sell winners and hold losers (Shefrin and Statman 1985) can ex- plain other evidence against efficient markets.
+
+The field of psychology offers many other principles of human behavior that have been shown to be relevant for evaluating the efficient markets theory. For example, there is evidence that a general human tendency towards overconfi- dence causes investors to trade too much (Odean, 2000) and CEOs to squander internally generated funds on pet projects (Malmendier and Tate, 2005). There is a tendency for investors to be overly distracted by news stories (Barber and Odean, 2008) and to overreact to cash dividends (Shefrin and Statman, 1984). Financial theory has also advanced to allow us a better understanding of the effects of the ambiguity regarding probabilities, the fundamental difficulties in placing numerical values for probabilities, that Keynes spoke of, Bewley (2002), Bracha and Brown (2013).
+
+Psychologists have documented a tendency for people to anchor their opin- ions in ambiguous situations on arbitrary signals that are psychologically salient even if they are obviously irrelevant (Tversky and Kahneman 1974).
+
+Neuroscience has begun to understand how the human brain handles am- biguity. Hsu et al. (2005) and Huettel et al. (2006) use functional magnetic im- aging to study brain reactions to situations with clear versus ambiguous prob- abilities, Huettel et al. concluded that “decision making under ambiguity does not represent a special, more complex case of risky decision making, instead, these two forms of uncertainty are supported by distinct mechanisms.” 26 The rapid progress we are now seeing in neuroscience will likely yield new insights into the ambiguity, animal spirits and caprice that Keynes and others since him have stressed.
+
+4. IMPLICATIONS FOR FINANCIAL INNOVATION
+
+The financial institutions that we have today are the product of centuries of experience with the volatility of speculative asset prices, with the important
+
+26   Huettel et al. (2006), p. 765.
+
+-----------------------------------------------------Page 27-----------------------------------------------------
+﻿
+486                                         The Nobel Prizes
+
+information discovery that these market prices can reveal, as well as the po- tential for erratic behavior in these markets. The reliability of these markets in revealing genuine information about fundamentals is not terrific, but it is cer- tainly not negligible either, and the reliability might be improved through time with better financial institutions. Efficient markets should be considered a goal, not an established fact. The financial institutions that we have are the results of experimentation designing around this experience; the institutions we will have in the future depend on our continuing experimentation and redesign. Like mechanical engineering, financial engineering should pay attention to human factors, to make devices that serve people well with full consideration of human talents and foibles. As this experience accumulates with each successive financial crisis and each improvement in information technology, financial in- novation can make these institutions work better for humankind.
+
+For example, the very invention centuries ago of stock markets has created an atmosphere for investing that—while it regularly produces the excesses of bubbles—creates an incentive for people to launch exciting new enterprises, to keep up to date on relevant information, and to protect themselves if they want from the inevitable risks of those very bubbles.
+
+As David Moss (2002) has chronicled, a general limited liability statute cov- ering all stock market investors was not such an obviously good idea when the world’s first such law was passed in New York in 1811, but it turned out to be of fundamental importance for investors’ psychology. By clearly forbidding su- ing shareholders for a company’s sins, it limited the downside risk of investing to psychologically manageable proportions (no more worries that any one of your investments could explode and land you in debtors’ prison), and it permit- ted portfolio diversification to proceed without exhaustive investigation of each company’s management. 27 The stock market became an exciting place, like a gambling casino, but tied to business reality rather than mere amusement, and it was a place where investors could diversify and limit their risks. It therefore was highly effective in attracting capital for enterprise.
+
+More recently, people have been experimenting with other details of the stock markets, such as insider trader rules, risk retention rules, capital require- ments, and other factors. These interact with human psychology in ways that can improve market functioning but whose effects cannot be accurately foretold from any received theory.
+
+27   Moss (1984) documents much discussion and experimentation with liability rules in the early 19th century, as with “double liability” that limits shareholders’ liability to twice their initial investment, or liability that ends when the shares are sold.
+
+-----------------------------------------------------Page 28-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    487
+
+Much of my work has been involved in considering how both financial theory and human factors need to be considered in designing new financial structures. I have written a number of books devoted to this: Who’s Minding the Store? (1992), Macro Markets (1993), New Financial Order (2003), Subprime So- lution (2008) and Finance and the Good Society (2012). Most of the ideas I have expressed in those books are calls for experimentation, not finished ideas. The ideas I discussed are mostly as yet untested, and their final forms, if and when they ever do get implemented—perhaps in the distant future, and with far better information technology—are hard to see in advance.
+
+The ideas in these books, and associated articles, are diverse, go in many di- rections, and have to be judged as beginnings of ideas. They may look awkward just as the earliest designs of aircraft did; their later incarnations may look less so. The overarching theme of this work of mine is that we need to democratize and humanize finance in light of research on human behavior and the function- ing of markets (Shiller 2011). Democratizing finance means making financial institutions work better for real people, dealing with the risks that are most im- portant to them individually, and providing opportunities for inspiration and personal development. Humanizing finance means making financial institu- tions interact well with actual human behavior, taking account of how people really think and act.
+
+Lionel Robbins, with his 1932 book An Essay on the Nature and Significance of Economic Science has had the honor of inventing the most common definition today of economic science, of the unifying core idea that defines this science. He wrote then:
+
+The economist studies the disposal of scarce means. He is interested in the way different degrees of scarcity of different goods give rise to different ratios of valuation of them, and he is interested in the way in which changes in conditions of scarcity, whether coming from changes in ends or changes in means—from the demand side or the supply side—affect these ratios. 28
+
+The importance of prices in allocating scarce resources is an idea whose be- ginnings go back at least to Adam Smith in the 18th century, with his “invisible hand,” and there was a certain wisdom in Robbin’s framing of the entire field of economics around this idea. This wisdom still today is not fully apparent to the untrained public. Most people do not appreciate that all of our economic activities and all of our pleasures and satisfactions, and those of subsequent
+
+28   Robbins 1932 p. 15.
+
+-----------------------------------------------------Page 29-----------------------------------------------------
+﻿
+488                                         The Nobel Prizes
+
+generations, are ultimately guided by prices of scarce resources as formed in the markets.
+
+There is a problem, however, with the interpretation of economics that Robbins so persuasively gave. For his definition appeared to cast the economic problem exclusively as about scarcity of production resources, like energy and food, rather than also about scarcity of human intellectual and psychological resources. He casts the problem as man against nature, when in fact much of the economic problem is dealing with man against himself. 29
+
+Long-term asset prices as they are observed today—prices of stocks, bonds, real estate, and commodities, and prices of derivative products such as futures, swaps and options, and of other institutions like long-term insurance—are es- pecially significant for economics, and especially problematic, since the scar- city that these prices represent is one that is never really objective and directly revealed today. Their levels are influenced by expectations of the distant, and generally nebulous, future. The market prices of speculative assets at any given time reflect, as is commonly asserted, both tastes and technology of that time. But they also reflect expected tastes and technology of the future, the likelihood of discovery of new resources or the technology to develop them. They also reflect sociology and social psychology, and anticipated future changes in these, in government policy such as taxation, and in other primary forces—such as changes in the inequality of incomes and likely social and governmental reac- tions to these, the potential threat of wars and other catastrophes, and the likely use of and policy towards the assets in such times.
+
+Fischer Black, in his 1984 presidential address before the American Finance Association, offered a new definition of market efficiency: He redefined an “ef- ficient market” as “one in which price is within a factor of 2 of value, i. e., the price is more than half of value and less than twice value . . . By this definition, I think almost all markets are efficient almost all of the time.” 30
+
+And yet, even assuming he is somehow right, the existing efficient markets theory remains the fundamental framework from which much economic policy decisions, and decisions to innovate or not, are made. No one would seriously propose the elimination of stock markets even if we all accepted Fischer Black’s impression as fact. So, why should we not consider other risk markets, markets that have not come into being yet just through accidents of history and timing of associated technological breakthroughs?
+
+29   See for example Mullainathan and Shafir (2013). 30   Black (1986). p. 533.
+
+-----------------------------------------------------Page 30-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    489
+
+Institutions can be redesigned so that they reframe people’s thinking, to the longer term and to things that are better subjects for their attention, by making markets for risks that are better tied to fundamentals people should be thinking about. Institutions that change framing might sometimes qualify as institutions providing a “nudge” as Richard Thaler and Cass Sunstein (2009) have put it, suggesting the right direction for people without being coercive. They base their thinking on a philosophy they call “libertarian paternalism” emphasizing the government’s providing incentives for appropriate behavior without coercion. Though our groundings in behavioral economics are similar, I wouldn’t stress that term, perhaps because it seems to suggest a top-down structure for society, with government at the top. The development of financial capitalism seems to be, or can be, a matter of the voluntary organization of most of society, integrat- ing the activities of people in all walks of life in fulfillment of their diverse pur- poses. A vision for a better financial capitalism should not be top-down at all. Some recent examples of financial innovation, examples of new experi- ments, can help clarify how innovation might help in an imperfect financial world. Consider first the social policy bonds proposed by Ronnie Horesh (1999), which have taken recently taken actual form by the social impact bonds first is- sued with the help of the nonprofit Social Finance Ltd in 2010 in the United Kingdom. These redirect speculative impulses into solving social problems over a meaningful horizon that is chosen by the issuer to be neither too short nor too long to allow effective solutions.
+
+Consider also the new crowdfunding initiatives, to create websites that allow large numbers of dispersed people each to share information and each to invest a small amount of money directly into new enterprises, without the usual finan- cial intermediaries, which have sprouted in many places around the world, with web sites like kiva.org or kickstarter.com. They are poised after the U.S. Jump- start Our Business Startups (JOBS) Act of 2012 to transform venture capital. Such innovations can and certainly will cause some runaway bubbles and abuse of ignorant investors. But they could on the other hand, if designed and regu- lated right, create a new way of arousing animal spirits and focusing informed attention onto venture investments. Crowdfunding may be more effective in funding ideas that are hard to prove, whose payoff is not immediate, that have a subtle social, environmental or inspirational purpose beyond mere profits, and that only a small percentage of the population is equipped to understand. Consider also the new benefit corporations that are now offered in twenty U.S. states. They are amalgams of for-profit and non-profit corporations, fun- damentally changing the mental framing that investors are likely to have of their investments in them, and encouraging both investors’ excitement and
+
+-----------------------------------------------------Page 31-----------------------------------------------------
+﻿
+490                                         The Nobel Prizes
+
+more idealistic thinking about these investments. 31 The participation nonprofit business form that I advocated (2012), which makes nonprofits psychologically more similar to equity-financed business, would, if it is ever implemented, in- crease philanthropy and make it more effective.
+
+These are only the beginning of the financial innovations that we might ex- pect to see in our future, helped along by our improved understanding of behav- ioral finance, of mathematical economics, and steadily improving information technology. In particular, it would seem that great benefit can be derived by expanding the scope of our financial markets, to allow trading of risks that re- ally matter.
+
+We might benefit from the expansion of trading to include trading of other indices that have only recently come to be measured but that reflect real and important risks. I have already alluded to the futures market for single family homes that was started at the Chicago Mercantile Exchange in 2006, and if that market becomes more successful it will eventually provide price discovery for a value of great personal importance to individuals, and might lead to a cash market for real estate that is not so woefully inefficient. The home futures mar- ket, if it became more successful, would facilitate the creation of many more risk management products, such as home equity insurance (Shiller and Weiss 1998) or mortgages with preplanned workouts (Shiller 2012, Shiller, Wojakowski et al. 2013).
+
+Had there been a well-developed real estate market before the financial crisis of 2008 it would plausibly have reduced the severity of the financial crisis, be- cause it would have allowed, even encouraged, people to hedge their real estate risks. The severity of that crisis was substantially due to the leveraged undiver- sified positions people were taking in the housing market, causing over fifteen million U.S. households to become underwater on their mortgages, and thus reducing their spending. There is no contradiction at all in saying that there are bubbles in the housing market, yet saying that we ought to create better and more liquid markets for housing.
+
+Even further, I along with others have argued that a market for claims on the flow of gross domestic product or other large macroeconomic aggregates should be developed, to help countries share their risks, Shiller (1993, 2003, 2008), Athanasoulis and Shiller (2000, 2001), Kamstra and Shiller (2009), or markets for other significant economic variables like occupational incomes to share their livelihood risks (Shiller 1993, Shiller and Schneider 1998, Shiller 2003).
+
+31   See http://benefitcorp.net/
+
+-----------------------------------------------------Page 32-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    491
+
+Had the government debts of European countries taken the form of GDP shares, then most likely we would not have had the severe European sover- eign debt crisis that started in 2009, for the countries would not have as big a short-run refinancing problem and would find their government obligations cushioned by declining obligations due to declining GDP. Had people sought protection for their own welfare by hedging themselves in occupational income markets, many of them would have suffered less in this crisis.
+
+Examples of innovations that might reframe into better and longer-term thinking about fundamentals include the “perpetual futures” that I have pro- posed (1993) 32 , or the application the concept of index participations developed by the American Stock Exchange in 1989 to flow indexes 33 , or the long-term MacroShares my colleagues and I once have striven to launch based on vari- ous indices 34 , or the markets for individual future dividend dates on stock price indices that Michael Brennan (1999) argued might “focus investor attention on the fundamentals that determine the value of the index rather than simply on the future resale value of the index.” 35
+
+The development of inflation-indexed bonds, which have gradually grown in importance over the last half century worldwide, are an important past success, but as yet an incomplete one. Such markets, and other indexing in- stitutions, might be enhanced by further deliberate changes in psychological framing. If inflation-indexed units of account, which create an easier way in our language to refer to indexed quantities, were created and widely used, they would help people around their money illusion which inhibits intelligent design of contracts around the real outcomes that really matter. I have been advocating the proliferation of these units of account where they first began in Chile (2002), and in the United States (2003), and the United Kingdom (2009). 36 Their wide- spread use might have helped prevent the real estate bubble that preceded the
+
+32   These are defined in Shiller (1993) in terms of a daily settlement formula involving both the change in settle price and another index representing a cash flow. 33   See Shiller (1993) p. 40.
+
+34   In 2006 our firm MacroMarkets LLC launched paired long and short twenty-year oil MacroShares on the American Stock Exchange, with ticker symbols UCR for Up-Crude and DCR for Down-Crude. The securities traded from November 2006 to June 2008, and at one point reached US$1.6 billion in total value, but were not ultimately a success. 35 Brennan (1999) p. 12. Since 2008, dividend futures markets for stock price indices have appeared on a number of European and Asian exchanges, though it is not clear that these new markets have had much of the desired effect of reframing investors’ thinking. 36   Chile created its Unidad de Fomento (UF) in 1967, still in use there today, http://valo- ruf.cl/
+
+-----------------------------------------------------Page 33-----------------------------------------------------
+﻿
+492                                         The Nobel Prizes
+
+current financial woes, a bubble that was likely helped along by the widely-held impression that single family homes have historically shown high real capital gains when in fact over the last century the gains overall have been only nominal and hence illusory (Shiller 2005).
+
+We want such innovations, if not exactly the ones I and others have been advocating to date, because their predecessor innovations, the financial institu- tions we already have today, have brought such prosperity, despite the occasional big disruptions caused by bubbles and financial crises. There is no economic system other than financial capitalism that has brought the level of prosperity that we see in much of the world today, and there is every reason to believe that further expansion of this system will yield even more prosperity.
+
+The patterns of behavior that have been observed in speculative asset prices are consistent with a view of market efficiency as a half-truth today and at the same time with a view that there are behavioral complexities in these markets that need to be met with properly engineered financial innovations and finan- cial regulations.
+
+Changes in our financial institutions that take the form of creative reinven- tions in the kinds of risks traded, that change the psychological framing of the things traded, that change our social relations with business partners and adver- saries, can make financial markets less vulnerable to excesses and crashes and more effective in helping us achieve our ultimate goals.
+
+REFERENCES
+
+Akerlof, George A., and Robert J. Shiller. 2009. Animal Spirits: How Human Psychology Drives the Economy and Why this Matters for Global Capitalism , Princeton: Princ- eton University Press.
+
+Allen, Franklin, Stephen Morris, Hyun Song Shin. 2006. “Beauty Contests, Bubbles and Iterated Expectations in Financial Markets.” Review of Financial Studies , 19:719–52. Ang, Andrew, and Geert Bekaert. 2007. “Stock Return Predictability: Is It there?” Review
+
+of Financial Studies , 20:651–757.
+
+Arnott, Robert D., and Clifford S. Asness. 2003. “Surprise! Higher Dividends = Higher
+
+Earnings Growth.” Financial Analysts Journal , 59(1):70–87.
+
+Athanasoulis, Stefano, and Robert J. Shiller. 2000. “The Significance of the Market Port-
+
+folio,” Review of Financial Studies , 13:2, 301–329.
+
+———. 2001.” World Income Components: Measuring and Exploiting Risk Sharing Op-
+
+portunities,” American Economic Review , 91(4):1031–54.
+
+Bailey, Martin J., Richard F. Muth and Hugh O. Nourse. 1963. “A Regression Method for Real Estate Price Index Construction.” Journal of the American Statistical Associa- tion , 58:933042.
+
+-----------------------------------------------------Page 34-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    493
+
+Baker, Malcolm, and Jeffrey Wurgler, “Behavioral Corporate Finance: An Updated Sur-
+
+vey.” NBER Working Paper No. 17333.
+
+Barber, Brad, and Terrance Odean. 2008. “All that Glitters: The Effect of Attention on the Buying Behavior of Individual and Institutional Investors.” Review of Financial Studies , 21(2):785–818.
+
+Barberis, Nicholas. 2003. “A Survey of Behavioral Finance.” Elsevier: Handbook of the
+
+Economics of Finance .
+
+Barberis, Nicholas, Robin Greenwood, Lawrence Jin, and Andrei Shleifer. 2013. “X- CAPM: An Extrapolative Capital Asset Pricing Model.” Working paper, Yale University.
+
+Barberis, Nicholas, Andrei Shleifer and Robert Vishny. 1998. “A Model of Investor Senti-
+
+ment.” Journal of Financial Economics , 49(3):307–43.
+
+Barberis, Nicholas, Ming Huang and Tano Santos. 2001. “Prospect Theory and Asset
+
+Prices.” Quarterly Journal of Economics , 116(1):1–53.
+
+Barberis, Nicholas, Ming Huang and Richard H. Thaler. 2006. “Individual Preferences, Monetary Gambles, and Stock Market Participation: A Case for Narrow Framing.” American Economic Review , 96(4):1069:1090.
+
+Beltratti, Andrea, and Robert J. Shiller. 1993. “Actual and Warranted Movements in Asset
+
+Prices.” Oxford Economic Papers , 45:387–402.
+
+Benos, Evangelos, and Marek Jochec. 2013. “Patriotic Name Bias and Stock Returns.”
+
+Journal of Financial Markets , 16(3):550–70.
+
+Bewley, Truman. 2002. “Knightian Decision Theory. Part I” Decisions in Economics and
+
+Finance , 25(2):79–110.
+
+Black, Fischer. 1986. “Noise.” Journal of Finance , 41:529–43.
+
+Bracha, Anat, and Donald J. Brown. 2013. “(IR)Rational Exuberance: Optimism, Ambi-
+
+guity and Risk.” New Haven: Cowles Foundation Discussion Paper No. 1898.
+
+Brennan, Michael. 1999. “Stripping the S&P 500 Index.” Financial Analysts Journal ,
+
+54(1):12–22.
+
+Brunnermeier, Markus, Alp Simsek and Wei Xiong. 2013. “A Welfare Criterion for Mod-
+
+els with Distorted Beliefs.” Unpublished paper, Princeton University.
+
+Buiter, Willem. 1987. “Efficient ‘Myopic” Asset Pricing in General Equilibrium: A Poten-
+
+tial Pitfall in Excess Volatility Tests.” Economics Letters , 25(2):143–8.
+
+Bunn, Oliver, and Robert J. Shiller. 2013. “Changing Times, Changing Values: A His- torical Analysis of Sectors within the U.S. Stock Market.” unpublished paper, Yale University.
+
+Campbell, John Y. 1991. “A Variance Decomposition for Stock Returns.” Economic Jour-
+
+nal , 101:57–179.
+
+Campbell, John Y. and John Ammer. 1993. “What Moves the Stock and Bond Markets? A Variance Decomposition for Long-Term Asset Returns.” Journal of Finance , 48:3–37. Campbell, John Y., and John Cochrane. 1999. “By Force of Habit: A Consumption-Based Explanation of Aggregate Stock Market Behavior.” Journal of Political Economy , 107:205–51.
+
+Campbell, John Y. and Albert S. Kyle. 1993. “Smart Money, Noise Trading, and Stock
+
+Market Behavior.” Review of Economic Studies , 60(1):1–34.
+
+-----------------------------------------------------Page 35-----------------------------------------------------
+﻿
+494                                         The Nobel Prizes
+
+Campbell, John Y., Christopher Polk and Tuomo Vuolteenaho. 2010. “Growth or Glamor? Fundamentals and Systemtic Risk in Stock Returns.” Review of Financial Studies , 23:305–44.
+
+Campbell, John Y., and Robert J. Shiller. 1987. “Cointegration and Tests of Present Value
+
+Models.” Journal of Political Economy, 95:1062–1088.
+
+——— and ———. 1996. “The Dividend-Price Ratio and Expectations of Future Divi- dends and Discount Factors,” with J.Y. Campbell, Review of Financial Studies , 1:3, 195–228, fall 1988.
+
+——— and ———. 1989. “The Dividend Ratio Model and Small Sample Bias: A Monte
+
+Carlo Study.” Economics Letters , 29:325–31.
+
+——— and ———. 1988. “Interpreting Cointegrated Models,” with J.Y. Campbell, Jour- nal of Economic Dynamics and Control , Special Issue, ed. M. Aoki, “Economic Time Series Models with Random Walk and Other Nonstationary Components,” 12:505–522.
+
+———, and ———. 1988. “Stock Prices, Earnings and Expected Dividends.” Journal of
+
+Finance , 43:3, 661–76.
+
+———, and Luis Viceira. 2002. Strategic Asset Allocation . New York: Oxford University
+
+Press.
+
+———, and Tuomo Vuolteenaho. 2004. “Bad Beta, Good Beta.” American Economic Re-
+
+view , 94:1249–75.
+
+Campbell, John Y. and Luis Viceira. 2002. Strategic Asset Allocation , New York: Oxford
+
+University Press.
+
+Campbell, John Y., and Motohiro Yogo. 2006. “Efficient Tests of Stock Return Predict-
+
+ability.” 81(1):27–60.
+
+Case, Karl E. 1986. “The market for Single Family Homes in Boston.” New England Eco-
+
+nomic Review , May/June, 38–48.
+
+Case, Karl E., and Robert J. Shiller. 1988. “The Behavior of Home Buyers in Boom and
+
+Post-Boom Markets.” New England Economic Review , Nov/Dec pp. 29–46.
+
+——— and ———. 1989. “The Efficiency of the Market for Single Family Homes.” Ameri-
+
+can Economic Review , 79:1, 125–37.
+
+——— and ———. 1990. “Forecasting Prices and Excess Returns in the Housing Market.”
+
+AREUEA Journal , 18(3): 253–73.
+
+———, and ———. 2004. Is There a Real Estate Bubble?” Brookings Papers on Economic
+
+Activity , 2004-I.
+
+——— and ———. 1987. “Prices of Single-Family Homes Since 1970: New Indexes for
+
+Four Cities,” with Karl E. Case, New England Economic Review , pp. 46–56.
+
+Case, Karl E., Robert J. Shiller and Anne Kinsella Thompson. 2012. “What Have They Been Thinking? Home Buyer Behavior in Hot and Cold Markets.” Brookings Papers on Economic Activity, 2012–II.
+
+Case, Karl E., Robert J. Shiller, and Allan N. Weiss. 1993. “Index-Based Futures and Op-
+
+tions Trading in Real Estate.” Journal of Portfolio Management , Winter.
+
+Chen, Long, and Xinlei Zhao. 2009. “Return Decomposition.” Review of Financial Stud-
+
+ies , 22(12):5212–49.
+
+———. 2013. “What Drives Stock Price Movements?” Review of Financial Studies ,
+
+26(4):841–76.
+
+-----------------------------------------------------Page 36-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    495
+
+Chen, Long, Zhi Da and Richard Priestly. 2012. “Dividend Smoothing and Predictabil-
+
+ity.” Management Science , 58(10):
+
+Cochrane, John H. 2001. Asset Pricing . Princeton NJ: Princeton University Press. ———. 2007. “The Dog that Did Not Bark: A Defense of Return Predictability.” Review of
+
+Financial Studies , 21(4):1533–1575.
+
+———. 1992. “Explaining the Variance of Price-Dividend Ratios.” Review of Financial
+
+Studies , 5:243–280.
+
+———. 1991. “Volatility Tests and Efficient Markets Theory: A Review Essay.” Journal of
+
+Monetary Economics , 27:463–85.
+
+Cootner, Paul. 1964. The Random Character of Stock Market Prices . MIT Press.
+
+Cutler, David, James Poterba, and Lawrence Summers. 1990. “Speculative Dynamics and the Role of Feedback Traders.” American Economic Review Papers and Proceedings , 80:63–68.
+
+Cutler, David M, James M. Poterba, and Lawrence H. Summers. 1989. “What Moves
+
+Stock Prices?” The Journal of Portfolio Management , 15(3):4–12.
+
+Debondt, Werner F. M., and Richard H. Thaler. 1985. “Does the Stock Market Overre-
+
+act?” Journal of Finance , 40:557–81.
+
+De Long, J. Bradford, Andrei Shleifer, Lawrence Summers, and Robert Waldmann. 1990. “Noise Trader Risk in Financial Markets.” Journal of Political Economy , 98(4):703–38. Dolley, James C. 1933. “Common Stock Split-Ups—Motives and Effects.” Harvard Busi-
+
+ness Review , 12(1):70–81.
+
+Durkheim, Émile. 1893. De la division du travail social . Paris: Alcan.
+
+Economic Sciences Prize Committee of the Royal Swedish Academy of Sciences. 2013. Scientific Background on the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel. 2013 . http://www.nobelprize.org/nobel_prizes/economic-sciences/ laureates/2013/advanced-economicsciences2013.pdf
+
+Engsted, Tom, Thomas Q. Pedersen and Carsten Tanggaard. 2012. “Pitfalls in VAR Based Return Decompositions: A Clarification.” Journal of Banking and Finance , 36(5):1255–65.
+
+Fabozzi, Frank, Robert Shiller and Radu Tunaru. 2009. “Hedging Real Estate Risk.” Jour-
+
+nal of Portfolio Management , 35(5):92–103
+
+Fama, Eugene, 1965 “Random Walks in Stock Market Prices.” Financial Analysts Journal ,
+
+Sept/Oct. pp. 55–59.
+
+Fama, Eugene. 1964. The Distribution of the Daily Differences of the Logarithms of Stock Prices . Ph.D. Dissertation, University of Chicago. Reprinted in The Journal of Busi- ness as “The Behavior of Stock Market Prices,” 38(1):34–105.
+
+———. 1970. “Efficient Capital Markets: A Review of Theory and Empirical Work.” Jour-
+
+nal of Finance , 25, 383-417.
+
+———. 1971. “Risk, Return, and Equilibrium.” Journal of Political Economy , 79:1. ———. 2013. “Two Pillars of Asset Pricing.” Prize Lecture for 2013 Nobel Prize in Eco-
+
+nomic Sciences, http://www.nobelprize.org/mediaplayer/index.php?id=1994
+
+Fama, Eugene F., Lawrence Fisher, Michael Jensen and Richard Roll. 1969. “The Adjust- ment of Stock Prices to New Information.” International Economic Review , 10:1–21. Fama, Eugene, and Kenneth R. French. 1988. “Permanent and Temporary Components
+
+of Stock Prices.” Journal of Political Economy , 96:2.
+
+-----------------------------------------------------Page 37-----------------------------------------------------
+﻿
+496                                         The Nobel Prizes
+
+Flavin, Marjorie. 1983. “Excess Volatility in the Financial Markets: A Reassessment of the
+
+Empirical Evidence.” Journal of Political Economy , 96:246–73.
+
+Fostel, Ana, and John Geanakoplos. 2008. “Leverage Cycles in an Anxious Economy.”
+
+American Economic Review , 93:1211–1244.
+
+Garber, Peter M. 2000. Famous First Bubbles: The Fundamentals of Early Manias . Cam-
+
+bridge, MA: MIT Press.
+
+Geanakoplos, John. 2009. “The Leverage Cycle.” NBER Macroeconomics Annual 24 , 1–65. Galbraith, John Kenneth. 1954. The Great Crash, 1929 . Boston: Houghton Mifflin. Gibson, George. 1889. The Stock Markets of London, Paris and New York . New York: G.P.
+
+Putnam’s Sons.
+
+Goetzmann, William N., and K. Geert Rouwenhorst, editors, The Origins of Value: The Financial Innovations that Created Modern Capital Markets . Oxford: Oxford Uni- versity Press.
+
+Goetzmann, William N., Catherine Labio, K. Geert Rouwenhorst and Timothy G. Young, editors. 2013. The Great Mirror of Folly: Finance, Culture and the Crash of 1720 . New Haven: Yale University Press.
+
+Goyal, Amit, and Ivo Welch. 2008. “A Comprehensive Look at the Empirical Perfor- mance of Equity Premium Prediction.” Review of Financial Studies , 21:1455–508. ——— and ———. 2003. “Predicting the Equity Premium with Dividend Ratios.” Man-
+
+agement Science , 49:639–54.
+
+Graham, David, and David Dodd. 2002. Security Analysis: The Classic 1940 Edition . Mc-
+
+Graw Hill.
+
+Greenwood, Robin, and Andrei Sheifer. 2013. “Expectations of Returns and Expected
+
+Returns.” NBER Working Paper No 18686, January.
+
+Grossman, Sanford, and Robert J. Shiller, 1981. “The Determinants of the Variability of
+
+Stock Market Prices.” American Economic Review , 71:222 27.
+
+Gruber, Martin J. 1996. “Another Puzzle: The Growth in Actively Managed Funds.” Jour-
+
+nal of Finance , 51:783–810.
+
+Halbwachs, Maurice. 1925. “Les Cadres Sociaux de la Mémoire,” in Les Travaux de
+
+L’Année Sociologique , Paris: Alcan.
+
+Hansen, Lars Peter. 1991. “Implications of Security Market Data for Models of Dynamic
+
+Economies.” Journal of Political Economy , 99:2.
+
+———. 2013. “Uncertainty Outside and Inside Economics Models.” Prize Lecture for 2013 Nobel Prize in Economic Science Sciences, http://www.nobelprize.org/media- player/index.php?id=1994
+
+Hansen, Lars Peter, and Kenneth J. Singleton. 1983. “Stochastic Consumption, Risk- Aversion, and the Temporal Behavior of Asset Returns.” Journal of Political Econ- omy , 91(6):929–56.
+
+Harrison, Michael, and David Kreps. 1978. “Speculative Investor Behavior in a Stock Mar- ket with Heterogeneous Expectations.” Quarterly Journal of Economics , 92:323–36. Horesh, Ronnie. 2000. “Injecting Incentives into the Solution of Social Problems: Social
+
+Policy Bonds.” Economic Affairs , 20(3):2.
+
+Hansen, Lars Peter, and Kenneth J. Singleton. 1983. “Stochastic Consumption, Risk Aver- sion, and the Temporal Behavior of Asset Returns.” Journal of Political Economy 91:2.
+
+-----------------------------------------------------Page 38-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    497
+
+———, and Ravi Jagannathan. 1991. “Implications of Security Market Data for Models of
+
+Dynamic Economies.” Journal of Political Economy , 99(2):225–92.
+
+Holden, Karen C., and Pamela J. Smock. 1991. “The Economic Costs of Marital Dissolu- tion: Why Do Women Bear a Disproportionate Cost?” Annual Review of Sociology , 17:51–78. http://www.jstor.org/stable/208333.
+
+Hong, Harrison, Jose Scheinkman and Wei Xiong. 2006. “Asset Float and Speculative
+
+Bubbles.” Journal of Finance , 61:1073–1117.
+
+———, and David Sraer. 2011. “Quiet Bubbles.” Working Paper, Princeton University. Hsu, Ming, Meghana Batt, Ralph Adolphs, Daniel Tranel and Colin F. Camerer. 2005. “Neural Systems Responding to Degrees of Uncertainty in Human Decision-Mak- ing.” Science , 310:1680–1683.
+
+Huettel, Scott A., C. Jill Stowe, Evan M. Gordon, Brent T. Warner and Michael L. Platt. 2006. “Neural Signatures of economic Preferences for Risk and Ambiguity. Neuron , 49(5):765–775.
+
+Janis, Irving. 1982. Groupthink: Psychological Studies of Policy Decisions and Fiascoes ,
+
+Boston: Houghton Mifflin.
+
+Jung, Jeeman, and Robert Shiller. 2005. “Samuelson’s Dictum and the Stock Market.” Eco-
+
+nomic Inquiry , Vol. 43, Issue 2, pp. 221–228.
+
+Kahneman, Daniel, Jack Knetsch, and Richard Thaler, “Fairness as a Constraint on Profit
+
+Seeking: Entitlements in the Market.” American Economic Review , 76(4): 1986.
+
+Kahneman, Daniel, and Amos Tversky. 2000. Choices, Values and Frames . Cambridge:
+
+Cambridge University Press.
+
+———. 1979. Prospect Theory: An Analysis of Decision under Uncertainty.” Economet-
+
+rica , 47:236–91.
+
+Kamstra, Mark, and Robert J. Shiller. 2009. “The Case for Trills: Giving the People and Their Pension Funds a Stake in the Wealth of the Nation.” New Haven: Cowles Foundation, Working Paper No. 1717.
+
+Keynes, John Maynard. 1936. The General Theory of Employment Interest and Money .
+
+London: MacMillan.
+
+———. 1921. A Treatise on Probability . London: Macmillan.
+
+Kindleberger, Charles Poor. 1978. Manias, Panics and Crashes: A History of Financial
+
+Crises . New York: Macmillan.
+
+Kleidon, Allan W. 1986. “Variance Bounds Tests and Stock Price Valuation Models.” Jour-
+
+nal of Political Economy , 94:953–1001.
+
+Koopmans, Tjalling. 1951. “Efficient Allocation of Resources.” Econometrica ,
+
+19(4):455–65.
+
+Kruskal, William, and Frederick Mosteller. 1980. “Representative Sampling, IV: The His- tory of the Concept in Statistics, 1895–1939.” International Statistical Review / Revue Internationale de Statistique , Vol. 48, No. 2 pp. 169–195.
+
+Kübler, Felix, and Karl Schmedders. 2012. “Financial Innovation and Asset Price Volatil-
+
+ity.” American Economic Review , 102(3):147–51.
+
+Kyle, Albert. 1985. “Continuous Auctions and Insider Trading.” Econometrica ,
+
+53(6):1315–1335.
+
+LeRoy, Stephen F. 1973. “Risk Aversion and the Martingale Property of Stock Prices.”
+
+International Economic Review , 14(2):436–66.
+
+-----------------------------------------------------Page 39-----------------------------------------------------
+﻿
+498                                         The Nobel Prizes
+
+LeRoy, Stephen F., and Richard D. Porter. 1987. “Stock Price Volatility: Tests Based on
+
+Implied Variance Bounds.” Econometrica , 49:97–113.
+
+Lewellen, Jonathan. 2004. “Predicting Returns with Financial Ratios.” Journal of Finan-
+
+cial Economics , 74(2):209–35.
+
+Lucas, Robert E. 1978. “Asset Prices in an Exchange Economy.” Econometrica ,
+
+46(6):1429–45.
+
+Malmendier, Ulrike, and Geoffrey Tate. 2005. “CEO Overconfidence and Corporate In-
+
+vestment.” Journal of Finance , 60(6):2661–2700.
+
+Marsh, Terry A., and Robert C. Merton. 1986. “Dividend Variability and Variance Bound Tests for the Rationality of Stock Market Prices.” American Economic Review , 76:483–98.
+
+Modigliani, Franco, and Richard Cohn. 1979. “Inflation, Rational Valuation and the
+
+Market.” Financial Analysts Journal , 35(2):24–44.
+
+Morris, Stephen. 1996. “Speculative Investor Behavior and Learning.” Quarterly Journal
+
+of Economics , 62:1327–47.
+
+Moss, David A. 2002. When All Else Fails: the Government as Ultimate Risk Manager .
+
+Cambridge: Harvard University Press.
+
+Mullainathan, Sendhil, and Eldar Shafir. 2013. Scarcity . Princeton: Princeton University
+
+Press.
+
+Mullainathan, Sendhil, and Andre Shleifer. 2005. “The Market for News.” American Eco-
+
+nomic Review , 95(4):1031.
+
+Odean, Terrance. 2000. “Do Investors Trade too Much?” in Hersh Shefrin, Editor, Behav-
+
+ioral Finance , Northampton, MA: Edward Elgar.
+
+Phillips, Peter C. B., and Pierre Perron. 1988. “Testing for a Unit Root in Time Series
+
+Regression.” Biometrika , 75(2):335–46.
+
+Poterba, James M., and Lawrence H. Summers. 1988. “Mean Reversion in Stock Prices:
+
+Evidence and Implications.” Journal of Financial Economics , 22:26–59.
+
+Robbins, Lionel. 1932. An Essay on the Nature and Significance of Economic Science . Lon-
+
+don: MacMillan.
+
+Rothman, James E. 2013. “The Principle of Membrane Fusion in the Cell.” Prize Lec- ture, 2013 Nobel Prize in Medicine, http://www.nobelprize.org/mediaplayer/index. php?id=1975
+
+Saunders, Edward M. 1993. “Stock Prices and the Weather.” American Economic Review ,
+
+83(5):1337–1245.
+
+Savage, Leonard J. 1954. Foundations of Statistics . New York: Wiley.
+
+Scheinkman, Jose, and Wei Xiong. 2003. “Overconfidence and Speculative Bubbles.”
+
+Journal of Political Economy , 111:1133–1219.
+
+Shefrin, Hersh M. 2008. A Behavioral Approach to Asset Pricing . North Holland: Elsevier. Shefrin, Hersh M., and Meir Statman. 1984. “Explaining Investor Preference for Cash
+
+Dividends.” Journal of Financial Economics , 13(2):253–82.
+
+Shefrin, Hersh M., and Meir Statman. 1985. “The Disposition to Sell Losers too Early and Ride Losers too Long: Theory and Evidence.” Journal of Finance , 40(3):777–90. Shiller, Robert J. 1991. “Arithmetic Repeat Sales Price Estimators.” Journal of Housing
+
+Economics , 1:110–26.
+
+-----------------------------------------------------Page 40-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    499
+
+———. 2009. Baskets: A Proposal to Launch Indexed Units of Account in the UK during the
+
+Current Financial Crisis . Policy Exchange, London.
+
+———. 1982. “Consumption, Asset Markets and Macroeconomic Fluctuations.” Carnegie
+
+Rochester Conference Series on Public Policy , 17:203 38.
+
+———. 1987. “Conventional Valuation and the Term Structure of Interest Rates,” in Mac- roeconomics and Finance: Essays in Honor of Franco Modigliani , ed. R. Dornbusch, S. Fischer and J. Bossons, pp. 63–88. Cambridge, MA, M.I.T. Press.
+
+———. 2011. “Democratizing and Humanizing Finance.” In Randall S. Kroszner and Robert J. Shiller, Reforming U.S. Financial Markets: Reflections Before and Beyond Dodd-Frank (Alvin Hansen Symposium on Public Policy at Harvard University). Cambridge MA: MIT Press.
+
+———. 1981a. “Do Stock Prices Move Too Much to be Justified by Subsequent Changes
+
+in Dividends?” American Economic Review , 71:3,421–36
+
+———. 2003. “From Efficient Markets Theory to Behavioral Finance.” Journal of Eco-
+
+nomic Perspectives , 17(1): 83–104.
+
+———. 2002. “Indexed Units of Account: Theory and Analysis of Historical Experience,” in Fernando Lefort and Klaus Schmidt-Hebbel, Indexation, Inflation, and Monetary Policy . Central Bank of Chile, Santiago Chile, 2002.
+
+———. 2005. Irrational Exuberance , Princeton: Princeton University Press, 2nd Edition. ———. 1993. Macro Markets: Creating Institutions for Managing Society’s Largest Eco-
+
+nomic Risks . New York: Oxford University Press, 1993.
+
+———. 1986. “The Marsh-Merton Model of Managers’ Smoothing of Dividends.” Ameri-
+
+can Economic Review , 76:3, 499–503.
+
+———. 2003. The New Financial Order: Risk in the 21st Century . Princeton: Princeton
+
+University Press.
+
+———. 1988. “Portfolio Insurance and Other Investor Fashions as Factors in the 1987
+
+Stock Market Crash,” in NBER Macroeconomics Annual, ed. S. Fischer.
+
+———. 1997. “Public Resistance to Indexation: A Puzzle,” Brookings Papers on Economic
+
+Activity , 1997-I, 159–211.
+
+———. 1972. Rational Expectations and the Term Structure of Interest Rates . Unpublished
+
+Ph.D. dissertation, Massachusetts Institute of Technology.
+
+———. 1992 The Report of the Twentieth Century Fund Task Force on Market Speculation
+
+and Corporate Governance . New York: Twentieth Century Fund.
+
+———. 1984.”Stock Prices and Social Dynamics.” Brookings Papers on Economic Activity ,
+
+pp. 457 98, 2.
+
+———. 2008. Subprime Solution: : How Today’s Global Financial Crisis Happened and
+
+What to Do about It , Princeton: Princeton University Press.
+
+———. 1987. “Ultimate Sources of Aggregate Variability.” American Economic Review,
+
+Papers and Proceedings , 77:2, 87–92.
+
+———. 1981b. “The Use of Volatility Measures in Assessing Market Efficiency.” Journal
+
+of Finance , 36:291 304.
+
+———. 1979. “The Volatility of Long-Term Interest Rates and Expectations Models of the
+
+Term Structure.” Journal of Political Economy , 87:6.
+
+-----------------------------------------------------Page 41-----------------------------------------------------
+﻿
+500                                         The Nobel Prizes
+
+———. 1992. Who’s Minding the Store? The Report of the Twentieth Century Fund Task Force on Market Speculation and Corporate Governance . New York: The Twentieth Century Fund.
+
+———. 2014. “Why Is Housing Finance Still Stuck in such a Primitive Stage?” Forthcom-
+
+ing, American Economic Review , May.
+
+Shiller, Robert J., and Andrea Beltratti. 1992. “Stock Prices and Bond Yields: Can Their Comovements Be Explained in Terms of Present Value Models?” Journal of Mon- etary Economics , Vol. 30.
+
+Shiller, Robert J., and Pierre Perron. 1985. “Testing the Random Walk Hypothesis: Power
+
+versus Frequency of Observation.” Economics Letters , 18:381–86.
+
+Shiller, Robert, and John Pound. 1989. “Survey Evidence on the Diffusion of Interest and Information Among Investors.” Journal of Economic Behavior and Organiza- tion , 12:47–66.
+
+Shiller, Robert J., and Ryan Schneider. 1998. “Labor Income Indices Designed for Use in Contracts Promoting Income Risk Management.” Review of Income and Wealth , 44(2):163–82
+
+Shiller, Robert J., and Jeremy J. Siegel. 1977. “The Gibson Paradox and Historical Move- ments in Real Long Term Interest Rates.” Journal of Political Economy , 85:5, 891–98. Shiller, Robert J., and Allan N. Weiss. 1999. “Evaluating Real Estate Valuation Systems.”
+
+Journal of Real Estate Finance and Economics , 18:2,147–61.
+
+———. 1999. “Home Equity Insurance.” Journal of Real Estate Finance and Economics ,
+
+19:1, 21–47.
+
+Shiller, Robert, Rafal Wojakowski, M. Shahid Ebrahim, and Mark B. Shackleton, 2013. “Mitigating Financial Fragility with Continuous Workout Mortgages.” Journal of Economic Behavior and Organization , 85:269–85.
+
+Shleifer, Andrei. 2000. Inefficient Markets: A Survey of Behavioral Finance . New York:
+
+Oxford University Press.
+
+Shleifer, Andrei, and Robert Vishny. 1997. “Limits to Arbitrage.” Journal of Finance ,
+
+52(1):35–55.
+
+Siegel, Jeremy J. 2005. The Future for Investors: The Tried and True Beats the Bold and
+
+New . New York: Crown Business.
+
+———. 2008. Stocks for the Long Run . 4th Edition. New York: McGraw Hill.
+
+Sims, Christopher A. 2003. “Implications of Rational Inattention.” Journal of Monetary
+
+Economics , 50:665–90.
+
+———. 1990. “Martingale-Like Behavior of Prices and Interest Rates.” Discussion Paper No. 205, Center for Economic Research, Department of Economics, University of Minnesota.
+
+Singleton, Kenneth J. 1980. “Expectations Models of the Term Structure and Implied
+
+Variance Bounds.” Journal of Political Economy , 88:1159–1176.
+
+Smith, Edgar Lawrence. 1924. Common Stocks as Long-Term Investments . New York:
+
+Macmillan.
+
+Summers, Lawrence H. 1986. “Does the Stock Market Rationally Reflect Fundamental
+
+Values.” Econometrica , 41:591–601.
+
+Thaler, Richard H., and Cass R. Sunstein. 2009. Nudge: Improving Decisions about Health,
+
+Wealth and Happiness . New Haven: Yale University Press.
+
+-----------------------------------------------------Page 42-----------------------------------------------------
+﻿
+Speculative Asset Prices                                    501
+
+Torous, Walter, Rossen Valkanov, and Shu Yan. 2004. “On Predicting Stock Returns with
+
+Nearly Integrated Explanatory Variables.” Journal of Business , 77:937–66.
+
+Tversky, Amos, and Daniel Kahneman. 1974. “Judgment under Uncertainty: Heuristics
+
+and Biases.” Science , 185:1124–31.
+
+Viceira, Luis. 2002. “Optimal Portfolio Choice for Long-Horizon Investors with Non-
+
+tradable Labor Income.” Journal of Finance , 56(2):433–70.
+
+Vuolteenaho, Tuomo. 2002. “What Drives Firm-Level Stock Returns? Journal of Finance ,
+
+57(1): 233–264.
+
+West, Kenneth D. 1988. “Dividend Innovations and Stock Price Volatility.” Econometrica ,
+
+56:37–61.
+
+Wu, Ho-Mou, and Wen-Chung Guo. 2004. “Asset Price Volatility and Trading Volume
+
+with Rational Beliefs.” Economic Theory , 23:795–829.
+
+Portrait photo of Robert J. Shiller by photographer Alexander Mahmoud.
+
+-----------------------------------------------------Page 43-----------------------------------------------------

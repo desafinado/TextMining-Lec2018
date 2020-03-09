@@ -1,0 +1,789 @@
+﻿Superposition, Entanglement, and Raising Schrödinger’s Cat
+
+Nobel Lecture, December 8, 2012 by David J. Wineland
+
+National Institute of Standards and Technology, Boulder, CO, USA; University of Colorado, Boulder, CO, USA.
+
+I. INTRODUCTION
+
+Experimental control of quantum systems has been pursued widely since the invention of quantum mechanics. In the first part of the 20th century, atomic physics helped provide a test-bed for quantum mechanics through studies of atoms’ internal energy differences and their interaction with radiation. The ad- vent of spectrally pure, tunable radiation sources such as microwave oscillators and lasers dramatically improved these studies by enabling the coherent con- trol of atoms’ internal states to deterministically prepare superposition states, as for example in the Ramsey method (Ramsey, 1990). More recently this control has been extended to the external (motional) states of atoms. Laser cooling and other refrigeration techniques have provided the initial states for a number of interesting studies, such as Bose-Einstein condensation. Similarly, control of the quantum states of artificial atoms in the context of condensed-matter systems is achieved in many laboratories throughout the world. To give proper recog- nition to all of these works would be a daunting task; therefore, I will restrict these notes to experiments on quantum control of internal and external states of trapped atomic ions.
+
+The precise manipulation of any system requires low-noise controls and isolation of the system from its environment. Of course the controls can be re- garded as part of the environment, so we mean that the system must be isolated from the uncontrolled or noisy parts of the environment. A simple example of
+
+117
+
+-----------------------------------------------------Page 1-----------------------------------------------------
+﻿
+118                                         The Nobel Prizes
+
+quantum control comes from nuclear magnetic resonance, where the spins of a macroscopic ensemble of protons in the state ⎮↓〉 (spin antiparallel to an ap- plied magnetic field) can be deterministically placed in a superposition state α ⎪↓〉 + β ⎪↑〉 ( ⎪ α ⎪ 2 + ⎢ β ⎪ 2 = 1) by application of a resonant RF field for a specified duration. Although the ensemble is macroscopic, in this example each spin is independent of the others and behaves as an individual quantum system. But as early as 1935, Erwin Schrödinger (Schrödinger 1935) realized that in principle, quantum mechanics should apply to a macroscopic system in a more complex way, which could then lead to bizarre consequences. In his specific ex- ample, the system is composed of a single radioactive particle and a cat placed together with a mechanism such that if the particle decays, poison is released, which kills the cat. Quantum mechanically we represent the quantum states of the radioactive particle as undecayed = ⎮↑〉 or decayed = ⎮↓〉 , and live and dead states of the cat as ⎮ L 〉 and ⎮ D 〉 . If the system is initialized in the state represented by the wave function ⎮↑〉 ⎮ L 〉 , then after a duration equal to the half life of the particle, quantum mechanics says the system evolves to a super- position state where the cat is alive and dead simultaneously, expressed by the superposition wave function
+
+2 ⎣
+
+⎦ 2 ⎣
+ ⎦
+
+Schrödinger dubbed this an entangled state because the state of the par- ticle is correlated with the state of the cat. That is, upon measurement, if the par- ticle is observed to be undecayed, one can say with certainty that the cat is alive, and vice versa. But before measurement, the particle and cat exist in both states. This extrapolation of quantum mechanics from individual quantum systems to the macroscopic world bothered Schrödinger (and a lot of other people). As one way out of the dilemma, in 1952, Schrödinger (Schrödinger 1952b) wrote:
+
+“. . . we never experiment with just one electron or atom or (small) molecule. In thought experiments, we sometimes assume that we do; this invariably entails ridiculous consequences . . .”
+
+But of course these days, this argument doesn’t hold and we can in fact experiment with individual or small numbers of quantum systems, deterministi- cally preparing superpositions and entangled superpositions. Our control is best when we deal with very small numbers of particles, which enables us to real- ize many of the “gedanken experiments” that provided the basis for discussions
+
+ψ =   1 ⎡
+
+↑ L 〉 + ↓ D 〉 ⎤ ⋅ ψ =   1 ⎡
+ ↑ L 〉 + ↓ D 〉 ⎤ .        (1)
+
+-----------------------------------------------------Page 2-----------------------------------------------------
+﻿
+Superposition, Entanglement, and Raising Schrödinger ’s Cat            119
+
+between Schrödinger and the other founders of quantum mechanics. And, we can also make small versions of Schrödinger ’s cat, which are by no means mac- roscopic but have the same basic attributes. So far, it appears that our inability to make macroscopic “cats” is due just to technical, not fundamental, limitations. Admittedly, these technical limitations are formidable, but one can be optimistic about increasing the size of these states as technology continues to improve. This contribution is based on the lecture I gave at the Nobel ceremonies in 2012. It is mostly a story about our group at the National Institute of Standards and Technology (NIST) in Boulder, Colorado, whose combined efforts were re- sponsible for some of the contributions to the field of trapped-ion quantum control. It will be a somewhat personal tour, giving my perspective of the devel- opment of the field, while trying to acknowledge some of the important con- tributions of others. For me, the story started when I was a graduate student.
+
+II. SOME EARLY STEPS TOWARDS QUANTUM CONTROL
+
+From 1965 to 1970, I was a graduate student in Norman Ramsey ’s group at Har- vard. Norman, with his close colleague Dan Kleppner and student Mark Golden- berg, had recently invented and demonstrated the first hydrogen masers (Gold- enberg et al. , 1960; Kleppner et al. , 1962). As part of this program, Norman wanted to make precise measurements of the hyperfine frequencies of all three isotopes of hydrogen, so I chose to work on deuterium. The experiment was relatively straightforward, complicated a bit by the relatively long wavelength ( λ = 92 cm) of deuterium’s hyperfine transition relative to that of hydrogen ( λ = 21 cm) (Wine- land and Ramsey, 1972). Most importantly, this experiment taught me to pay close attention to, and control as best as possible, all environmental effects that would shift the measured transition frequency from that found for an isolated atom. In addition to enjoying the detective work involved in this, I also became hooked on the aesthetics of long coherence times of superposition states ( ∼ 1 s in the masers), and their importance in atomic clocks. Norman received the 1989 Nobel Prize in physics for his invention of the separated oscillatory fields method in spectroscopy and development of the hydrogen maser (Ramsey, 1990). During my time as a graduate student, I also read about and was intrigued by the experiments of Hans Dehmelt and his colleagues Norval Fortson, Fouad Major, and Hans Schuessler at the University of Washington. The trapping of ions at high vacuum presented some nice advantages for precision spectroscopy, in- cluding the elimination of the first-order Doppler shifts and relatively small col- lision shifts. The Washington group made high-resolution measurements of the 3   He + hyperfine transition, which has internal structure analogous to hydrogen,
+
+-----------------------------------------------------Page 3-----------------------------------------------------
+﻿
+120                                         The Nobel Prizes
+
+by storing the ions in an RF (Paul) trap. One challenge was that detection by optical pumping was (and still is) not feasible because of the short wavelengths required. Therefore, in a heroic set of experiments, state preparation was accom- plished through charge exchange with a polarized Cs beam that passed through the ions. Detection was accomplished through a charge-transfer process ( 3 He + + Cs → 3 He + Cs + ) that depended on the internal state of 3 He + , followed by detection of the depleted 3 He + ion number by observing the ions’ induced cur- rents in the trap electrodes (Fortson et al. 1966; Schuessler et al. 1969). Although these experiments were what first attracted me to ion trapping, my postdoctoral research with Dehmelt, starting in the fall of 1970, was focused on experiments where collections of electrons were confined in a Penning trap for a precise measurement of the electron’s magnetic moment or g-factor. These experiments were started by Dehmelt’s graduate student, Fred Walls, who later became my colleague at the National Bureau of Standards. After a while, it be- came clear that systematic effects in the experiment would be much better con- trolled if the experiment could be performed on single electrons. Therefore, a first task was to isolate a single trapped electron. This was accomplished by first loading a small number of electrons into the trap and driving their nearly har- monic motion ( ∼ 60 MHz) along the magnetic field direction. This motion could be detected by observing the currents induced in the electrodes (proportional to the number of electrons). By adjusting the strength of the drive to a critical level, occasionally one of the electrons would gain enough energy to strike a trap electrode and be lost. Steps in the induced current level could then be used to determine when one electron was confined in the trap (Wineland et al. 1973). Subsequent experiments on single electrons by Robert Van Dyck, Paul Schwin- berg and Dehmelt were used to make precision measurements of the electron’s g-factor (Dehmelt 1990; Van Dyck et al. 1977). For this and the development of the ion-trapping technique, Dehmelt and Wolfgang Paul shared the Nobel Prize in 1989, along with Ramsey.
+
+The modes of motion for a single charged particle in a Penning trap include one circular mode about the trap axis called the magnetron mode. For the elec- tron g-factor experiments, it was desirable to locate the electron as close to the trap axis as possible by reducing the amplitude of this mode. This could be ac- complished with a form of “sideband cooling” (Wineland and Dehmelt 1975a, 1976) as demonstrated in (Van Dyck et al. 1978). Around this time, I was also stimulated by the papers of Arthur Ashkin (Ashkin 1970a, b) on the possibili- ties of radiation pressure from lasers affecting the motion of atoms. In analogy with the electron sideband cooling, Dehmelt and I came up with a scheme for cooling trapped-ion motion with laser beams (Wineland and Dehmelt 1975b,
+
+-----------------------------------------------------Page 4-----------------------------------------------------
+﻿
+Superposition, Entanglement, and Raising Schrödinger ’s Cat            121
+
+see below). The cooling could also be explained in terms of velocity-dependent radiation pressure as in a concurrent proposal by Ted Hänsch and Art Schawlow (Hänsch and Schawlow 1975). We didn’t anticipate all of the uses of laser cooling at the time, but it was clear that it would be important for high-resolution spec- troscopy of trapped ions. For example, the largest systematic uncertainty in the 3 He + experiment (Schuessler et al. , 1969) was the uncertainty in the time dilation shift, which would be reduced with cooling.
+
+In the summer of 1975, I took a position in the Time and Frequency Divi- sion of NIST (then NBS, the National Bureau of Standards). My first task was to help make a measurement of the cesium hyperfine frequency, the frequency reference that defines the second. The apparatus, NBS-6, had been built by Da- vid Glaze of the Division. It was a traditional atomic beam apparatus but had a relatively long distance between Ramsey zones of 3.75 m. With it, we realized a fractional accuracy of 0.9 × 10 −13 (Wineland et al. , 1976). At that time, the Division was more service oriented, with very little basic research. Fortunately my group leader, Helmut Hellwig, had a progressive view of the Division’s future and was able to obtain NBS support to initiate laser cooling experiments. That support, along with some seed money from the Office of Naval Research (ONR), allowed us to start a project on laser cooling in the fall of 1977. With Robert Drullinger (a local laser expert) and Fred Walls, we chose to use 24 Mg + because of its simple electronic structure and Penning traps and because of our prior experience with them. This was a very exciting time, being able to work on a project of our choosing. By the spring of 1978, we had obtained our first cooling results (Wine- land et al. 1978). In our experiments we observed currents in the trap electrodes induced by the ions’ thermal motion and hence had a direct measurement of the ions’ temperature. Meanwhile, Peter Toschek ’s group in Heidelberg (joined by Dehmelt, who was on sabbatical), was working towards the same goal, using Ba+ ions confined in an RF Paul trap. They, with colleagues Werner Neuhauser and Martin Hohenstatt also observed the cooling at about the same time (Neu- hauser et al. 1978), through the increased trapping lifetime of ions. In a near co- incidence, although there was no contact between the groups, the manuscripts were received by Physical Review Letters within one day of each other (Peter Toschek’s group “won” by one day!). The cooling observed in both experiments is typically called Doppler cooling, where the oscillation frequency of the ions’ motion is less than the line width of cooling transition. Theoretical groups were becoming interested in the cooling, some of the earlier work is discussed in (Kazantsev 1978; Letokhov et al. 1977; Stenholm 1986).
+
+To us, the cooling of course provided a start towards improving clocks and in 1985, working with John Bollinger, John Prestage, and Wayne Itano, we
+
+-----------------------------------------------------Page 5-----------------------------------------------------
+﻿
+122                                         The Nobel Prizes
+
+demonstrated the first clock that utilized laser cooling (Bollinger et al. 1985). But as physicists, we were excited by just the cooling process itself. So, in addition to clock applications, it would eventually lead to reaching and controlling the lowest quantized levels of motion for a trapped particle (below).
+
+III. CONTROLLING THE QUANTUM LEVELS OF INDIVIDUAL TRAPPED IONS
+
+One of the obvious next steps was to isolate single ions. In addition to the aes- thetic appeal of this, as for single electrons, the systematic errors in spectros- copy would be smallest in this case (Dehmelt 1982). By observing steps in the ion laser fluorescence, the Heidelberg group was able to isolate Ba + single ions (Neuhauser et al. 1980). With Wayne Itano, we subsequently used this fluores- cence “steps” method to observe single 24 Mg + ions (Wineland and Itano 1981). The Heidelberg group also made photographs of a single ion, and because of its relatively long fluorescence wavelength (493 nm), with a magnifier, a single Ba + ion can be observed with the human eye!
+
+In NIST single-ion experiments we chose to focus on Hg + because for fre- quency-standard applications, 199 Hg + has a relatively high ground-state hyperfine clock transition frequency of 40.5 GHz (Cutler et al. 1982; Major and Werth 1973; Prestage et al. 1991) and also a narrow 2 S 1/2 – 2 D 5/2 optical transition ( τ ( 2 D 5/2 ) ; 86
+
+ms), which could potentially be used as an optical frequency standard (Bender et al. , 1976). Although optical pumping of 199 Hg + could be achieved with radia- tion from isotopically selected Hg + fluorescence lamps (Cutler et al. 1982; Major and Werth 1973; Prestage et al. 1991), laser excitation was made difficult because of the short (194 nm) wavelength involved. Jim Bergquist in our group, with col- leagues Hamid Hemmati and Wayne Itano, first developed the required source by sum-frequency mixing a doubled Ar + laser at 515 nm with 792 nm from a dye laser in a potassium pentaborate crystal (Hemmati et al. 1983). We used an RF trap with a simple ring-and-endcap structure shown in Fig.1, similar to that used by the Heidelberg group.
+
+By the mid-1980s ion trappers were able to directly address one of Schrödinger ’s questions, which formed the title for his publication “Are there quantum jumps?” (Schrödinger 1952a,b). Three similar demonstrations were made in 1986 (Bergquist et al. 1986; Blatt and Zoller 1988; Nagourney et al. 1986; Sauter et al. 1986); for brevity, we describe the experiment of Bergquist et al. Referring to Fig. 1, a binding potential called a pseudopotential (Paul 1990) is formed by applying an RF potential between the ring electrode and the endcap electrodes (held in common). The relevant optical energy levels of a Hg + ion
+
+are indicated in the upper left-hand part of the figure. The 2 S 1/2 → 2 P 1/2 electric
+
+-----------------------------------------------------Page 6-----------------------------------------------------
+﻿
+Superposition, Entanglement, and Raising Schrödinger ’s Cat            123
+
+“optical clock” transition
+
+70
+
+2 P 1/2
+
+2 D   5/2
+
+0
+
+1
+
+2
+
+3
+
+t (s)
+
+Hg +
+
+282 nm
+
+2 S 1/2
+
+cooling
+
+endcap
+
+and detection
+
+194 nm
+
+endcap
+
+1 mm
+
+ring
+
+single Hg +
+
+FIGURE 1. Schematic of the trap for single Hg + ion studies. An RF potential is applied between the ring electrode and endcap electrodes (which are in common), forming an RF “pseudopotential” for the ion. The relevant Hg + energy levels are indicated, includ-
+
+ing the narrow 2 S 1/2 → 2 D 5/2 “optical clock ” transition. The data in the upper right-hand
+
+part of the figure show the number of 194 nm fluorescence photons detected in 10 ms detection bins vs. time when both transitions are excited simultaneously (Bergquist et al. 1986). Absence of detected counts indicates that the ion is in the 2 D 5/2 state.
+
+dipole transition ( λ = 194 nm, τ ( 2 P 1/2 ) ; 2.9 ns) was used for Doppler laser cooling.
+
+If continuously applied, a steady fluorescence from the ion would be observed
+
+and could be used to produce images of the ion. If 2 S 1/2 → 2 D 5/2 resonance radia-
+
+tion were applied simultaneously, one would expect the 194 nm fluorescence to decrease because of excitation to the 2 D 5/2 state.
+
+A density-matrix description, valid for an ensemble of atoms, would predict a reduced but steady fluorescence rate. But what would be observed for a single ion? (Cohen-Tannoudji and Dalibard 1986; Cook et al. 1985; Erber and Putterman 1985; Javanainen 1986; Kimble et al. 1986; Pegg et al. 1986; Schenzle et al. 1986). In fact the ion’s fluorescence does not steadily decrease, but switches between the full value and no fluorescence, effectively indicating quantum jumps be- tween the 2 S 1/2 and 2 D 5/2 states. For the data shown in the upper right-hand
+
+corner of Fig.1, the 194 nm fluorescence photon counts registered by a photo- multiplier tube were accumulated in 10 ms time bins and plotted as a function
+
+counts
+
+-----------------------------------------------------Page 7-----------------------------------------------------
+﻿
+124                                         The Nobel Prizes
+
+of elapsed time to show the jumps. In a more general context, a measurement of the quantum system composed of the 2 S 1/2 and 2 D 5/2 states can be made by
+
+applying the 194 nm “measurement” beam for 10 ms and observing the pres-
+
+ence or absence of fluorescence. The 2 S 1/2 → 2 P 1/2 transition is sometimes called a “cycling transition” because when the 2 S 1/2 state is excited to the 2 P 1/2 state, the ion decays back to the 2 S 1/2 state, emitting a photon, and the excitation/decay process is then repeated. Neglecting the occasional decays of the 2 P 1/2 state to the 2 D 3/2 state (Itano et al. 1987), this procedure approximates an ideal mea-
+
+surement in quantum mechanics because the detection of the state is nearly 100% efficient and because the state of the Hg + ion, either the 2 S 1/2 or 2 D 5/2
+
+state, remains in its original condition after the measurement. Dehmelt dubbed this “electron shelving” detection (Dehmelt 1982), where in this example, the ion is shelved to the 2 D 5/2 state. Such measurements are also called quantum
+
+nondemolition (QND) measurements (Braginsky and Khalili 1996; Haroche and Raimond 2006). The method of detection by state-dependent fluorescence has now become rather ubiquitous in atomic physics.
+
+To perform spectroscopy on the 2 S 1/2 → 2 D 5/2 transition ( λ ; 282 nm), radia-
+
+tion was first applied near the transition frequency in the absence of the 194 nm beam; this avoids perturbations of the energy levels from the 194 nm beam. The 282 nm beam was then switched off, followed by measurement the ion’s state with the 194 nm beam. This process was repeated many times, and by stepping the frequency of the 282 nm beam, spectra like that shown in Fig. 2 are obtained (Bergquist et al. 1987). To interpret this spectrum, we must consider the motion of the ion. Along any mode axis the motion is nearly harmonic, so in the frame of the ion, the laser beam appears to be sinusoidally frequency modulated due to the first-order Doppler shift. Thus the central feature or “carrier,” which cor- responds to the transition frequency, is surrounded by frequency-modulation sidebands spaced by the motional frequency of the ion (Dicke 1953). An equiva- lent picture is that the ion can absorb radiation while simultaneously gaining or losing one quantum of motion, which leads to absorption features spaced by the frequency of motion around the carrier.
+
+As in many atomic physics experiments, by using highly coherent radiation, we can initialize an ion in an eigenstate and deterministically prepare superpo- sitions; e.g., ⎮↓〉 → α ⎮↓〉 + β ⎮↑〉 . To extract the values of ⎮ α ⎮ and ⎮ β ⎮ , we detect as described above. A single measurement indicates either the ⎮↓〉 or ⎮↑〉 state with respective probabilities P = ⎪ α ⎪ 2 and 1 − ⎪ α ⎪ 2 . Quantum fluctua- tions or “projection noise” in the measurements are characterized with a vari- ance P (1 − P ) / M , where M is the number of measurements on identically pre- pared atoms (Itano et al. 1993). Therefore, accurate measurements of P generally
+
+-----------------------------------------------------Page 8-----------------------------------------------------
+﻿
+Superposition, Entanglement, and Raising Schrödinger ’s Cat            125
+
+requires many repeated experiments. Similarly, Ramsey-type experiments where the two pulses are separated in time can measure the relative phase between α and β . From these types of measurements, many ion trap groups now routinely produce and verify superposition states of single ions that have coherence times exceeding 1 second. For ion ensembles, coherence times exceeding 10 minutes have been demonstrated (Bollinger et al. 1991; Fisk et al. 1995).
+
+The Hg + clock project at NIST, led by Jim Bergquist, has been a long but very successful story. First, an accurate clock based on the 40.5 GHz hyperfine transi- tion of a few 199 Hg + ions confined in a linear Paul trap achieved systematic errors of about 4 × 10 −14 (Berkeland et al. 1998). Although we felt these errors could be substantially reduced, we also realized that the future of high-performance
+
+clocks was in the optical domain, so we focused on the 2 S 1/2 → 2 D 5/2 optical
+
+clock transition. For many years it had been appreciated that higher frequency was advantageous in terms of measurement precision; basically the higher os- cillation frequencies allows one to divide a time interval into finer units. But two things were needed: a laser with high enough spectral purity to take advantage of narrow optical transitions, and a practical means to count cycles of the “lo- cal oscillator,” in this case the laser that would excite the clock transition. In our lab, Brent Young, Bergquist and colleagues were able to make a cavity-stabilized laser at 563 nm, which was doubled to produce the clock radiation. The 563 nm source had a line width of less than 0.2 Hz for an averaging time of 20 s (Young et al. , 1999). It is now understood that the line width was limited by thermal fluctuations in the mirror surface, currently still the limit for the most stable la- sers. The solution to the second problem is by now well known. The relatively rapid development of optical combs by Jan Hall (Hall 2006), Ted Hänsch (Hän- sch 2006), their colleagues, and other researchers meant that it was now pos- sible to effectively count optical cycles. Including these developments, in 2006, Bergquist and colleagues demonstrated a 199 Hg + optical clock with a systematic uncertainty of 7.2 × 10 −17 , the first clock since the inception of atomic clocks that had smaller systematic errors than a cesium clock (Oskay et al. 2006).
+
+IV. MANIPULATING ION MOTION AT THE QUANTUM LEVEL
+
+An interesting next step would be to control an ion’s motion at the quantum level. Since a cold trapped ion’s motion along any mode axis is harmonic to a very good approximation, in a quantum description (Neuhauser et al. 1978; Stenholm 1986; Wineland and Itano 1979), we express its Hamiltonian in the usual way as ħω z a † a with ω z the oscillation frequency (along the z axis here) and a and a † the lowering and raising operators for the ion motion. The operator for
+
+-----------------------------------------------------Page 9-----------------------------------------------------
+﻿
+126                                         The Nobel Prizes
+
+D n = -1
+
+D n = +1
+
+D n = 0
+
+FIGURE 2. Spectroscopy of the 2 S 1/2 → 2 D 5/2 transition on a single 198 Hg + ion. Referring to Fig.1, for each measurement cycle, the ion is prepared in 2 S 1/2 ≡ ⎮↓〉 state by allowing
+
+it to decay to that level. Then, application of a 282 nm “probe” laser beam is alternated
+
+with a 194 nm measurement beam. The ⎮↓〉 and 2 D 5/2 ≡ ⎮↑〉 states are detected with
+
+nearly 100% efficiency by observing presence or absence of 194 nm scattered light. By stepping the frequency of the probe beam and averaging over many measurements, we obtain the spectrum shown where we plot the probability of the ion remaining in the 2 S 1/2 state P( 2 S 1/2 ) vs. the 282 nm laser beam frequency. In a quantum picture of the motion, central feature or “carrier ” denotes transitions of the form ⎮↓〉⎪ n 〉 → ⎮↑〉⎪ n 〉 , where n denotes the motional Fock state quantum number. “Red” and “blue” sidebands correspond to ⎮↓〉⎪ n 〉 → ⎮↑〉⎪ n + ∆n 〉 transitions with ∆n = −1 or +1 respectively. The central feature or “carrier ” is essentially unshifted by photon recoil, since the recoil is absorbed by the entire trap apparatus as in the Mössbauer effect; see e.g., (Dicke 1953; Lipkin 1973; Wineland et al. 1998).
+
+the ion’s position about its mean value is z = z 0 ( a + a † ), where z 0 =  / 2 m ω z
+
+is the spread of the ground-state wave function, with m the ion’s mass. In prin- ciple, we could detect the ion’s motion through the current it induces in the trap electrodes, as was done for electrons. In practice however, a far more sensitive method is to map information about the motional states onto internal states of the ion and read those out as described above. For this, we need to efficiently couple an ion’s internal states to its motion. To see how this works, consider a single trapped ion that has a single-electron electric-dipole transition with
+
+P( 2 S 1/2 )
+
+-----------------------------------------------------Page 10-----------------------------------------------------
+﻿
+Superposition, Entanglement, and Raising Schrödinger ’s Cat            127
+
+resonance frequency ω 0 . If this transition is excited by a laser beam of frequency ω L propagating along the z axis, the interaction is given by
+
+
+
+where r is the electron coordinate relative to the ion’s core, e is the electron charge, { , E 0 and k are respectively the laser beam’s electric field polarization, amplitude, and wave vector, and φ is the electric-field phase at the mean posi-
+
+
+
+⎮↑〉 denoting the ion’s ground and optically excited states as above. If we trans-
+
+form to an interaction picture for the ion’s internal states ( σ + → σ + e i ω 0 t ) and motion states ( a † → a † e i ω z t ) and assume ω L I  Ω σ then neglecting H terms that
+
+(( ω ω 0 ) t − φ )
+
+× (1 + i η ( ae − i ω z t + a † e i ω z t )) + H . C .
+
+  Ω σ + e − i (( ω L − ω 0 ) t − φ )
+
+(3)
+
+× (1 + i η ( ae   − i ω z t   + a † e i ω z t   )) + H . C .
+
+Here, H.C. stands for Hermitian conjugate and η ≡ kz 0 = 2 π z 0 / λ is the Lamb-
+
+Dicke parameter, which we assume here to be much less than 1. For an ion of mass 40 u (e.g., 40 Ca + ) in a well with ω z /2 π = 3 MHz and λ = 729 nm, we have z 0 = 6.5 nm and η = 0.056. For ω L = ω 0 and η Ω « ω z , to a good approximation we can neglect the non-resonant η term in Eq. (3) and obtain H I = ħ Ω e iφ S + + H.C . This
+
+is the Hamiltonian for “carrier ” transitions or equivalently, spin-vector rotations about an axis in the x − y plane of the Bloch sphere. If we assume ω L = ω 0 − ω z (laser tuned to the “red sideband”), and absorb phase factors in the definition of Ω, the resonant term gives
+
+H I = ħη (Ω σ + a + Ω* σ − a † ).                 (4)
+
+This Hamiltonian describes the situation where a quantum of motion is ex- changed with a quantum of excitation of the ion’s internal state. It is most com- monly known as the Jaynes-Cummings Hamiltonian from cavity QED, which expresses the exchange of energy between the internal states of an atom in a cavity and the photons confined by the cavity (Haroche and Raimond 2006; Jaynes and Cummings 1963). In the cavity-QED experiments of Serge Haroche, Jean-Michel Raimond, Michel Brune, and their colleagues in Paris, the atoms
+
+H I = − e r ⋅ { ˆ E 0 cos( kz − ω L t + φ ) =  Ω ( σ + + σ − )( e i ( kz − ω L t + φ ) + e − i ( kz − ω L t + φ ) ),    (2)
+
+
+
+tion of the ion. The operators σ + (= ⎮↑〉 〈↓⎮ ) and σ − (= ⎮↓〉 〈↑⎮ ) are the internal-
+
+state raising and lowering operators, and Ω ∫ - E 0 ↑ r ⋅ { ˆ ↓ / 2  , with ⎮↓〉 and
+
+oscillate near 2 ω 0 (rotating wave approximation), Eq. i (2) − becomes
+
+  Ω
+
+H I   Ω σ + e i ( kz − ( ω L − ω 0 ) t + φ ) + H . C .
+
+-----------------------------------------------------Page 11-----------------------------------------------------
+﻿
+128                                         The Nobel Prizes
+
+play much the same role as they do in the ion experiments; however, in the cavity-QED experiments, the relevant harmonic oscillator is that which describes a field mode of the cavity, whereas in the ion case, the relevant harmonic oscil- lator is that associated with the ion’s motion (Blockley et al. 1992; Sauter et al. 1988). Over the years, this connection has led to some interesting and comple- mentary experiments between the two types of experiments (Haroche and Rai- mond 2006).
+
+In the trapped-ion world, this type of exchange at the quantum level was first used in the electron g-factor experiments of Dehmelt and colleagues, where a change of the electron’s cyclotron quantum number was accompanied by spin flip of the electron, which could be detected indirectly (Dehmelt 1990).
+
+If we apply H I to an atomic ion in the state ⎮↓〉⎪ n 〉 , where n denotes the har- monic oscillator ’s quantum state (Fock state), we induce the transition ⎮↓〉⎪ n 〉 → ⎮↑〉⎪ n − 1 〉 . This corresponds to the absorption feature labeled ∆ n = −1 in Fig. 2, and reduces the energy of motion by ħ ω z . When the ion decays, on average, the motion energy increases by the recoil energy R = ( ħk ) 2 /(2 m ), where k = 2 π / λ . Typically, we can achieve the condition R « ħω z , so that in the overall scattering process, the motional energy is reduced. In Fig. 2, the carrier absorption feature is labeled ∆ n = 0, indicating photon absorption without changing the motional state. This is a manifestation of the “recoilless” absorption of the Mössbauer ef- fect (see, e.g. , (Dicke 1953; Lipkin 1973; Wineland et al. 1998)), but in the visible wavelength region.
+
+Continuous application of the red sideband transition provides a relatively straightforward way to laser-cool the ion to near the ground state of motion. After many scattering events, the ion reaches the ⎮↓〉⎪ n = 0 〉 state, a “dark state” in which scattering stops, since the ⎮↑〉⎪ n = −1 〉 state does not exist. The pro- cess is not perfect, since scattering in the wings of ∆ n = 0, +1 transitions leads to some residual recoil heating, but the condition 〈 n 〉 « 1 can be achieved. This is easily verified because absorption on the ∆ n = −1 red sideband nearly disap- pears, but the ∆ n = +1 blue sideband absorption remains. In 1989, with Frank Diedrich, who was a postdoc in our lab, we achieved near-ground-state laser cooling in two dimensions, in essentially the way described here (Diedrich et al. 1989). Later in an experiment led by Chris Monroe, we achieved near-ground state cooling in 3-D using two-photon stimulated-Raman transitions (Monroe et al. 1995b).
+
+In addition to suppressing Doppler shifts in spectroscopy to the highest de- gree possible (Wineland et al. 1987), one motivation for sideband cooling was the intrinsic appeal of (actively) placing a bound particle in its ground state of motion, the lowest energy possible within the limitations imposed by quantum
+
+-----------------------------------------------------Page 12-----------------------------------------------------
+﻿
+Superposition, Entanglement, and Raising Schrödinger ’s Cat            129
+
+mechanics. Here, the ground state is a Gaussian-shaped wave packet with
+
+spread   〈 z 2 〉 =  /2 m ω z ≡ z 0 and energy ħω z /2. We were also interested in
+
+generating non-classical states of motion (Cirac et al. 1993a,b, 1996; Heinzen and Wineland 1990) or entangled states of spins (Bollinger et al. 1996; Wineland et al. 1992). For these experiments, cooling to the ground state of motion provides a clean starting point for motional state manipulation. (In the Paris experiments, the ground state of the cavity mode can be achieved either by thermally cool- ing to 〈 n 〉 « 1 by operating at low temperature or by extracting photons with atoms sent through the cavity in a process analogous to ion sideband cooling (Haroche and Raimond 2006).
+
+The red-sideband interaction of Eq. (4) and the “blue sideband” interaction
+
+( H I = ħη Ω σ + a † + H.C. , for ω L = ω 0 + ω z ) that induces ⎮↓〉⎪ n 〉 → ⎮↑〉⎪ n + 1 〉 transi-
+
+tions, provide simple tools for the manipulation of an ion’s motional states. For example, starting from ⎮↓〉⎪ n = 0 〉 , and applying a series of blue sideband, red sideband, and carrier π pulses, Fock states for a selected value of n can be deter- ministically prepared (Meekhof et al. 1996). From ⎮↓〉⎪ n = 0 〉 , we can also make coherent states ion motion by forcing the ion at its motion frequency with an oscillating classical uniform field (Carruthers and Nieto 1965) or by applying an oscillating optical dipole force (Meekhof et al. 1996), which results from spatial gradients of laser-beam-induced AC Stark shifts. A coherent state of a quantum particle is very much like an oscillating classical particle but, as opposed to a classical particle that can be point-like, the shape of the quantum particle’s wave packet is the same as it is in the ground state. In a clever but straightforward scheme suggested by Chi Kwong Law and Joe Eberly (Law and Eberly 1996) arbitrary motional state superpositions can be prepared (Ben-Kish et al. 2003). As a final example, the red-sideband interaction applied for a “ π -pulse” duration t = π /(2 η Ω) provides internal-state to motion-state transfer ( α ⎮↓〉 + β ⎮↑〉 ) ⎪ 0) → ⎮↓〉 ( α ⎪ 0 〉 + β ⎪ 1 〉 ).            (5)
+
+V. SCHRöDINGER ’S CAT
+
+The optical dipole force is interesting because the strength of the force can de- pend on the ion’s internal state. In 1996 (Monroe et al. 1996), using state-depen- dent optical dipole forces, we were able to produce an analog to the Schröding- er ’s cat state in Eq. (1), which had the form
+
+2 ⎣ ⎦
+
+,                 (6)
+
+Ψ =   1 ⎡ ↑ | α 〉 + ↓ | − α 〉 ⎤ ,
+
+-----------------------------------------------------Page 13-----------------------------------------------------
+﻿
+130                                         The Nobel Prizes
+
+where ⎪ α 〉 denotes a coherent state. The amplitude of the particle’s oscillatory motion is equal to 2 α z 0 . The spatial part of the state in Eq. (6), represents two wave packets that oscillate back and forth but are 180° out of phase with each other and therefore pass through each other at the center of the trap every half cycle of oscillation. Here, the analogy to Schrödinger ’s cat is that the spin states of the ion are like the states of the single radioactive particle and the coherent states of the ion, which follow more macroscopic classical trajectories, are like the state of the cat; e.g., the ion at its left extremum point = live cat, ion at its right extremum = dead cat. Figure 3 describes how this state was produced. To analyze the experiment, in step (e) of Fig. 3, we can control the phase of the amplitude such that the coherent state is e iφ α rather than − α . Near the condition Φ = 0, the probability P ( ↓〉 of the ion to be in state ⎮↓〉 oscillates as a function of Φ due to interference of the two wave packets. This verifies the coherence between the two components of the cat superposition state. These interference oscillations are very analogous to the fringe oscillations observed in Young’s-slit-type experiments performed on individual photons, electrons, neu- trons, or atoms, but in those experiments, the particle wave packets disperse in
+
+FIGURE 3. Depiction of the harmonic oscillator potential and the wave packets for each component of the ion’s internal states, denoted ⎮↑〉 and ⎮↓〉 . The images are snapshots in time; for images (c) through (f ), the wave packets are shown at the extremes of their motion. The areas of the wave packets correspond to the probability of finding the atom in the given internal state. (a) The initial wave packet corresponds to the ground state of motion after laser cooling and preparation of the ⎮↓〉 internal state. (b) A π /2
+
+1
+
+optical dipole force is applied that excites the ⎮↑〉 component of the superposition to
+
+1
+
+spin states are flipped by applying a carrier π -pulse. (e) The wave packet associated with the ⎮↑〉 state is excited by the optical dipole force to an amplitude of − α , that is, out of phase with respect to the first excitation. This is the state of Eq. (6). (f ) To analyze the state produced in step (e) and verify phase coherence between the components of the cat wave function, we apply a final π /2 carrier pulse and then measure the probability P ( ↓ ) of the ion to be in state ⎮↓〉 (see text).
+
+carrier pulse creates the internal state superposition 2 ( ⎮↓〉 + ⎮↑〉 ). (c) An oscillating
+
+a coherent state of amplitude α , creating the state 2 ( ⎮↓〉⎪ n = 0) + ⎮↑〉⎪ α 〉 ). (d) The
+
+-----------------------------------------------------Page 14-----------------------------------------------------
+﻿
+Superposition, Entanglement, and Raising Schrödinger ’s Cat            131
+
+time, whereas the wave packets in a harmonic oscillator do not, and in principle last arbitrarily long.
+
+In (Monroe et al. 1996), for the condition described by Eq. (6), the maximum separation of the wave packets was 4 αz 0 = 83 nm, while the size of the wave packets z 0 , was 7.1 nm (see also (McDonnell et al. 2007; Poschinger et al. 2010)). Of course, one might object to dignifying the state produced by calling it a Schrödinger cat since it is so small. In fact as we tried to make ⎮ α ⎮ larger, the quality of the superposition became more susceptible to decoherence caused by noisy ambient electric fields (Myatt et al. 2000a,b; Turchette et al. 2000), limit- ing the size that was obtained. However, as far as we know, this is just a techni- cal, not fundamental limitation and we should eventually be able to make a cat with ⎮ α ⎮ large enough that the wave packets are separated by macroscopic distances.
+
+VI. ENTER QUANTUM INFORMATION
+
+Following Peter Shor ’s development of a quantum mechanical algorithm for ef- ficient number factoring (Shor 1994), there was a dramatic increase of activity in the field of quantum information science. The potential realization of general- purpose quantum information processing (QIP) is now explored in many set- tings, including atomic, condensed-matter, and optical systems.
+
+At the 1994 International Conference on Atomic Physics held in Boulder, Col- orado, Artur Ekert presented a lecture outlining the ideas of quantum computa- tion (Ekert 1995), a subject new to most of the audience. This inspired Ignacio Cirac and Peter Zoller, who attended the conference and were very familiar with the capabilities (and limitations) of trapped-ion experiments, to propose a basic layout for a quantum computer utilizing trapped ions (Cirac and Zoller 1995). This seminal paper was the first comprehensive proposal for how a quantum in- formation processor might be realized. In their scheme, quantum bits or “qubits” are realized with two internal states of the ion, e.g., the | ↓〉 and ⎮↑〉 states above. The ion qubits are held in a trap shown schematically in Fig. 4. The motion of the ions is strongly coupled by the Coulomb interaction and is best described by the normal modes of a kind of pseudo-molecule. Typically, the motion of each mode is shared among all the ions and can act as a data bus for transferring in- formation between ions. A single-qubit gate or rotation (the relatively easy part) is implemented by applying a focused laser beam or beams onto that ion and coherently driving a carrier transition as described above. The harder part is to perform a logic gate between two selected ions. This can be accomplished by first laser-cooling all modes to the ground state. The internal qubit state of one
+
+-----------------------------------------------------Page 15-----------------------------------------------------
+﻿
+132                                         The Nobel Prizes
+
+ion is then transferred onto the qubit formed from the ground and first excited state of a particular mode of motion (laser beam 1 in Fig. 4), as indicated in Eq. (5). Laser beam 2 then performs a logic gate between the (shared) motion qubit state and a second selected ion. Since the second ion is generally in a superposi- tion state, before the gate operation is performed, the wave function for the spin and motional state of the second qubit can be written as α ⎪↓〉⎪ 0 〉 + β ⎪↓〉⎪ 1 〉 + ξ ⎪↑〉⎪ 0 〉 + ζ ⎪↑〉⎪ 1 〉 . One type of logic gate imparts a minus sign to the ⎮↑〉⎪ 1 〉 component of the wavefunction by coherently driving a 2 π transition ⎮↑〉⎪ 1 〉 → ⎮ aux 〉⎪ 0 〉 → − ⎮↑〉⎪ 1 〉 , where ⎮ aux 〉 is a third “auxiliary ” internal state of the ion (Cirac and Zoller, 1995). Flipping the sign of the ⎮↑〉⎪ 1 〉 component of the wave function realizes an entangling two-qubit “π-phase” gate and is universal for computation. Finally, the initial transfer step on the first ion is reversed, restor- ing the motion to the ground state and effectively having performed the logic gate between the internal qubit states of the two laser-beam-selected ions. At NIST, since we had recently achieved ground-state cooling with stimulated Ra- man transitions on hyperfine qubit states, we were able to quickly demonstrate a universal gate between a hyperfine qubit and a motional mode qubit. (Mon- roe et al. 1995a). The complete Cirac/Zoller gate between two selected qubits was subsequently demonstrated by the Innsbruck group, led by Rainer Blatt (Schmidt-Kaler et al. 2003).
+
+More streamlined gates were subsequently devised in which multiple ions are addressed simultaneously by the same laser beams (Milburn et al. 2000; Solano et al. 1999; Sørensen and Mølmer 1999, 2000; Wang et al. 2001). These gates also have the advantage that it is not necessary to prepare all modes in the ground state; it is only necessary that each ion is maintained well within the Lamb-Dicke regime ( 〈 z 2 〉 « ( λ /2 π ) 2 ). These “geometric” gates can be viewed as arising from quantum phases that are acquired when a mode of the ions’ motion is displaced in phase space around a closed path; the phases accumu- lated are proportional to the enclosed area in phase space. The different gates can be viewed in a common framework, the main difference being whether or not the forces act on the spin states in the z basis (eigenstates ⎮↓〉 , ⎮↑〉 ) or
+
+in the x,y basis (eigenstates of the form 12 ↓ + e i ξ ↑ , 12 ↓ − e i ξ ↑ (Lee et
+
+al. , 2005). The forces required for the displacements are usually implemented with optical-dipole forces as in the Schrödinger cat example. Since the forces are state-dependent, the differential geometric phases generate entangling gates. Two-qubit phase gates have been implemented in the z basis (Home et al. 2006; Leibfried et al. 2003b) and in the x–y basis (Benhelm et al. 2008; Haljan et al. 2005; Kim et al. 2009; Sackett et al. 2000). In the Innsbruck experiment of (Benhelm et al. 2008) a Bell state with fidelity 0.993(1) was produced, setting a
+
+(     ) (     )
+
+-----------------------------------------------------Page 16-----------------------------------------------------
+﻿
+Superposition, Entanglement, and Raising Schrödinger ’s Cat            133
+
+FIGURE 4. Scheme for quantum computation proposed by Cirac and Zoller (Cirac and Zoller, 1995). Quadrupolar electrodes are configured to produce a linear array of trapped ion qubits (filled black circles). Two diagonally opposite rods support an RF potential to realize a ponderomotive pseudopotential transverse to the trap’s (horizon- tal) axis. Static potentials applied to the end segments of the electrodes confine ions along the axis. Ideally, all motional modes are laser-cooled to the ground state before logic operations. The quantized modes of motion can be used as a data bus to share information between the internal state qubits of ions that are selected by focused laser beams (see text).
+
+standard for all QIP experiments. The use of single and multi-qubit gates has enabled the demonstration of several ion-based QIP algorithms; see for exam- ple (Blatt and Roos 2012; Blatt and Wineland 2008). At NIST most such demon- strations were led by Didi Leibfried. Chris Monroe’s group at the University of Maryland is leading efforts on an entirely different scheme for ion entanglement generation based on performing joint measurements on photons that are first entangled with ion qubits (Moehring et al. 2007; Monroe et al. 2012; Olmschenk et al. 2010). This scheme has the advantage that the ions don’t have to be in the Lamb-Dicke regime, and it also enables entanglement of widely separated qubits because of the relative ease of transferring photons over large distances. The basic elements of the Cirac/Zoller proposal are carried forward in the different variations of trapped-ion QIP. This proposal rejuvenated the field of trapped ions and today there are over 30 groups in the world working on vari- ous aspects of quantum information processing. These include groups at the University of Aarhus; Amherst College; University of California, Berkeley; Univer- sity of California, Los Angles; Duke University; ETH Zürich; University of Freiburg; Georgia Tech; Griffiths University; Imperial College; University of Innsbruck; Lin- coln Laboratories; Mainz University; University of Hannover and PTB (Germany); MIT; NIST (USA); NPL (UK); Osaka University; Oxford University; Joint Quantum
+
+-----------------------------------------------------Page 17-----------------------------------------------------
+﻿
+134                                         The Nobel Prizes
+
+Institute at the University of Maryland; Université de Paris; Saarland University (Saarbrücken); Sandia National Laboratory (USA); Siegen University; Simon Fra- ser University; National University of Singapore; Sussex University; University of Sydney; Tsinghua University; University of Ulm; University of Washington; Wa- bash College; and the Weizmann Institute.
+
+A. Quantum simulation
+
+In the early 1980s, Richard Feynman proposed that one quantum system might be used to efficiently simulate the dynamics of other quantum systems of inter- est (Feynman 1982; Lloyd 1996). This is now a highly anticipated application of QIP, and will likely occur well before useful factorization is performed. Of course, the universality of a large-scale quantum computer will allow it to simulate any quantum system of interest. However, it is also possible to use the built-in avail- able interactions in a quantum processor to simulate certain classes of physical problems. For trapped ions, it has been possible to use the interactions em- ployed in the various gates to simulate other systems of interest, for example nonlinear optical systems (Leibfried et al. 2002), motional quantum dynamics as in an electron’s Zitterbewegung or trembling motion (Gerritsma et al. 2010) or the properties of a “quantum walk ” (Schmitz et al. 2009b; Zähringer et al. 2010). Currently, efforts are underway in several laboratories to use QIP interactions to simulate various dynamics including those of condensed matter systems. Some of the basic ideas for how this might work with ions have been outlined in (Blatt and Roos 2012; Britton et al. 2012; Chiaverini and Lybarger 2008; Clark et al. 2009; Deng et al. 2005; Johanning et al. 2009; Korenblit et al. 2012; Pons et al. 2007; Porras and Cirac 2004, 2006; Schätz et al. 2007; Schmied et al. 2011; Schmitz et al. 2009a; Schneider et al. 2012; Taylor and Calarco 2008; Wunderlich and Balzer 2003). Here, logic gate interactions between ions i and j invoke a spin-
+
+spin like interaction of the form σ ûi σ ûj , where u ∈ { x , y , z } . Spin rotations about a
+
+direction û act like magnetic fields along û . These basic interactions have been implemented on up to 16 ions in an RF trap (Edwards et al. 2010; Friedenauer et al. 2008; Islam et al. 2012; Kim et al. 2009, 2010; Korenblit et al. 2012; Schätz et al. 2007). One interesting aspect of this work is the study of quantum phase transitions by varying the relative strengths of the (simulated) spin-spin and magnetic field interactions. Under appropriate conditions, the effects of spin “frustration” are now becoming apparent. The basic interactions have also been implemented on over 100 spins in a Penning trap experiment led by John Bol- linger at NIST (Britton et al. 2012), where the ions naturally form into a triangular
+
+-----------------------------------------------------Page 18-----------------------------------------------------
+﻿
+Superposition, Entanglement, and Raising Schrödinger ’s Cat            135
+
+array. In the Innsbruck group, simulations including engineered dissipation have also been implemented (Barreiro et al. 2011; Blatt and Roos 2012), and a striking demonstration of a digital quantum simulator has been made (Blatt and Roos 2012; Lanyon et al. 2011), in essence the first universal quantum computer.
+
+B. Spectroscopy and quantum metrology
+
+Some potential applications of quantum control and QIP are motivated by the idea of using entangled states to improve spectroscopic sensitivity (Bollinger et al. 1996; Goldstein et al. 2009; Leibfried et al. 2004; Roos et al. 2006; Wineland et al. 1994, 1992) and demonstrations of this increased sensitivity have been made (Leibfried et al. 2004, 2005; Leroux et al. 2010; Meyer et al. 2001; Monz et al. 2011; Roos et al. 2006). These demonstrations were made in the limit that noise was dominated by “projection noise,” the fundamental noise arising from the fluctua- tions in which state the system is projected into upon measurement (Itano et al. 1993; Wineland et al. 1982). This might be the case in a spectroscopy experi- ment where the interrogation time is limited by a particular experimental con- straint, like the duration of flight of atoms in a cesium fountain clock or by the desire to hold the temperature of ions below a certain value if they are heated during interrogation. However, if significant phase noise is present in either the atoms themselves (Huelga et al. 1997), or the interrogating radiation (André et al. 2004; Buzek et al. 1999; Rosenband 2012; Wineland et al. 1998), the gain from entanglement can be lost. This puts a premium on finding probe oscillators that are stable enough that the projection noise dominates for the desired probe duration.
+
+Some ions of spectroscopic interest may be difficult to detect because they either don’t have a cycling transition, or lack a cycling transition at a conve- nient wavelength. In some cases, this limitation can be overcome by simultane- ously storing the ion(s) of spectroscopic interest with a “logic” ion or ions whose states can be more easily detected. Following the Cirac and Zoller scheme, we can use the internal-to-motion-state-transfer process described above. Here, the idea is to first transfer the two states of interest in the spectroscopy ion to the ground and first excited states of a mode of the ions’ coupled motion. This is then followed by mapping the motional states onto the logic ion, which is sub- sequently measured (Wineland et al. 2002). In a project led by Till Rosenband at NIST, this technique has been used to detect optical transitions in 27 Al + ions by transferring the relevant 27 Al + states to a 9 Be + or 25 Mg + logic ion, which is then measured (Schmidt et al. 2005). It is now used routinely in an accurate optical
+
+-----------------------------------------------------Page 19-----------------------------------------------------
+﻿
+136                                         The Nobel Prizes
+
+clock based on 27 Al + (Chou et al. 2010a; Rosenband et al. 2008) and might also be extended to molecular ions. Currently, the 27 Al + single ion optical clock has the smallest systematic error of any clock at somewhat below 1 part in 10 17 (Chou et al. 2010a). This level of precision has enabled observations of the pre- dictions of Einstein’s general theory of relativity on a human scale, such as time dilation for bicycling speeds and the gravitational red shift for height changes of around 30 cm (Chou et al. 2010b). Such clocks may become useful tools in geodesy.
+
+The information transfer and readout process employed in the 27 Al + / 9 Be + clock experiments typically had a fidelity of about 0.85, limited by errors caused by the ions’ thermal motion in modes not used for information transfer (so- called “Debye-Waller ” factors from Mössbauer spectroscopy (Lipkin 1973; Wine- land et al. 1998)). However, the quantum logic detection process is a QND-type of measurement in that it doesn’t disturb the detected populations of the 27 Al + ion. It can therefore be repeated to gain better information on the 27 Al + ion’s (projected) state. By use of real-time Bayesian analysis on successive detection cycles, the readout fidelity was improved from 0.85 to 0.9994 (Hume et al. 2007). This experiment shares similarities with those of the Paris cavity-QED group, where successive probe atoms are used to perform QND measurements of the photon number in a cavity (Del´eglise et al. 2008). In Hume et al. 2007, the same atom ( 9 Be + ) is reset after each detection cycle and used again. Also, because the detection was accomplished in real time, the procedure was adaptive, requiring on each run a minimum number of detection cycles to reach a certain measure- ment fidelity.
+
+VII. SUMMARY
+
+I have tried to give a brief account of some of the developments that have taken place in the area of quantum state manipulation of small numbers of trapped atomic ions. With apologies, I have omitted several aspects of this subject and for the topics discussed here, I primarily used examples from the NIST, Boulder group. Much of the other work has been discussed in various comprehensive articles and reviews; see for example (Blatt and Roos 2012; Blatt and Wineland 2008; Cirac et al. 1996; Duan and Monroe, 2008, 2010; Häffner et al. , 2008; Kiel- pinski, 2008; Korenblit et al. , 2012; Lee et al. , 2005; Leibfried et al. 2003a; Monroe and Lukin 2008; Monroe et al. 2012; Schneider et al. 2012; Sasura and Buzek 2002; Wineland et al. 1998). Reviews on advanced clocks including those based on ions are contained in Gill 2005, 2011; Maleki 2008; and Margolis 2009. See also Madej et al. 2012 and references therein.
+
+-----------------------------------------------------Page 20-----------------------------------------------------
+﻿
+Superposition, Entanglement, and Raising Schrödinger ’s Cat            137
+
+VIII. ACKNOWLEDGEMENTS
+
+Certainly my role in this work is very small when compared to that of my col- leagues both at NIST and around the world, who have made so many important contributions. Having been recognized by the Nobel Foundation is really more recognition of our field rather than individual accomplishment; many others are at least as deserving. Just the work of the NIST group was due to the combined efforts of a very large number of people. I have been lucky to work with NIST permanent staff members Jim Bergquist, John Bollinger, Bob Drullinger, and Wayne Itano for my entire career, and we have been fortunate to be joined by Didi Leibfried and Till Rosenband in the last decade. Chris Monroe was a very important part of our group from 1992 to 2000 and now has his own group at the University of Maryland. Of course our successes would not have happened if not for the dedication of many students, postdocs, and visiting scientists to our group, numbering over 100 people. Having a group working directly together or on related problems has been a source of strength for us, and the congenial atmosphere over the years has made our efforts so enjoyable.
+
+Throughout my career, our group has enjoyed the support and encourage- ment of NBS/NIST management. My direct supervisors over the years, Helmut Hellwig, Sam Stein, Don Sullivan, and Tom O’Brian have always supported our goals and desires as much as possible. More recently, we have also enjoyed the support of Carl Williams, who heads NIST ’s quantum information program. We are all indebted to our laboratory director, Katharine Gebbie, for her support and encouragement. Perhaps one measure of her success is that I am the fourth person, after Bill Phillips, Eric Cornell, and Jan Hall, to receive a Nobel Prize during her tenure as lab director. We are also grateful for the support of agencies out- side of NIST, such as AFOSR, ARO, DARPA, ONR, and various intelligence agencies who have supported our work on quantum information. I have great respect for the leaders of some of our group’s strongest competition such as Rainer Blatt (Innsbruck) and Chris Monroe (University of Maryland) and have enjoyed their friendship for many years. It was also a great pleasure to share this recognition with Serge Haroche. I have known Serge for about 25 years and have enjoyed both his group’s elegant science and also the mutual friendship that my wife and I have shared with him and his wife, Claudine. Most importantly, I have been very fortunate to have the support, understanding, and patience of my wife Sedna and sons Charles and Michael.
+
+I thank John Bollinger, Wayne Itano, Didi Leibfried, and Till Rosenband for helpful suggestions on the manuscript. This is a contribution of NIST and is not subject to U.S. copyright.
+
+-----------------------------------------------------Page 21-----------------------------------------------------
+﻿
+138                                         The Nobel Prizes
+
+REFERENCES
+
+1.   André, A., A. Sørensen, and M. D. Lukin (2004), Phys. Rev. Lett . 92 (23), 230801. 2.   Ashkin, A. (1970a), Phys. Rev. Lett. 24 (4), 156. 3.   Ashkin, A. (1970b), Phys. Rev. Lett . 25 (19), 1321.
+
+4.   Barreiro, J. T., M. Müller, P. Schindler, D. Nigg, T. Monz, M. Chwalla, M. Hennrich, C. F.
+
+Roos, E. Solano, and R. Blatt (2011), Nature 470 , 486.
+
+5.   Ben-Kish, A., B. DeMarco, V. Meyer, M. Rowe, J. Britton, W. M. Itano, B. Jelenkovic, C. Langer, D. Leibfried, T. Rosenband, and D. J. Wineland (2003), Phys. Rev. Lett . 90 , 037902.
+
+6.   Bender, P. L., J. L. Hall, R. H. Garstang, F. M. J. Pichanick, W. W. Smith, R. L. Barger, and J.
+
+B. West (1976), Bull. Am. Phys. Soc. 21 , 599.
+
+7.   Benhelm, J., G. Kirchmair, C. F. Roos, and R. Blatt (2008), Nature Physics 4 , 463. 8.   Bergquist, J. C., R. G. Hulet, W. M. Itano, and D. J. Wineland (1986), Phys. Rev. Lett . 57
+
+(14), 1699.
+
+9.   Bergquist, J. C., W. M. Itano, and D. J. Wineland (1987), Phys. Rev. Lett . 36 , 428.
+
+10.   Berkeland, D. J., J. D. Miller, J. C. Bergquist, W. M. Itano, and D. J. Wineland (1998), Phys.
+
+Rev. Lett . 80 (10), 2089.
+
+11.   Blatt, R. and C. F. Roos (2012), Nature Phys . 8 , 277. 12.   Blatt, R. and D. J. Wineland (2008), Nature 453 , 1008. 13.   Blatt, R. and P. Zoller (1988), Eur. J. Phys . 9 (14), 250.
+
+14.   Blockley, C. A., D. F. Walls, and H. Risken (1992), Eur. Phys. Lett . 17 (6), 509.
+
+15.   Bollinger, J. J., D. J. Heinzen, W. M. Itano, S. L. Gilbert, and D. J. Wineland (1991), IEEE
+
+Trans. Instr. Meas . 40 (2), 126.
+
+16.   Bollinger, J. J., W. M. Itano, D. J. Wineland, and D. J. Heinzen (1996), Phys. Rev . A 54 (6),
+
+R4649.
+
+17.   Bollinger, J. J., J. D. Prestage, W. M. Itano, and D. J. Wineland (1985), Phys. Rev. Lett . 54 ,
+
+1000.
+
+18.   Braginsky, V. B. and F. Y. Khalili (1996), Rev. Mod. Phys . 68 , 1.
+
+19.   Britton, J. W., B. C. Sawyer, A. C. Keith, C. C. J. Wang, J. K. Freericks, H. Uys, M. J. Biercuk,
+
+and J. J. Bollinger (2012), Nature 484 , 489.
+
+20.   Buzek, V., R. Derka, and S. Massar (1999), Phys. Rev. Lett . 82 , 2207. 21.   Carruthers, P. and M. M. Nieto (1965), Am. J. Phys . 7 , 537.
+
+22.   Chiaverini, J. and W. E. Lybarger (2008), Phys. Rev . A 77 , 022324.
+
+23.   Chou, C. W., D. B. Hume, J. C. J. Koelemeij, D. J. Wineland, and T. Rosenband (2010a),
+
+Phys. Rev. Lett . 104 , 070802.
+
+24.   Chou, C. W., D. B. Hume, T. Rosenband, and D. J. Wineland (2010b), Science 329 , 1630. 25.   Cirac, J. I., R. Blatt, A. S. Parkins, and P. Zoller (1993a), Phys. Rev. Lett . 70 (6), 762. 26.   Cirac, J. I., A. S. Parkins, R. Blatt, and P. Zoller (1993b), Phys. Rev. Lett . 70 , 556. 27.   Cirac, J. I., A. S. Parkins, R. Blatt, and P. Zoller (1996), Adv. Atom. Mol. Phys . 37 , 238. 28.   Cirac, J. I. and P. Zoller (1995), Phys. Rev. Lett . 74 (20), 4091.
+
+29.   Clark, R. J., T. Lin, K. R. Brown, and I. L. Chuang (2009), J. Appl. Phys . 105 , 013114. 30.   Cohen-Tannoudji, C. and J. Dalibard (1986), Europhys. Lett . 1 , 441. 31.   Cook, R. J., D. G. Shankland, and A. L. Wells (1985), Phys. Rev . A 31 , 564.
+
+-----------------------------------------------------Page 22-----------------------------------------------------
+﻿
+Superposition, Entanglement, and Raising Schrödinger ’s Cat            139
+
+32. Cutler, L. S., R. P. Giffard, and M. D. McGuire (1982), in Proceedings of the 13th Annual PTTI Applications and Planning Meeting , Vol. No. 2220 (NASA, Washington, DC) p. 563.
+
+33. Dehmelt, H. G. (1982), IEEE Trans. Instrum. Meas . IM-31 (2), 83. 34. Dehmelt, H. G. (1990), Rev. Mod. Phys . 62 (3), 525.
+
+35. Deléglise, S., I. Dotsenko, C. Sayrin, J. Bernu, M. Brune, J. M. Raimond, and S. Haroche
+
+(2008), Nature 455 , 510.
+
+36. Deng, S. L., C. Porras, and J. I. Cirac (2005), Phys. Rev . A 72 , 063407. 37. Dicke, R. H. (1953), Phys. Rev . 89 , 472.
+
+38. Diedrich, F., J. C. Bergquist, W. M. Itano, and D. J. Wineland (1989), Phys. Rev. Lett . 62,
+
+403.
+
+39. Duan, L. M. and C. Monroe (2008), Adv. Atom. Mol. Phys . 55 , 419. 40. Duan, L. M. and C. Monroe (2010), Rev. Mod. Phys . 82 , 1209.
+
+41. Edwards, E. E., S. Korenblit, K. Kim, R. Islam, M. S. Chang, J. K. Freericks, G. D. Lin, L. M.
+
+Duan, and C. Monroe (2010), arXiv:1005.4160.
+
+42. Ekert, A. (1995), in Atomic Physics 14, edited by D. J. Wineland, C. E. Wieman, and S. J.
+
+Smith (American Institute of Physics, New York) pp. 450–466.
+
+43. Erber, T., and S. Putterman (1985), Nature 318 , 41. 44. Feynman, R. P. (1982), Int. J. Th. Phys . 21 (6/7), 467.
+
+45. Fisk, P. T. H., M. J. Sellars, M. A. Lawn, C. Coles, A. G. Mann, and D. G. Blair (1995), IEEE
+
+Trans. Instrum. Meas . 44 , 113.
+
+46. Fortson, N., F. Major, and H. Dehmelt (1966), Phys. Rev. Lett . 16 , 221.
+
+47. Friedenauer, A., H. Schmitz, J. T. Glueckert, D. Porras, and T. Schätz (2008), Nature Phys-
+
+ics 4 , 757.
+
+48. Gerritsma, R., G. Kirchmair, F. Zähringer, E. Solano, R. Blatt, and C. F. Roos (2010), Nature
+
+463 , 68.
+
+49. Gill, P. (2005), Metrologia 42 , S125.
+
+50. Gill, P. (2011), Phil.Trans. R. Soc . A 369 , 4109.
+
+51. Goldenberg, H. M., D. Kleppner, and N. F. Ramsey (1960), Phys. Rev. Lett . 5 , 361. 52. Goldstein, G., P. Cappellaro, J. R. Maze, J. S. Hodges, L. Jiang, A. S. Sørensen, and M. D.
+
+Lukin (2009), arXiv:1001.0089.
+
+53. Häffner, H., C. F. Roos, and R. Blatt (2008), Physics Reports 469 , 155.
+
+54. Haljan, P. C., P. J. Lee, K. A. Brickman, M. Acton, L. Deslauriers, and C. Monroe (2005),
+
+Phys. Rev . A 72 , 062316.
+
+55. Hall, J. L. (2006), Rev. Mod. Phys. 78 , 1279. 56. Hänsch, T. W. (2006), Rev. Mod. Phys . 78 , 1297.
+
+57. Hänsch, T. W. and A. L. Schawlow (1975), Opt. Commun . 13 , 68.
+
+58. Haroche, S. and J. M. Raimond (2006), Exploring the quantum (Oxford University Press,
+
+Oxford, U.K.).
+
+59. Heinzen, D. J. and D. J. Wineland (1990), Phys. Rev. A 42 (5), 2977. 60. Hemmati, H., J. C. Bergquist, and W. M. Itano (1983), Opt. Lett . 8 (2), 73.
+
+61. Home, J. P., M. J. McDonnell, D. M. Lucas, G. Imreh, B. C. Keitch, D. J. Szwer, N. R.
+
+Thomas, S. C. Webster, D. N. Stacey, and A. M. Steane (2006), New J. Phys . 8 , 188.
+
+62. Huelga, S. F., C. Macchiavello, T. Pellizzari, A. K. Ekert, M. B. Plenio, and J. I. Cirac (1997),
+
+Phys. Rev. Lett . 79 , 3865.
+
+-----------------------------------------------------Page 23-----------------------------------------------------
+﻿
+140                                         The Nobel Prizes
+
+63. Hume, D. B., T. Rosenband, and D. J. Wineland (2007), Phys. Rev. Lett . 99 , 120502. 64. Islam, R., C. Senko, W. C. Campbell, S. Kornblit, J. Smith, A. Lee, E. E. Edwards, C. D.
+
+Wang, J. k Freericks, and C. Monroe (2012), arXiv:1210.0142 .
+
+65. Itano, W. M., J. C. Bergquist, J. J. Bollinger, J. M. Gilligan, D. J. Heinzen, F. L. Moore, M. G.
+
+Raizen, and D. J. Wineland (1993), Phys. Rev. A 47 (5), 3554.
+
+66. Itano, W. M., J. C. Bergquist, R. G. Hulet, and D. J. Wineland (1987), Phys. Rev. Lett. 59
+
+(24), 2732.
+
+67. Javanainen, J. (1986), Phys. Rev . A 33 , 2121.
+
+68. Jaynes, E. T. and F. W. Cummings (1963), Proceedings of the IEEE 51 , 89.
+
+69. Johanning, M., A. F. Varon, and C. Wunderlich (2009), J. Phys. B: At. Mol. Opt. Phys . 42,
+
+154009.
+
+70. Kazantsev, A. P. (1978), Sov. Phys. Usp . 21 , 58. 71. Kielpinski, D. (2008), Front. Phys. China 3 (4), 365.
+
+72. Kim, K., M. S. Chang, R. Islam, S. Korenblit, L. M. Duan, and C. Monroe (2009), Phys. Rev.
+
+Lett . 103 , 120502.
+
+73. Kim, K., M. S. Chang, S. Korenblit, R. Islam, E. E. Edwards, J. K. Freericks, G. D. Lin, L. M.
+
+Duan, and C. Monroe (2010), Nature 465 , 590.
+
+74. Kimble, H. J., R. J. Cook, and A. L. Wells (1986), Phys. Rev . A 34 , 3190.
+
+75. Kleppner, D., H. M. Goldenberg, and N. F. Ramsey (1962), Phys. Rev . 126 , 603. 76. Korenblit, S., D. Kafri, W. C. Campbell, R. Islam, E. E. Edwards, Z. X. Gong, G. D. Lin, L. M.
+
+Duan, J. Kim, and C. Monroe (2012), New. J. Phys . 14 , 095024.
+
+77. Lanyon, B. P., C. Hempel, D. Nigg, M. Müller, R. Gerritsman, F. Aähringer, P. Schindler, J. T. Barreiro, M. Rambach, G. Krichmair, M. Hennrich, P. Zoller, R. Blatt, and C. F. Roos (2011), Science 334 , 57.
+
+78. Law, C. K., and J. H. Eberly (1996), Phys. Rev. Lett . 76 (7), 1055.
+
+79. Lee, P. J., K. A. Brickman, L. Deslauriers, P. C. Haljan, L. M. Duan, and C. Monroe (2005),
+
+J. Opt. B: Quantum Semiclass Opt. 7 , S371.
+
+80. Leibfried, D., M. D. Barrett, T. Schätz, J. Britton, J. Chiaverini, W. M. Itano, J. D. Jost, C.
+
+Langer, and D. J. Wineland (2004), Science 304 , 1476.
+
+81. Leibfried, D., R. Blatt, C. Monroe, and D. Wineland (2003a), Rev. Mod. Phys . 75 , 281. 82. Leibfried, D., B. DeMarco, V. Meyer, D. Lucas, M. Barrett, J. Britton, W. M. Itano, B. Jelenkovi´c, C. Langer, T. Rosenband, and D. J. Wineland (2003b), Nature 422 , 412. 83. Leibfried, D., B. DeMarco, V. Meyer, M. Rowe, A. BenKish, J. Britton, W. M. Itano, B. Jelenkovi´c, C. Langer, T. Rosenband, and D. J. Wineland (2002), Phys. Rev. Lett . 89 , 247901.
+
+84. Leibfried, D., E. Knill, S. Seidelin, J. Britton, R. B. Blakestad, J. Chiaverini, D. Hume, W. M. Itano, J. D. Jost, C. Langer, R. Ozeri, R. Reichle, and D. J. Wineland (2005), Nature 438 , 639.
+
+85. Leroux, I. D., M. H. Schleier-Smith, and V. Vuletic (2010), Phys. Rev. Lett . 104 , 250801. 86. Letokhov, V., V. G. Minogin, and B. D. Pavlik (1977), Sov. Phys. JETP 45 , 698. 87. Lipkin, H. J. (1973), Quantum Mechanics (North-Holland, New York). 88. Lloyd, S. (1996), Science 273 (4), 1073.
+
+89. Madej, A. A., P. Dubé, Z. Zhou, J. E. Bernard, and M. Gertsvolf (2012), Phys. Rev. Lett .
+
+109 , 203002.
+
+90. Major, F. G. and G. Werth (1973), Phys. Rev. Lett . 30 (23), 1155.
+
+-----------------------------------------------------Page 24-----------------------------------------------------
+﻿
+Superposition, Entanglement, and Raising Schrödinger ’s Cat            141
+
+91. Maleki, L., Ed. (2008), Frequency Standards and Metrology, Proceedings of the 7th Sym-
+
+posium (World Scientific, Singapore).
+
+92. Margolis, H. S. (2009), J. Phys. B: At. Mol. Opt. Phys . 42 , 154017.
+
+93. McDonnell, M. J., J. P. Home, D. M. Lucas, G. Imreh, B. C. Keitch, D. J. Szwer, N. R. Thomas, S. C. Webster, D. N. Stacey, and A. M. Steane (2007), Phys. Rev. Lett . 98 , 063603. 94. Meekhof, D. M., C. Monroe, W. M. Itano, B. E. King, and D. J. Wineland (1996), Phys. Rev.
+
+Lett . 76 (11), 1796.
+
+95. Meyer, V., M. A. Rowe, D. Kielpinski, C. A. Sackett, W. M. Itano, C. Monroe, and D. J.
+
+Wineland (2001), Phys. Rev. Lett . 86 , 5870.
+
+96. Milburn, G. J., S. Schneider, and D. F. V. James (2000), Fortschr. Physik 48 , 801. 97. Moehring, D. L., P. Maunz, S. Olmschenk, K. C. Younge, D. N. Matsukevich, L. M. Duan,
+
+and C. Monroe (2007), Nature 449 , 68.
+
+98. Monroe, C., and M. Lukin (2008), Physics World (August), 32.
+
+99. Monroe, C., D. M. Meekhof, B. E. King, W. M. Itano, and D. J. Wineland (1995a), Phys.
+
+Rev. Lett . 75 (25), 4714.
+
+100. Monroe, C., D. M. Meekhof, B. E. King, S. R. Jefferts, W. M. Itano, D. J. Wineland, and P.
+
+Gould (1995b), Phys. Rev. Lett . 75 (22).
+
+101. Monroe, C., D. M. Meekhof, B. E. King, and D. J. Wineland (1996), Science 272 , 1131. 102. Monroe, C., R. Raussendorf, A. Ruthven, K. R. Brown, P. Maunz, L. M. Duan, and J. Kim
+
+(2012), arXiv:1208.0391 .
+
+103. Monz, T., P. Schindler, J. T. Barreiro, M. Chwalla, D. Nigg, W. A. Coish, M. Harlander, W.
+
+Hänsel, M. Hennrich, and R. Blatt (2011), Phys. Rev. Lett . 106 , 130506.
+
+104. Myatt, C. J., B. E. King, Q. A. Turchette, C. A. Sackett, D. Kielpinski, W. M. Itano, C. Mon-
+
+roe, and D. J. Wineland (2000a), J. Mod. Opt . 47 , 2182.
+
+105. Myatt, C. J., B. E. King, Q. A. Turchette, C. A. Sackett, D. Kielpinski, W. M. Itano, C. Mon-
+
+roe, and D. J. Wineland (2000b), Nature 403 .
+
+106. Nagourney, W., J. Sandberg, and H. G. Dehmelt (1986), Phys. Rev. Lett . 56 (26), 2797. 107. Neuhauser, W., M. Hohenstatt, P. Toschek, and H. Dehmelt (1978), Phys. Rev. Lett . 41
+
+(4), 233.
+
+108. Neuhauser, W., M. Hohenstatt, P. Toschek, and H. Dehmelt (1980), Phys. Rev . A 22 (3),
+
+1137.
+
+109. Olmschenk, S., D. Hayes, D. N. Matsukevich, P. Maunz, D. L. Moehring, and C. Monroe
+
+(2010), Int. J. Quant. Information 8 , 337.
+
+110. Oskay, W. H., S. A. Diddams, E. A. Donley, T. M. Fortier, T. P. Heavner, L. Hollberg, W. M. Itano, S. R. Jefferts, M. J. Delaney, K. Kim, F. Levi, T. E. Parker, and J. C. Berqquist (2006), Phys. Rev. Lett . 97 , 020801.
+
+111. Paul, W. (1990), Rev. Mod. Phys . 62 , 531.
+
+112. Pegg, D. T., R. Loudon, and P. L. Knight (1986), Phys. Rev . A 33 , 4085.
+
+113. Pons, M., V. Ahufinger, C. Wunderlich, A. Sanpera, S. Braungardt, A. Sen(De), U. Sen,
+
+and M. Lewenstein (2007), Phys. Rev. Lett . 98 , 023003.
+
+114. Porras, D., and J. I. Cirac (2004), Phys. Rev. Lett . 92 , 207901. 115. Porras, D., and J. I. Cirac (2006), Phys. Rev. Lett . 96 , 250501.
+
+116. Poschinger, U., A. Walther, K. Singer, and F. Schmidt-Kaler (2010), Phys. Rev. Lett . 105 ,
+
+263602.
+
+117. Prestage, J. D., G. J. Dick, and L. Maleki (1991), IEEE Trans. Instrum. Meas . 40 , 132.
+
+-----------------------------------------------------Page 25-----------------------------------------------------
+﻿
+142                                         The Nobel Prizes
+
+118.   Ramsey, N. F. (1990), Rev. Mod. Phys . 62 , 541.
+
+119.   Roos, C. F., M. Chwalla, K. Kim, M. Riebe, and R. Blatt (2006), Nature 443 , 316. 120.   Rosenband, T. (2012), arXiv:1203.0288 .
+
+121.   Rosenband, T., D. B. Hume, P. O. Schmidt, C. W. Chou, A. Brusch, L. Lorini, W. H. Oskay, R. E. Drullinger, T. M. Fortier, J. E. Stalnaker, S. A. Diddams, W. C. Swann, N. R. Newbury, W. M. Itano, D. J. Wineland, and J. C. Bergquist (2008), Science 319 , 1808.
+
+122.   Sackett, C. A., D. Kielpinski, B. E. King, C. Langer, V. Meyer, C. J. Myatt, M. Rowe, Q. A.
+
+Turchette, W. M. Itano, D. J. Wineland, and C. Monroe (2000), Nature 404.
+
+123.   Sauter, T., H. Gilhaus, I. Siemers, R. Blatt, W. Neuhauser, and P. E. Toschek (1988), Z. Phys .
+
+D 10 , 153.
+
+124.   Sauter, T., W. Neuhauser, R. Blatt,    and P. E. Toschek (1986), Phys. Rev. Lett . 57 (14),
+
+1696.
+
+125.   Schätz, T., A. Friedenauer, H. Schmitz, L. Petersen, and S. Kahra (2007), J. Mod. Opt .
+
+54 , 2317.
+
+126.   Schenzle, A., R. G. DeVoe, and R. G. Brewer (1986), Phys. Rev . A 33 , 2127.
+
+127.   Schmidt, P. O., T. Rosenband, C. Langer, W. M. Itano, J. C. Bergquist, and D. J. Wineland
+
+(2005), Science 309 , 749.
+
+128.   Schmidt-Kaler, F., H. Häffner, M. Riebe, S. Gulde, G. P. T. Lancaster, T. Deuschle, C.
+
+Becher, C. Roos, J. Eschner, and R. Blatt (2003), Nature 422 , 408.
+
+129.   Schmied, R., J. Wesenberg, and D. Leibfried (2011), New J. Phys . 13 , 115011.
+
+130.   Schmitz, H., A. Friedenauer, C. Schneider, R. Matjeschk, M. Enderlein, T. Huber, and T.
+
+Schätz (2009a), Appl. Phys . B 95 , 195.
+
+131.   Schmitz, H., R. Matjeschk, C. Schneider, J. Glueckert, M. Enderlein, T. Huber, and T.
+
+Schätz (2009b), Phys. Rev. Lett . 103 , 090504.
+
+132.   Schneider, C., D. Porras, and T. Schaetz (2012), Rep. Prog. Phys . 75 , 024401. 133.   Schrödinger, E. (1935), Naturwissenschaften 23 , 807.
+
+134.   Schrödinger, E. (1952a), British Journal for the Philosophy of Science 3 (10), 109. 135.   Schrödinger, E. (1952b), British Journal for the Philosophy of Science 3 (11), 233. 136.   Schuessler, H. A., E. N. Fortson, and H. G. Dehmelt (1969), Phys. Rev. 187 (1), 5. 137.   Shor, P. W. (1994), in Proceedings of the 35th Annual Symposium on the Foundations of Computer Science , Vol. 35, edited by S. Goldwasser (IEEE Computer Society Press, Los Alamitos, CA) p. 124.
+
+138.   Solano, E., R. L. de Matos Filho, and N. Zagury (1999), Phys. Rev. A 59 , 2539. 139.   Sørensen, A., and K. Mølmer (1999), Phys. Rev. Lett . 82 , 1971. 140.   Sørensen, A., and K. Mølmer (2000), Phys. Rev . A 62 , 02231. 141.   Stenholm, S. (1986), Rev. Mod. Phys . 58 , 699.
+
+142.   Taylor, J. M., and T. Calarco (2008), Phys. Rev . A 78 , 062331.
+
+143.   Turchette, Q. A., C. J. Myatt, B. E. King, C. A. Sackett, D. Kielpinski, W. M. Itano, C. Mon-
+
+roe, and D. J. Wineland (2000), Phys. Rev . A 62 , 053807.
+
+144.   Van Dyck, R. S., P. Schwinberg, and H. Dehmelt (1977), Phys. Rev. Lett . 38 (7), 310. 145.   Van Dyck, R. S., P. B. Schwinberg, and H. G. Dehmelt (1978), in New Frontiers in High- Energy Physics , edited by B. M. Kursunoglu, A. Perlmutter, and L. F. Scott (Plenum, New York) p. 159.
+
+146.   Sasura, M. and V. Buzek (2002), J. Mod. Opt . 49 , 1593.
+
+147.   Wang, X., A. Sørensen, and K. Mølmer (2001), Phys. Rev. Lett . 86 , 3907.
+
+-----------------------------------------------------Page 26-----------------------------------------------------
+﻿
+Superposition, Entanglement, and Raising Schrödinger ’s Cat            143
+
+148.   Wineland, D. and H. Dehmelt (1975a), Int. J. Mass Spect. and Ion Phys . 16 , 338. 149.   Wineland, D. and H. Dehmelt (1975b), Bull. Am. Phys. Soc . 20 , 637.
+
+150.   Wineland, D. and H. Dehmelt (1976), Int. J. Mass Spect. and Ion Phys . 19 , 251. 151.   Wineland, D., P. Ekstrom, and H. G. Dehmelt (1973), Phys. Rev. Lett . 31 (21), 1279. 152.   Wineland, D. J., D. W. Allan, D. J. Glaze, H. W. Hellwig, and S. Jarvis (1976), IEEE Trans.
+
+Instrum. Meas . IM-25 (4), 1976.
+
+153.   Wineland, D. J., J. C. Bergquist, J. J. Bollinger, R. E. Drullinger, and W. M. Itano (2002), in Proc. 6th Symposium Frequency Standards and Metrology , edited by P. Gill (World Scientific, Singapore) pp. 361–368.
+
+154.   Wineland, D. J., J. J. Bollinger, W. M. Itano, and D. J. Heinzen (1994), Phys. Rev . A 50
+
+(1), 67.
+
+155.   Wineland, D. J., J. J. Bollinger, W. M. Itano, F. L. Moore, and D. J. Heinzen (1992), Phys.
+
+Rev . A 46 (11), R6797.
+
+156.   Wineland, D. J., R. E. Drullinger, and F. L. Walls (1978), Phys. Rev. Lett . 40 (25), 1639. 157.   Wineland, D. J. and W. M. Itano (1979), Phys. Rev . A 20 (4), 1521. 158.   Wineland, D. J. and W. M. Itano (1981), Phys. Lett . 82A (2), 75.
+
+159.   Wineland, D. J., W. M. Itano, J. C. Bergquist, and R. G. Hulet (1987), Phys. Rev. A 36 (5),
+
+2220.
+
+160.   Wineland, D. J., W. M. Itano, J. C. Bergquist, and F. L. Walls (1982), in Proc. 35th Ann. Frequency Control Symposium , Vol. NTIS No. AD-A110870 (Electronic Industries Assn., Washington, DC) pp. 602–611.
+
+161.   Wineland, D. J., C. Monroe, W. M. Itano, D. Leibfried, B. E. King, and D. M. Meekhof
+
+(1998), J. Res. Nat. Inst. Stand. Tech . 103 , 259.
+
+162.   Wineland, D. J. and N. F. Ramsey (1972), Phys. Rev . A 5 (2), 821. 163.   Wunderlich, C. and C. Balzer (2003), Adv. Atom. Mol. Phys .
+
+164.   Young, B. C., F. C. Cruz, W. M. Itano, and J. C. Bergquist (1999), Phys. Rev. Lett . 82 , 3799. 165.   Zähringer, F., G. Kirchmair, R. Gerritsma, E. Solano, R. Blatt, and C. F. Roos (2010), Phys.
+
+Rev. Lett . 104 , 100503.
+
+Portrait photo of Dr Wineland by photographer Ulla Montan.
+
+-----------------------------------------------------Page 27-----------------------------------------------------

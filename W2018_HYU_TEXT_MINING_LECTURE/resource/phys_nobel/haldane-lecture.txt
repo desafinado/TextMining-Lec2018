@@ -1,0 +1,486 @@
+﻿Topological Quantum Matter
+
+Nobel Lecture, December 8, 2016 by F. Duncan M. Haldane
+
+Department of Physics, Princeton University
+
+ABSTRACT
+
+Nobel Lecture, presented December 8, 2016, Aula Magna, Stockholm University. I will describe the history and background of three discoveries cited in this Nobel Prize: e “TKNN” topological formula for the integer quantum Hall e ect found by David ouless and collaborators, the Chern Insulator or quantum anomalous Hall e ect, and its role in the later discovery of time-reversal-invari- ant topological insulators, and the unexpected topological spin-liquid state of the spin-1 quantum antiferromagnetic chain, which provided an initial example of topological quantum matter. I will summarize how these early beginnings have led to the exciting, and currently extremely active, eld of “topological matter.”
+
+hat we now know as “Topological quantum states” of condensed matter were rst encountered around 1980, with the experimental discovery of the integer (Klitzing et al. , 1980), and later fractional (Tsui et al. , 1982) quantum Hall e ects in the two-dimensional electron systems in semiconductor devices, and the theoretical discovery of the entangled gapped quantum spin-liquid state of integer-spin “quantum spin chains”(Haldane, 1981a, 1983a,b), which was later experimentally con rmed (Buyers et al ., 1986) in crystals of the organic chain molecule NENP. e common feature of these discoveries was their unexpect- edness and the surprise that they engendered: they did not t into the then- established paradigms of “condensed matter physics” (previously known as “solid
+
+43
+
+W
+
+-----------------------------------------------------Page 1-----------------------------------------------------
+﻿
+44                                          The Nobel Prizes
+
+state physics”). It was not at the time apparent that there could be any connection between these two surprises, but now, especially following the classi cation work of Xiao-Gang Wen (Chen et al. , 2013), we understand that their common feature is that they involve “topologically non-trivial” entangled states of matter that are fundamentally di erent from the previously-known “topologically trivial” states, and this lies at the heart of their unexpected properties.
+
+Topology is the branch of mathematics originally used to classify the shapes of three-dimensional objects such as soccer balls, rugby (or American foot- ball) balls and co ee mugs (without a handle), which are “topologically trivial” surfaces without holes, and bagels, doughnuts, pretzels, and co ee cups with a handle, which are “non-trivial surfaces” with one or more holes. An ant crawling on such a “non-trivial” surface could walk around a closed path (one that ends at the same point that it started) that cannot be smoothly shrunk to a tiny circle around a point on the surface. ese original ideas of topology were greatly gen- eralized and made abstract by mathematicians, but the central idea, that things are only “topologically equivalent” if they can smoothly be transformed into each other, remains as its key idea. e essential feature is that di erent topologies are classi ed by whole numbers, like the number of holes in a surface, which cannot change gradually.
+
+Entanglement is a central property of quantum mechanics whereby, if the state of a system is described in terms of the quantum state of its parts (typically if it is spatially separated into two halves), a measurement of a property local- ized in one of the two halves a ects the state of the other half of the system. e “topology” of the “topological states of matter” celebrated in this Nobel Prize is more abstract that that of the shapes of everyday objects such as soccer balls and co ee cups, but distinguishes di erent types of “quantum entanglement” that cannot smoothly be transformed into one another, perhaps while some protec- tive symmetries are being respected. In this case, a quantum state has “topologi- cally trivial” entanglement if it can be smoothly transformed to a state where each part of the system is in an independent state where a measurement on that part has no e ect on other parts of the system (this is called a “product state”). In the case of quantum spin systems (descriptions of non-metallic magnets), it turned out that almost all previously theoretically-described states were “topo- logically trivial,” so there was no precedent for the surprising properties of a non-trivial “topological state.”
+
+It took some time for the general understanding that there was was a large class of new “topological states of matter” to emerge. An early milestone was the discovery ( ouless et al. , 1982) by David ouless, and collaborators Mahito Kohmoto, Marcel den Nijs and Peter Nightingale (TKNN) of a remarkable
+
+-----------------------------------------------------Page 2-----------------------------------------------------
+﻿
+Topological Quantum Matter                                  45
+
+formula that was soon recognized by the mathematical physicist Barry Simon (Simon, 1983) as just being the “ rst Chern class invariant” from the abstract mathematical topology of so-called “ U (1) ber bundles,” with an essential con- nection to a contemporaneous development, the “adiabatic quantum phase” dis- covered in 1983 by Michael Berry (Berry, 1984). As I am also presenting part of David ouless’ Nobel-Prize-winning work, I will describe this rst in my lecture, and begin with the quantum Hall e ect, for which two Nobel Prizes (1985 and 1998) have already been awarded.
+
+In the presence of a uniform magnetic eld with ux density B , charge-e electrons bound to a two-dimensional surface through which the magnetic eld passes move in circular “Landau orbits.” According to quantum mechanics, this periodic motion gives rise to a discrete set of positive energy levels of the elec- trons called “Landau levels.” In the simplest model for these Landau levels, the period T = 2 / c of the circular motion is independent of the radius of the circular motion, and the allowed energies of the Landau levels are those of a harmonic oscillator, ( n + ) ħ c , where   c = eB / m e is the so-called “cyclotron frequency.” Assuming that the surface has translational symmetry, so all points on the surface are equivalent, the energy of each state in a Landau level is inde- pendent of the position of the center of the orbit, and the Landau level is highly (macroscopically) degenerate. e number of independent one-particle states in the Landau level is proportional to the area A of the system, in fact there are BA / 0 states in each Landau level, where   0 = h / e is the (London) quantum of magnetic ux.
+
+e Pauli principle says that not more that one electron can “occupy” any independent one-particle state, and the Landau levels are somewhat analogous to the levels (1 s , 2 p , 3 d . . .) of the simple quantum mechanical model of the atom, familiar from high-school chemistry. However, instead of these levels accom- modating nite and xed numbers (2, 6,10. . .) of states available to be “ lled,” the number of states in a Landau level is huge (perhaps of order 10 12 in a real sample) and varies with the magnetic eld. Since the number of mobile elec- trons of the 2D surface is essentially xed, it could in principle be possible to get things “just right” by “ ne-tuning” the magnetic eld so that in the ground state of the system, one or more Landau levels are completely lled, and the rest are completely empty, so that an energy gap separates the energy of the “highest occupied state” (the “HOMO” in quantum chemistry) and the “lowest unoccu- pied state” (or “LUMO”), making the system analogous to an intrinsic (undoped) semiconductor. Under these arti cial “toy model” conditions, a simple calcula- tion of the Hall conductivity xy of the the system would indeed reproduce the quantum Hall e ect with the universal value xy = ne 2 / h (that depends only on
+
+-----------------------------------------------------Page 3-----------------------------------------------------
+﻿
+46                                          The Nobel Prizes
+
+material-independent fundamental constants and a whole number n , which is the number of occupied Landau levels), that would correspond to the results measured by von Klitzing.
+
+e aw in this näive explanation of the integer QHE is that it requires exquisite ne-tuning of the strength of the magnetic eld. In contrast, it was the insensitivity to the ne-tuning of the magnetic eld strength that alerted von Klitzing to the e ect. He “switched on” the eld to apply it to a device through which a xed current was owing stabilized by a constant current source, and observed that when things stabilized, a digital voltmeter always showed the same Hall voltage across the sample to many signi cant gures. ( e story is told that he rst thought the voltmeter was broken!) Of course, each time the magnetic eld was “turned on” was di erent, so the nal eld would never have been the same on each run of the experiment, and certainly would never have “acciden- tally” taken the precise “magic value” of the näive explanation. It is fortunate that von Klitzing switched on the magnetic eld with a xed current through the sample, rather than switched on the current at xed eld, as the coincidence of the unchanged digital voltmeter readings would then never have happened! e real samples, though comparatively clean, do not have the translational invariance that makes each state in a given Landau level have exactly the same energy. A local electric potential at the center of a given circular Landau orbit varies randomly from point to point, sometimes raising and sometimes lowering the energy, “broadening” the Landau level. e initial attempts to explain the e ect focused on this e ect of disorder, and found that, while two-dimensional electron systems with disorder generally have “localized” states, this is modi ed in a magnetic eld. In this case, the centers of the Landau orbits slowly precess (in opposite senses) around either local minima or local maxima of the poten- tial, corresponding to localized states, but there is an energy at the center of the broadened Landau level at which the centers of the orbits move along open snakelike paths, and the states at that energy are “extended” as opposed to “local- ized.” In this picture, there is no gap between the “HOMO” and the “LUMO” which have equal energies (now called the “Fermi energy”), and, as the magnetic eld strength is changed, the Fermi energy moves to keep the number of occu- pied states constant, but the integer n measured by von Klitzing only changes when the Fermi energy goes through the special energy at which extended states exist. is provided an explanation in terms of the somewhat arcane theory of localization that at rst sight is not obviously topological, but what is now obvi- ous as a very characteristically topological property emerged when Bert Halperin pointed out the importance of edge states (Halperin, 1982).
+
+-----------------------------------------------------Page 4-----------------------------------------------------
+﻿
+Topological Quantum Matter                                  47
+
+ese edge states are easily seen as semiclassically as counterpropagating “skipping orbits” that precess around the boundary of the system in the opposite sense to that of the Landau orbits, when a particle in a Landau orbit intersects the boundary, and bounces o it (see Figure 1). Even without disorder in the interior of the disk, so that the energy gap between Landau levels remains, there is a con- tinuous distribution of energy levels at the edge of the system that pins the Fermi level and accommodates the “spectral ow” of states between Landau levels as the eld magnetic strength is changed, and removes the need for “ ne tuning” of the magnetic eld to have an energy gap in the interior of the sample. While the number of states in a Landau level changes with magnetic eld strength, the number of states cannot change, so the states must ow between Landau levels: the gapless edge states provide the necessary “plumbing” connections between the Landau levels so states can be redistributed between them as the magnetic
+
+eld changes.
+
+e unavoidable edge states that transport particles in one direction only around the edge allow the robustness of the QHE to be understood in terms of the boundary of the system, but it is also valuable to understand it in terms of the bulk properties of the interior of the system. is is where the TKNN for- mula found by David ouless and collaborators ( ouless et al. , 1982) enters the story. ouless was inspired by the famous “Ho stadter butter y”’ spectrum (Hofstadter, 1976) that results when there is a periodic potential on the 2D sur- face as well as magnetic ux (Figure 2). In this case, the energy band struc- ture can be solved when the magnetic ux through the unit cell of the periodic
+
+• counter-propagating “one-
+
+way” edge states (Halperin)
+
+• conﬁned system with edge
+
+must have edge states!
+
+E 0
+
+∆ bulk gap                  pinned edge
+
+●
+
+don’t need to ﬁne-tune
+
+magnetic ﬁeld
+
+FIGURE 1. Simple energy-level picture for the integer quantum Hall e ect, with an energy gap in the bulk stabilized by pinning of the Fermi level by gapless edge states. ( e energy levels are show as as function of radius in a disk-shape sample).
+
+● ● ● ● ● ● ● ● ● ● ● ● ●
+
+-----------------------------------------------------Page 5-----------------------------------------------------
+﻿
+48                                          The Nobel Prizes
+
+potential is a rational number p / q , where p and q are relative prime numbers with no common factors. e solution depends very delicately on the precise values of p and q , as it must be solved in an enlarged “magnetic unit cell” through which the magnetic ux must be an integer in units of   0 . e e ect of the magnetic eld is that each zero- eld energy band that occurs in the absence of a magnetic eld splits up into q energy bands, so that in going from a ux of 1/3 per unit cell to 100/301, what is one band at ux 1/3 splits up into 100 much narrower bands even though the ux change is very small!
+
+A very clear argument formulated by Robert Laughlin (Laughlin, 1981) had already shown that in the absence of electron-electron interactions, if the Fermi level is inside a gap of the bulk electronic spectrum, the Hall conductivity xy in the low-temperature limit T    0 had to be an integer multiple of e / 0 = e 2 /2 ħ . In the bottom le -hand corner of the “Hofstadter butter y,” where the magnetic ux through the unit cell is very small, the spectrum resembles that of simple Landau levels, with extremely narrow at bands corresponding to a slightly wid- ened Landau level, separated by large gaps. In this limit, the integer is just given by the number of lled Landau levels. But as the ux increases, the
+
+FIGURE 2.    e “Hofstadter Butter y” spectrum of electrons on a periodic lattice plus a uniform magnetic eld, showing energy levels as a function of magnetic fux through a unit cell. e structure in the lower le corner becomes that of a system of simple Landau levels. Colors in gaps between subbands represent the di erent integer quantizations of the Hall e ect if the Fermi level is in that gap. (Colored spectrum provided by D. Osadchy and J. Avron).
+
+-----------------------------------------------------Page 6-----------------------------------------------------
+﻿
+Topological Quantum Matter                                  49
+
+Landau levels split up into an intricate pattern of sub-bands which are sepa- rated by many more gaps, which open and close as the magnetic eld changes. When the Fermi level is in one of these new gaps, the question posed by TKNN was, what is the integer that de nes the low-temperature Hall conductivity? Even though TKNN were working in the enlarged “magnetic unit cell,” the Bloch theorem remained valid, and showing the electronic wavefunctions had the form
+
+Ψ kn ( r ) = u n ( k , r ) e k ⋅ r                (1) where u n ( k,r ) is a periodic function of r de ned in the magnetic unit cell (MUC). Here k is a “Bloch vector” de ned in the (magnetic) “Brillouin zone” (BZ) which in 2D is topologically equivalent to a torus, or doughnut shape. Using the funda- mental Kubo formula for electrical conductivity, they found the formula
+
+n
+
+⎛ 1
+
+⎠
+
+F nxy ( k ) =   1
+
+⎛ ∂ u n ∂ u n ⎝ ∂ k x ∂ k y
+
+∂ k y ∂ k x ⎟
+
+Here n labeled the occupied electronic bands below the Fermi level. e remarkable property was that the integral of each periodic function F nxy ( k ) over the magnetic Brillouin zone was 2 times an integer, in agreement with Laugh- lin’s result. TKNN realized that this had to be so, because F nxy ( k ) could be written in the form
+
+∂ k y n
+
+2 i
+
+2 ⎛ ∗ ∂ u ∂ u ∗ ⎞
+
+leading to the key expression, as an integral around the Brillouin zone bound- ary (BZB) :
+
+n
+
+1 i
+
+(2)
+
+I learned from Marcel den Nijs and Peter Nightingale that their recollection is that the inclusion (in a single paragraph) of this remarkable explicit general
+
+σ xy =   e 2
+
+2 π ! ∑ ⎝ 2 π ∫ BZ
+
+d 2 k F nxy ( k ) ⎞
+
+2 i MUC ∫
+
+d 2 r ⎜
+
+−   ∂ u n ∗ ∂ u n ⎞
+
+∂ k x   A y ( k ) −   ∂
+
+F nxy ( k ) =   ∂ A x ( k )
+
+A ni =   1
+
+∫ MUC d r ⎜ ⎝ u n ∂ k n i − u n ∂ k n i ⎟ ⎠
+
+σ xy =   e 2
+
+2 π ! ∑ 2 π BZB i n
+
+! ∫ dk A ( k )
+
+-----------------------------------------------------Page 7-----------------------------------------------------
+﻿
+50                                          The Nobel Prizes
+
+formula in the paper (rather than formulas very speci c to the Hofstadter model, which were the main aim of the paper) emerged as an “a erthought” while writing the paper! Another quote from den Nijs is that it was “the genius of David ouless to choose the periodic potential generalization [to broaden the Landau level] rather than the random one, that was the essential step.” is shows the power of choosing the right (and tractable) toy model for which a full and explicit calculation can be done. While there has been continuing interest to date in achieving a physical realization of the Hofstadter model, it had no relation whatsoever to the physical samples in which the integer quantum Hall e ect was seen, for which the essentially intractable random potential was the physically- appropriate model, and the apparently-natural problem to study.
+
+Shortly a er the TKNN paper was published, Michael Berry discovered his famous geometric phase (Berry, 1984) of adiabatic quantum mechanics. In Berry’s classic example, a spin with quantum number S is aligned along an axis represented by a unit vector Ω , with a direction that is slowly changed with time, de ning a closed path on the unit sphere that nally returns to its original direction. Berry’s result was that, in addition to the expected change of phase of the state with a rate proportional to its energy, there is an additional “geometric” change of phase that depends only on the geometry of the path, in this case given by the solid angle   enclosed by the path (the area “enclosed” by the closed path on the surface of the unit sphere) times S . Looking at this more carefully, one sees that the notion of the area enclosed by the path is ambiguous, and the solid angle   that it subtends is ambiguous up to multiples of 4 , but the physically- meaningful Berry phase factor exp iS is itself unambiguous because 2 S is an integer. e in uence of Berry’s discovery of the geometric phase on modern developments in quantum theory cannot be overemphasized, and many consider that it deserves to get a fuller exposition in a future lecture in this series. Both Berry’s work and the TKNN formula were then brought to the atten- tion of the mathematical physicist Berry Simon, who recognized (Simon, 1983) the connection between these formulas whereby the Berry phase could either be viewed as the integral of a “Berry connection” (analogous to the vector poten- tial of electromagnetism) around a path, or by Stokes’ theorem, as the integral of a “Berry ux” or “Berry curvature” through a surface bounded by the path. Furthermore, if the surface is a closed surface with no boundaries, its total Berry curvature or ux must be an integer multiple of 2 , and this integer is a topological invariant, the “ rst Chern class,” technically of a “ U (1) ber bundle” (the mathematical characterization of a quantum mechanical wavefunction) on a closed 2D manifold. is theorem is the close analog of the original Gauss- Bonnet theorem for integrals of the intrinsic (Gaussian) curvature over a 2D
+
+-----------------------------------------------------Page 8-----------------------------------------------------
+﻿
+•
+
+•
+
+Michael Berry (1983) ( Lorentz Medal, 2014 ) discovered his famous geometric phase in
+
+Topological Quantum Matter                                  51
+
+(The Berry phase is geometric, not topological, but many consider this extremely inﬂuential work a contender for a Nobel prize).
+
+• Berry’s example: a spin S aligned along an axis
+
+S direction of spin moves on closed
+
+Γ
+
+i Φ Γ
+
+solid angle enclosed is ambiguous modulo 4 π
+
+so 2S must be an integer
+
+FIGURE 3. Berry phase for the adiabatic evolution of the state of a quantum spin aligned along a moving axis. e Berry phase    is the spin quantum number S times the solid angle subtended by the closed path   of the alignment axis Ω . A er the axis returns to its inital orientation, the nal quantum state is the initial state times the factor exp i that depends geometrically on on the path taken. Since the “solid angle subtended by the path” is ambiguous modulo 4 , 2 S is topologically required to be an integer (which it is).
+
+surface. If the surface is closed, like a sphere or a doughnut, the Gauss-Bonnet topological invariant counts the number of holes (the “genus” of the surface): it is this precise mathematical analogy that has given rise to the ubiquitous use of the movie showing a bagel or doughnut’s topological equivalence to a co ee cup. e identi cation of the TKNN formula as a topological invariant marked the beginning of the recognition that topology would play an important role in classifying quantum states themselves, in addition to the early discovery of the importance of topological excitations in the classical physics of the Berezinsky- Kosterlitz- ouless transition (see J. Michael Kosterlitz’s Nobel Lecture in this book) is invariant (the “Chern number” or “ rst Chern class,” given by times the integral of a Berry curvature over a 2D manifold) would remain the only known invariant in quantum condensed matter systems until the 2004 dis- covery by Kane and Mele (Kane and Mele, 2005) of a new “ Z 2 ” invariant in time- reversal-invariant topological insulators, that led to the current explosion of new experimental and theoretical discoveries about topological states of matter. e TKNN result was obtained for the bandstructure of electrons in uni- form magnetic eld with Landau levels that were split into Bloch bands by a periodic potential. In 1988, while analyzing a proposed realization of the “parity anomaly” by Fradkin, Dagotto and Boyanowsky (Fradkin et al. , 1986) I realized that the necessary condition for a quantum Hall e ect was not a magnetic eld, but just broken time-reversal invariance. is perhaps should have been seen as implicit in the TKNN result, but had not apparently been previously noted. I came up with a very simple model (Haldane, 1988) (see Figure 4) based on “a two-dimensional single sheet of graphite” (purely a “toy model” at that time, as the possibility that one day graphene sheets would be made then seemed like
+
+adiabatic quantum mechanics.
+
+ω
+
+path on unit sphere
+
+Ω
+
+ˆ
+
+e Berry phase = e iS ω
+
+-----------------------------------------------------Page 9-----------------------------------------------------
+﻿
+52                                          The Nobel Prizes
+
+“science ction”) which I called a model for the “quantum Hall e ect without Landau levels,” based on standard Bloch states unlike the esoteric eld-depen- dent ones of the Hofstadter model. is is now called the “quantum anomalous Hall e ect” or “Chern insulator.”
+
+is state may also be called the rst topological insulator, albeit one with broken time-reversal symmetry. It turns out that in 2D graphene, the “Dirac points” at the corners of the Brillouin zone where the conduction and valence band touch are stable only if both time-reversal and spatial inversion symmetry are unbroken, in which case the Berry curvature vanishes identically, and Berry phase factors for closed paths in the Brillouin zone are topological, with values exp i = ±1, depending on whether their winding numbers around the Dirac points are even or odd. A gapped non-topological insulator state, investigated previously by Semeno (Semeno , 1984), results if spatial inversion symmetry is broken. In contrast the toy model I devised opens up a gap at the Dirac points to give a quantum Hall state by breaking time-reversal symmetry , through giving a chiral phase to second-neighbor hopping between states on the same sublattice. Once the gap opens and breaks the connection between conduction and valence
+
+FIGURE 4.    e simple graphene-like tight-binding “toy model”(Haldane, 1988) for the “broken-time-reversal topological insulator” or “Chern Insulator” that exhibits a zero- eld “quantum anomalous Hall e ect.” Electrons “hop” along nearest-neighbor bonds (solid lines) with a real matrix element, and along second-neighbor bonds (dashed lines) with a complex matrix element, which has a postive phase for hopping in the direction of the arrow. Two conjugate copies (one for up-spin, one for down-spin electrons) were later combined by Kane and Mele to model a time-reversal-invariant topological insulator. e complex phases for hopping between second-neighbors introduces broken-time-reversal symmetry, which could come from a ferromagnetically-ordered magnetic dipole at the center ( ) of each hexagonal cell, pointing normal to the 2D plane. e dipoles give rise to di erent magnetic ux through regions a , b , and c of the unit cell, but no net magnetic
+
+ux, leaving the standard Bloch structure intact.
+
+-----------------------------------------------------Page 10-----------------------------------------------------
+﻿
+Topological Quantum Matter                                  53
+
+bands in the interior of the system, they individually have opposite-sign Chern numbers ±1, and undirectional edge states are present. is is conveniently seen on the “zig-zag” edge, where in the absence of second-neighbor hopping, an zero-energy edge state spans one third of the surface Brillouin zone, connecting the projected Dirac points in a way reminiscent of the recently discovered “Fermi arc” surface states that connect the projected Dirac points of 3D Weyl semi- metals found recently by Ashvin Vishwanath and coworkers (Wan et al. , 2011). When a gap opens, whether by breaking inversion symmetry, time-reversal sym- metry, or both, the edge states must connect to either the valence or conduction band at each of the now gapped or “massive” Dirac point, leading to four possible outcomes (see Figure 5).
+
+is simple toy model has proved very fruitful: rather surprisingly, while the original model was for charged fermions, it was translated from the language of electrons to that of neutral bosons and a photonic crystal (Haldane and Raghu, 2008), showing how topological “one-way” edge states could occur there too, initiating the growing eld of topological photonics, and has been implemented experimentally with microwave-scale photonics.
+
+In 2004, the possibility of a time-reversal-invariant analog of the Hall e ect (the “spin-Hall e ect”) was under discussion, and a time-reversal invariant (TRI) model was considered by Charles Kane and Eugene Mele (Kane and Mele, 2005), who combined two conjugate copies of my model, one for spin-up electrons for which the valence band had Chern number ±1 and one for spin-down electrons where the valence band had the opposite value ∓ 1; on the edges, spin-up and spin-down edge modes propagated in opposite directions. Since the total Chern
+
+• gapless graphene “zig-zag” edge
+
+Broken inversion
+
+E
+
+0
+
+π          2 π k
+
+Broken time-reversal
+
+(Chern insulator)
+
+FIGURE 5. “Zig-Zag” edge of graphene a er perturbation by terms that break inversion or time-reversal symmetry. e unperturbed edge has an edge state joining the projections of the two Dirac points where the lled valence band (red) touches the empty conduc-
+
+tion bands (green). When a gap is induced by the perturbation, there are four gapless graphene “zig
+
+edge-state can be connected, two of which are topological, and connect conduction and valence bands.
+
+•
+
+edge modes
+
+-----------------------------------------------------Page 11-----------------------------------------------------
+﻿
+54                                          The Nobel Prizes
+
+number of the valence band vanished, there was no quantum Hall e ect. Naively, it might have been expected that the gapless edge modes were not protected from backscattering and mixing, thus becoming gapped, if spin-non-conserv- ing Rashba-type spin-orbit coupling was added to the system. However Kane and Mele discovered by a numerical calculation that, so long as time-reversal invariance was unbroken, the edge modes were in fact protected by a previously- unexpected “ Z 2 ” topological invariant related to Kramers degeneracy. is new invariant had a 3D generalization discovered independently and simultaneousy in 2007 by Joel Moore and Leon Balents (Moore and Balents, 2007), Rahul Roy (Roy, 2009), and Liang Fu, Kane and Mele (Fu et al. , 2007), which led to the experimental discovery of the 3D time-reversal-invariant topological insula- tors (TI). is nally led to the reported experimental realization (Chang et al. , 2013) by QiKun Xue’s group at Tsinghua University, Beijing, of the quantum anomalous Hall e ect in thin lms of TRI TI’s which had been doped with mag- netic material.
+
+I now turn to the other (1981) discovery recognized by this Nobel prize: the novel quantum spin liquid states of the one-dimensional integer-spin antifer- romagnets, which (for odd integral spin) have recently been classi ed by Xiao- Gang Wen and collaborators (Chen et al. , 2013) as “symmetry protected topo- logical states” (SPT states), where the protective symmetries are time-reversal invariance and spatial inversion symmetry. e conventional magnetic ground states generally studied prior to 1981 were typically unentangled states, usually with long-range magnetic order, that could be modeled as a direct product of independent states on each sites, such as a ferromagnet (. . .       . . .) or a N´eel antiferromagnet (. . .        . . .). e spin con gurations shown have spins aligned parallel or antiparallel to the z -axis, but in the case of Heisenberg (isotropic) magnets these states spontaneously break rotational symmetry, and the alignment axis can point in any direction. In the case of the Heisenberg fer- romagnet, the alignment direction is the direction of a macroscopic conserved angular momentum vector, and the conservation law for angular momentum of a rotationally-invariant system protects the ferromagnetic “order parameter” (the alignment direction) against deviation by zero-point uctuations.
+
+However, in the antiferromagnetic case, there is no conservation law to give protection against zero-point uctuations, e celebrated Mermin-Wagner theo- rem that posed the key paradox in the case-of the nite temperature Kosterlitz- ouless transition provides a similar result for quantum systems in one spatial dimension: without protection by a conservation law, the ground state of a quan- tum system with a continuous symmetry cannot exhibit long-range order of an order-parameter that breaks that symmetry. In higher dimensions, Heisenberg
+
+-----------------------------------------------------Page 12-----------------------------------------------------
+﻿
+Topological Quantum Matter                                  55
+
+systems can exhibit antiferromagnetic broken symmetry ground states with gap- less collective Goldstone-mode excitations known as (antiferromagnetic) spin waves that are small harmonic uctuations of the N´eel order-parameter around its uniform ground state con guration. But, if the assumption of long-range N´eel antiferromagnetic order is made in the case of the one-dimensional spin- S antiferromagnet, it is easily found that the e ect of the harmonic zero-point
+
+uctuations would be to destroy the assumed long-range order.
+
+At this point the power of exact (but not fully understood) mathematical results to sow confusion enters the story! In 1931, before he went on to dis- cover how nuclear fusion powered the sun (and later to become David ou- less’s thesis advisor at Cornell), Hans Bethe also worked on the one-dimensional Heisenberg chain as a “toy model” for magnetism, and discovered a remarkable “Ansatz”(Bethe, 1931) that provided exact solutions for eigenstates of the 1D model with S = and nearest-neighbor exchange, allowing the eigenvalue spec- trum to be explicitly obtained. Unfortunately, it took more than sixty years for the underlying special mathematical structure of the model to be understood, and in the 1970s, only energy levels and thermodynamic properties could be extracted from the exact solutions, but not the correlation functions. However, the spectrum of low-energy eigenvalues super cially resembled the predictions of spin-wave theory with the only apparent change being that the speed of long- wavelength spin waves di ered from the predictions of spin-wave theory by a factor of   .
+
+While the details of Bethe’s Ansatz were somewhat arcane and mysterious, this was generally taken as con rmation that the spin-wave description was more-or-less correct despite the known destruction of true long-range order by quantum e ects. In fact, we now know that the elementary excitations of the model that Bethe solves have no relation whatsoever to spin waves : they are spin- topological excitations (Faddeev and Takhtajan, 1981) that are created in pairs, and now known as “spinons,” but even in the 1970s it ought to have been noticed that, when expressed in terms of the velocity of long wavelength excitations, the speci c heat predicted by spin-wave theory was exactly twice the exact result extracted from the Bethe Ansatz, implying no relation of any kind between the spin-wave theory and low-energy excitations of Bethe’s solvable model. To get around the long-standing intractability of the problem of extract- ing correlation functions from Bethe’s solution, new techniques for treating the problem emerged in the early 1970’s from the work of Alan Luther and Ingo Peschel. Again old work (even older than Bethe’s!) was important: they used the Jordan-Wigner (Jordan and Wigner, 1928) transformation that maps the one- dimensional magnet with nearest-neighbor exchange into a model of spinless
+
+-----------------------------------------------------Page 13-----------------------------------------------------
+﻿
+56                                          The Nobel Prizes
+
+fermion problem
+
+H =
+
+1 + −
+
+i
+
+λ < 1 easy plane
+
+λ > 1 easy axis
+
+H =
+
+1 +
+
+i
+
+E
+
+λ =0    free fermions
+
+- π
+
+π a
+
+4 k F =   2 π
+
+(Bragg vector)
+
+“Umklapp processes”
+
+Half-ﬁlled band (in zero magnetic ﬁeld)
+
+FIGURE 6.    e Jordan-Wigner transformation maps the S =   Heisenberg chain with zero magnetization into a half- lled interacting band of spinless fermions, where 4 k F is a Bragg vector.
+
+fermions that move in one dimension by hopping between nearest neighbor sites
+
+! !
+
++ J z S yn S yn +1 , with J x = J y = J xy , the S = “quantum XY” model with J z = 0 is mapped into a non-interacting free-fermion model that can be completely and explicitly solved to extract all physical properties.
+
+In the mid-1960s, Joaquin Luttinger (Luttinger, 1963) had noticed that a “toy model” of interacting spinless fermions with a linear Dirac-like dispersion and an interaction restricted to low momentum-transfer forward scattering should be solvable using the “Tomonaga bosons” found by Sin-itiro Tomonaga (Tomonaga, 1950). ere were problems with Luttinger’s solution, which was subsequently elucidated by Daniel Mattis and Elliott Lieb (Mattis and Lieb, 1965), and from this came the remarkable “bosonization” technique (represen- tation of one-dimensional fermions in terms of Tomonaga’s harmonic oscillator modes) explicitly formulated by Schotte and Schotte (Schotte and Schotte, 1969) in their 1969 simpli ed treatment of the “X-ray edge singularity” problem. In 1975, Luther and Peschel (Luther and Peschel, 1975) adapted the new “bosonization” techniques to treat the easy-plane antiferromagnet with non-zero J z = | J xy | , with | | < 1, which they mapped into a “(1+1)-dimensional” e ective quantum eld theory could be treated by the “bosonization” mapping to a har- monic oscillator problem. is treatment was precisely equivalent (a er a “Wick
+
+2 ( S i S i +1   + S i − S i + +1 ) + λ S i z S i z +1
+
+2 ( c i c i +1   + c † i +1 c i ) + λ ( n i − 12 )( n i +1 − 12 )
+
+on the lattice, with interactions between particles on neighbor sites. When the
+
+Heisenberg exchange coupling J S n ⋅ S n + 1 is decomposed into J x S xn S xn +1 + J y S yn S yn +1
+
+-----------------------------------------------------Page 14-----------------------------------------------------
+﻿
+Topological Quantum Matter                                  57
+
+rotation” from (1+1)-dimensional Lorentz-invariant space-time to 2-dimen- sional Euclidean space) to the low-temperature “topologically-ordered” phase of the classical 2D XY model which Kosterlitz and ouless were also studying at that time, with Néel correlations that decayed algebraically with non-universal power laws, where for large | n − n | ,
+
+S nx S nx ′ = S ny S ny ′ ∝ ( − 1) n − n ′ n − n ′
+
+− η
+
+, S nz S nz ′ = ∝ ( − 1) n − n ′ n − n ′
+
+− η − 1       (3)
+
+where varied with the coupling-constant ratio . Furthermore, introducing full “XYZ” anisotropy ( J x != J y ) maps the model to a massive eld theory (the “sine- Gordon” model) with a excitation gap that depends algebraically on J x − J y with an exponent xed by .
+
+By that time Bethe’s exact solution of the S = isotropic Heisenberg “XXX” model ( J x = J y = J z ) had been extended to the full XYZ model by Rodney Baxter, following the identi cation of the Yang-Baxter algebra as the key ingredient that allowed Bethe’s Ansatz to solve the model. Luther and Peschel were able to use this to indirectly obtain the value of the correlation exponent   as a function of for the easy plane “XXZ” model ( | | ≤ 1). ey found that for positive (antifer- romagnetic) J z ,   increases from at the fully-solvable “free-fermion” XY point with J z = 0, reaching the consistent value   = −1 = 1 at the antiferromagnetic Heisenberg “XXX” point = 1, while for negative (ferromagnetic) J z , it decreases to zero when   = − 1, where the ground state develops long-range order with a conserved order parameter. Notably, the Luther-Peschel eld-theory treatment failed to explain the gap that opens for   > 1, when the model changes from an an easy-plane to an easy-axis antiferromagnet.
+
+In 1979 I was working on the precise formulation of the bosonization method and found (Haldane, 1981b) that the zero-momentum modes of the fermion density needed to represented by action-angle variables as opposed to Tomonaga’s harmonic oscillator modes which represented the modes car- rying nite momentum. ese action-angle degrees of freedom are topological in nature, and resolved the “mystery” of how one-dimensional fermions could apparently be represented in terms of “bosons” (harmonic oscillator modes): the representation in fact is constructed using harmonic oscillators plus topologi- cal winding-number degrees of freedom. is meant that the detailed structure of the excitation spectrum of a spinless fermion model with periodic bound- ary conditions contained two types of topological excitations (separate winding numbers of le - and right-moving fermion elds) as well as Tomonaga’s sound- wave modes.
+
+-----------------------------------------------------Page 15-----------------------------------------------------
+﻿
+58                                          The Nobel Prizes
+
+Knowledge of the energies of the two topological excitations xed not only the speed of sound, which could be independently checked, but also the cor- relation exponent , and applying this to the Bethe Ansatz solution of the XXZ model in zero eld (or the equivalent Jordan-Wigner fermion model with a half- lled band) for which Luther and Peschel had indirectly found the exact value of the exponent as a function of the couplings, I was able to con rm that the new expressions in terms of winding-number energies were also consistent, correct, and quite general.
+
+is opened up by the possibility of extracting exact correlation exponents from Bethe Ansatz solutions of some models exhibiting one-dimension criticality by using the energies of their various topological excitations to t them to what I called an e ective “Luttinger liquid”(Haldane, 1981b) (or perhaps more properly a “Tomonaga-Luttinger liquid”) modeled by a Luttinger model. ese develop- ments occurred before the later appearance of more powerful (1+1)-dimensional conformal eld theory methods, and “Luttinger liquids” turn out to be systems decomposable into Abelian representations of the Virasoro algebra, with the con- straints of Lorentz invariance removed.
+
+When I applied this new picture to the the full parameter space of the Bethe- Ansatz solutions of the XXZ spin chain (which required numerical solution of the Bethe Ansatz integral equations away from haf- lling of the fermion bands) it became immediately obvious from inspection of the results that the miss- ing ingredient in Luther and Peschel’s work was the omission of the “Umklapp” process by which, at half- lling of the band (where 4 k F is a Bragg vector), so scattering processes where the momentum changes by 4 k F allow two low-energy “le -moving” electrons (each with momentum near − k F ) to scatter into two low- energy right-moving electron states, each with momentum near k F .
+
+At rst sight this should be represented by a term   R ( x )   R ( x )   L ( x )   L ( x ), but this is ruled out by the Pauli principle, which is presumably why Umklapp was not considered in the original work by Luther and Peschel, but the next- order term ( R ( x )∂ x R ( x ))( L ( x )∂ x L ( x )) is allowed, and when “bosonized” becomes cos 2    cos 2( R ( x ) – L ( x )). In the quantum analog of of the Ber- ezinsky-Kosterlitz- ouless (BKT) transition, this is a double-vortex unbinding transition , which is allowed, but the standard single-vortex unbinding transition is forbidden by momentum conservation. e translation of the usual single- vortex BKT process from classical 2D to quantum (1+1)D would be represented by a term cos which becomes “relevant” (causing a gap to open) when   > . e generalization of this is that a cos m term becomes relevant when   > m 2 , which is perfectly consistent with the double-vortex term cos 2 becoming
+
+-----------------------------------------------------Page 16-----------------------------------------------------
+﻿
+Topological Quantum Matter                                  59
+
+relevant (in the absence of the single-vortex term) exactly at the isotropic XXX point when   = 1.
+
+is missing ingredient completed the eld-theoretic picture of the S =
+
+begun by Luther and Peschel. It also removed the the apparent “special” nature of the S = model which seemed to come from its mapping to a fermion model. e bosonization now provided a representation in terms of two “chiral” (le -moving and right-moving) topological winding number elds L ( x ) and R ( x ), without any obvious relation to the value of the spin S of the underlying spin chain. A planar “XY” spin can be visualized as a “compass needle” that points in a 2D direction (cos( ( x )), sin( ( x )), and if it obeys a periodic boundary condition on a circle of circumference L , then ( x + L ) = ( x ) + 2 W where the “winding number” W is a topological invariant that cannot change if the eld ( x ) varies smoothly with x . In the classical 2D XY model, ( x , y ) is a smooth function except at singular points ( x 0 , y 0 ) which are the centers of vortices. In the quan- tum (1+1)D model these become space-time points ( x 0 , t 0 ) representing tunnel- ing events (which have been called “instantons”) at which the winding number changes, through a singular process that occurs brie y at a 1D space point x 0 and during an instant of time near t 0 .
+
+It turned out that for a spin- S easy-plane spin chain with zero magnetization along the z -axis, the usual “single-vortex” BKT “instanton” process is generically present, but is forbidden by an exact quantum interference process if 2 S is odd. is highlights a di erence between the classical statistical mechanics of the 2D BKT transition and the (1+1)D quantum version. In the classical 2D model, the
+
+FIGURE 7. In (1+1)D space-time, the analog of the 2D vortex is an “instanton” tunelling process where the topological winding number of the easy-plane spin-chain changes. is process is centered on a “bond” between consecutive sites on which the local Néel order breaks down for a short time interval.
+
+-----------------------------------------------------Page 17-----------------------------------------------------
+﻿
+60                                          The Nobel Prizes
+
+strength of the vortex term in the Boltzmann factor is a real positive fugacity factor, but in the quantum (1+1)D model, it is a complex amplitude for tunneling between topologically-di erent con gurations with di erent winding number, and is real-positive or negative in time-reversal-invariant models. is means that quantum interference between competing instanton processes can occur. In this case the tunneling process is centered at the midpoint of a “bond” between two neighboring spins. Assuming the spin chain is invariant under spatial translation by one site, the magnitude of the amplitude for the tunneling process must be the same independent of which bond it is centered on. But when two such processes on consecutive bonds are compared, the main di erence is that one spin that rotated 180° clockwise now rotates 180° anticlockwise, so the two processes di er by a net rotation of one spin by 360°, with the histories of all other spins essentially identical. e fundamental di erence between a spin where 2 S is even and one where 2 S is odd is that in the latter case, there is quan- tum state has a sign change as a result of the rotation. is means that, providing the exchange energy is the same on all bonds, there is destructive interference between instanton tunneling events on neighboring bonds is 2 S is odd, but con- structive interference if 2 S is even.
+
+is provides the “topological” explanation of why the instanton process that becomes relevant as the anisotropy of the spin- XXZ chain changes from easy- plane to easy axis corresponds to a double vortex of the BKT transition. It only drives the instability of the topologically-ordered easy-plane phase because the dominant single vortex process is canceled by destructive interference when 2 S is odd. However, for integer S it is present, and the BKT transition will occur once the correlation exponent rise to the limiting value = when tunneling between states with di erent winding number becomes relevant, topological order breaks down, and a gap in the excitation spectrum opens up. At this critical point the Néel correlations of ( S xn S xn ) and ( S yn S yn ) fall o much slower than than those of ( S zn S zn ) implying that the transition happens before the isotropic Heisenberg point is reached. It is also a transition to a unique (singlet) ground state, while the double-vortex process conserves winding-number modulo 2, and leads to a two-fold degenerate (doublet) ground state when it becomes relevant. From these results, it became clear that the progression from easy-plane to easy-axis models was quite di erent in the two cases of integer- S and half- odd-integer- S antiferromagnets. As   increases, the chain with 2 S odd has a direct “double-BKT” transition at   = 1 from the topologically-ordered gapless easy-plane antiferromagnet with   < 1 to the gapped easy-axis antiferromagnet with a doublet broken-symmetry Ising-Néel ground state. In contrast, the chain with even 2 S has an a standard BKT transition at   = c < 1to a singlet gapped
+
+-----------------------------------------------------Page 18-----------------------------------------------------
+﻿
+Topological Quantum Matter                                  61
+
+spin-liquid state with no broken symmetry, followed by a second Ising-type tran- sition at   = c > 1 to the easy-axis Ising-Néel state.
+
+ese arguments exposed a fundamental topological di erence between antiferromagetic Heisenberg (isotropic) quantum spin- S chains with 2 S even and those with 2 S odd, which contradicted the then-prevailing belief that the value of S entered as a continuous parameter as an expansion in powers of S −1
+
+! !
+
+( S −1 ) was a smooth function of S −1 that vanishes as S −1    0.
+
+My apparently-heretical 1981 claim, that there was a fundamental di er- ence between one-dimensional quantum antiferromagnets with integer and half-odd-integer S , was presumably not well-enough explained, and the original paper (Haldane, 1981a) was rejected by a number of journals, and referred to by sceptics as a “conjecture,” a description that seems to have stuck! By the time the paper was nally published (Haldane, 1983a), it had been signi cantly rewritten to emphasise the isotropic Heisenberg case, and the original preprint was eventu- ally apparently lost, as this was years before preprints were stored on the internet. Happily, I recently recovered a copy that had been preserved by Jenő Sólyom, and placed it in the arXiv repository (Haldane, 1981a) for historical interest. Subsequently numerical exact diagonalization studies by Botet and Jullien (Botet and Jullien, 1983) found evidence for it, and nally, neutron scattering studies by Bill Buyers (Buyers et al. , 1986) on the quasi-one dimensional organic Nickel compound NENP provided experimental con rmation that the ground state of the spin-1 antiferromagnet was a singlet with an excitation gap.
+
+e underlying reason that my 1981 result was so unexpected was that the spin-liquid state of the integer spin-1 chain was an early example of “topological quantum matter.” e discovery predated Berry’s 1983 discovery of the Berry phase, which in spin systems con rmed that the spin quantum number S had a topological role which relied on the value of 2 S being an integer. Initially, from the standard Hamiltonian formulation used by condensed-matter physicists, it seemed mysterious that there seemed to be two distinct ways to apply quantum mechanics to a continuum eld theory description of quantum antiferromag- netic spin chains, the “ O (3) non-linear sigma model,” one for half-odd-integer spins, and the other for integer spins. In 1983, a very useful lead came from a discussion I had with Edward Witten, who mentioned that in the Lagragian formulation favored by particle physicists, the sigma model could have an addi- tional “topological term,” which disappeared in the Hamiltonian formulation, and had no e ect in the classical limit. is term is parameterized by an angle ; and it was easy to use a formulation in terms of the Berry phases of the paths
+
+analogous to a semiclassical expansion in powers of ħ . In this view, the asymp-
+
+totic long-distance behavior of S n ⋅ S n ′ would behave as ( − 1) n − n | n − n | − , where
+
+-----------------------------------------------------Page 19-----------------------------------------------------
+﻿
+62                                          The Nobel Prizes
+
+traced out by individual spins to show that this angle was 2 S , taking the value 0 modulo 2 for integers spins, and   modulo 2 for half-odd-integer spins (these are the only two values compatible with time-reversal symmetry). is angle parameter is related to the “axion angle” introduced in high-energy phys- ics in connection with the “strong-CP-violation” problem, and more recently in the electrodynamic description of “strong topological insulators” by Xiao-Liang Qi, Taylor Hughes and Shoucheng Zhang (Qi et al. , 2008), where the analogous “topological angle” takes the value = 0 for non-topological TRI insulators, and =   for the strong 3D TRI topological insulators. e discovery of the “theta- term” in the Lagrangian form of the eld theory of the one-dimensional anti- ferromagnets seems to mark the time a er which the Lagrangian formulation started to become ubiquitous in theoretical quantum condensed-matter physics, and it is now a standard tool that complements Hamiltonian descriptions. A simple model state that captures the essence of the gapped integer- S 1D antiferro-magnet was subsequently discovered by Ian A eck, Tom Kennedy, Hal Tasaki, and Elliot Lieb (A eck et al. , 1987), which is also the exact ground state of a modi ed “toy model” (the “AKLT model), which is particularly reveal- ing, as it shows up the novel nature of quantum entanglement in the topological state. In this picture, a spin-1 object is viewed as a symmetric state of two spin- “half-spins,” each of which can form an entangled singlet “valence bond” state
+
+Ψ =   1
+
+2
+
+( ↑↓ − ↓↑
+ )             (4)
+
+FIGURE 8.    e S = 1 AKLT state treats each spin a a symmetric combination of two S = “half-spins,” one of whch forms a singlet valence bond with a “half-spin” of the neighbor to the right, the other with the neighbor to the le . An unused spin- is le at each open end of the chain, and the “entanglement spectrum” consists of a single doublet.
+
+-----------------------------------------------------Page 20-----------------------------------------------------
+﻿
+Topological Quantum Matter                                  63
+
+by pairing with one of the half-spins of each neighbor. If the magnetic chain has free ends ( i.e. , is “open”), this leaves an unpaired spin- at each end of the chain. is model also reveals the essentially “entangled” nature of the state: if the chain is cut in two, unpaired spin- degrees of freedom appear on either side of the cut, and the model state has a very simple characteristic “entanglement spectrum” (Li and Haldane, 2008) of a single spin- doublet. e feature that that all states in the entanglement spectrum are doublets, and that free ends of a long open spin-1 chain carry local spin- degrees of freedom is true for all states in the same topological class as the AKLT model, including the standard spin-1 Heisenberg antiferromagnet that I originally studied. (See Figure 8.)
+
+e edges of the (integer) spin-S chain have local spin- S degrees of freedom, but since the elementary gapped bulk excitations are spin-1 magnons which can bind to the edge, the edge spins are topologically protected only when S is an odd integer. e nal classi cation (Chen et al. , 2013) is that only the odd-integer- S state is a “symmetry protected topological state” (SPT state) protected by either time-reversal symmetry or spatial inversion, with a generic two-fold degeneracy of states in the entanglement spectrum.
+
+Over the years, studies of topological state of the S = 1 Heisenberg antiferro- magnet have been remarkable fruitful. e detailed study of its topological stabil- ity was the starting point that led a uni ed classi cation of SPT states in both one dimension and higher dimensions by Xiao-Gang Wen and collaborators (Chen et al. , 2013). In addition, its entanglement spectrum lies at the heart of the “den- sity-matrix renormalization group” (White, 1992) and “matrix-product state” techniques that were in part developed for testing and verifying the so-called “Haldane conjecture.” e features of unexpected topologically-protected edge states recur again and again in connection with “topological state of matter,” for example in the “Majorana modes” that appear at the edge of topological super- conducting wires, where the simple “toy model” introduced by Kitaev (Kitaev, 2001) plays a similar role to the AKLT model, and are now considered to be a possible platform for future topological quantum information processing. It is surprising how rich the developments stemming from the surprise discovery of topological phases of matter around 1980 has been.
+
+Looking back at how this new eld of topological quantum matter has devel- oped since the initial discoveries in about 1980, I am struck be how important the use of stripped down “toy models” has been in discovering new physics. It also used to be thought that one-dimensional models were just “homework exercises” to be carried out before tackling the “real” three dimensional systems. In fact, partly because the e ects of quantum uctuations are more dramatic in
+
+-----------------------------------------------------Page 21-----------------------------------------------------
+﻿
+64                                          The Nobel Prizes
+
+low dimensions, we have found many interesting phenomena, in in doing so, a whole new way to look at condensed matter, and the exotic “topological states” that quantum mechanics make possible.
+
+It has been my privilege to have been able to participate in opening up this eld, to which many others have added amazing discoveries, and which has led to dreams of new quantum information technologies. I thank the Royal Swedish Academy of Sciences for honoring my co-Laureates and myself, and indeed our exciting sub eld of physics.
+
+REFERENCES
+
+1.   A eck, I., T. Kennedy, E. H. Lieb, and H. Tasaki (1987), Phys. Rev. Lett. 59 , 799. 1.   Berry, M. V. (1984), Proc. R. Soc. Lond. A 392 (1802), 45. 2.   Bethe, H. (1931), Z.Phys. 71 (3), 205.
+
+3.   Botet, R., and R. Jullien (1983), Phys. Rev. B 27 , 613.
+
+4.   Buyers, W. J. L., R. M. Morra, R. L. Armstrong, M. J. Hogan, P. Gerlach, and K.
+
+Hirakawa. (1986), Phys. Rev. Lett. 56 , 371.
+
+5.   Chang, C.-Z., J. Zhang, X. Feng, J. Shen, Z. Zhang, M. Guo, K. Li, Y. Ou, P. Wei, L.-L. Wang, Z.-Q. Ji, Y. Feng, S. Ji, X. Chen, J. Jia, X. Dai, Z. Fang, S.-C. Zhang, K. He, Y. Wang, L. Lu, X.-C. Ma, and Q.-K. Xue (2013), Science 340 (6129), 167.
+
+6.   Chen, X., Z.-C. Gu, Z.-X. Liu, and X.-G. Wen (2013), Phys. Rev. B 87 , 155114. 7.   Faddeev, L., and L. Takhtajan (1981), Physics Letters A 85 (6), 375.
+
+8.   Fradkin, E., E. Dagotto, and D. Boyanovsky (1986), Phys. Rev. Lett. 57 , 2967. 9.   Fu, L., C. L. Kane, and E. J. Mele (2007), Phys. Rev. Lett. 98 , 106803. 10.   Haldane, F. D. M. (1981a), ILL preprint SP81/95, arXiv:1612.00076.
+
+11.   Haldane, F. D. M. (1981b), Journal of Physics C: Solid State Physics 14 (19), 2585. 12.   Haldane, F. D. M. (1983a), Phys.Lett. 93A , 464. 13.   Haldane, F. D. M. (1983b), Phys. Rev. Lett. 50 , 1153. 14.   Haldane, F. D. M. (1988), Phys. Rev. Lett. 61 , 2015.
+
+15.   Haldane, F. D. M., and S. Raghu (2008), Phys. Rev. Lett. 100 , 013904. 16.   Halperin, B. I. (1982), Phys. Rev. B 25 , 2185. 17.   Hofstadter, D. R. (1976), Phys. Rev. B 14 , 2239.
+
+18.   Jordan, P., and E. Wigner (1928), Z. Phys. 47 (9), 631.
+
+19.   Kane, C. L., and E. J. Mele (2005), Phys. Rev. Lett. 95 , 146802. 20.   Kitaev, A. Y. (2001), Physics-Uspekhi 44 (10S), 131.
+
+21.   Klitzing, K. v., G. Dorda, and M. Pepper (1980), Phys. Rev. Lett. 45 , 494. 22.   Laughlin, R. B. (1981), Phys. Rev. B 23 , 5632.
+
+23.   Li, H., and F. D. M. Haldane (2008), Phys. Rev. Lett. 101 , 010504. 24.   Luther, A., and I. Peschel (1975), Phys. Rev. B 12 , 3908.
+
+25.   Luttinger, J. M. (1963), Journal of Mathematical Physics 4 (9), 1154.
+
+26.   Mattis, D. C. M., and E. H. Lieb (1965), Journal of Mathematical Physics 6 (2), 304. 27.   Moore, J. E., and L. Balents (2007), Phys. Rev. B 75 , 121306.
+
+28.   Qi, X.-L., T. L. Hughes, and S.-C. Zhang (2008), Phys. Rev. B 78 , 195424. 29.   Roy, R. (2009), Phys. Rev. B 79 , 195322.
+
+-----------------------------------------------------Page 22-----------------------------------------------------
+﻿
+Topological Quantum Matter                                  65
+
+30. Schotte, K. D., and U. Schotte (1969), Phys. Rev. 182 , 479. 31. Semeno , G. W. (1984), Phys. Rev. Lett. 53 , 2449. 32. Simon, B. (1983), Phys. Rev. Lett. 51 , 2167.
+
+33.    ouless, D. J., M. Kohmoto, M. P. Nightingale, and M. den Nijs (1982), Phys. Rev.
+
+Lett. 49 , 405.
+
+34. Tomonaga, S. (1950), Progress of eoretical Physics 5 (4), 544.
+
+35. Tsui, D. C., H. L. Stormer, and A. C. Gossard (1982), Phys. Rev. Lett. 48 , 1559. 36. Wan, X., A. M. Turner, A. Vishwanath, and S. Y. Savrasov (2011), Phys. Rev. B
+
+83 , 205101.
+
+37. White, S. R. (1992), Phys. Rev. Lett. 69 , 2863.
+
+-----------------------------------------------------Page 23-----------------------------------------------------

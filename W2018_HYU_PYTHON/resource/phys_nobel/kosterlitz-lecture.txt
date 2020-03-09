@@ -1,0 +1,519 @@
+﻿Topological Defects and Phase Transitions
+
+Nobel Lecture, December 8, 2016 by John Michael Kosterlitz
+
+Brown University, Providence, Rhode Island, USA
+
+1. INTRODUCTION
+
+It is a great honor to speak to you today about “theoretical discoveries of topolog- ical phase transitions and topological phases of matter.” Since the main character, David ouless, is not able to speak here, the two minor characters, Duncan Haldane and I, have been asked to speak for David. is is a very daunting task which I agonized over for a considerable period of time as I feel inadequate for this. Eventually, time ran out and I was forced to produce something relevant so I decided to start by talking my earliest experience of David and how we ended as collaborators on our prize winning work. en I will summarize my understand- ing of his seminal contributions to his applications of topology to classical ( ħ = 0) Berezinskii-Kosterlitz- ouless or BKT phase transition. David has worked on many more applications of topology to quantum mechanical systems such as the Quantum Hall e ect and Duncan Haldane will talk about David’s contribu- tions to these.
+
+My rst experience of David ouless took place in 1961 when I was a fresh- man at Cambridge University. I was in a large introductory class on mathematics for physics waiting for the instructor to appear to enlighten us when a young man who was clearly too young for this advanced science course walked in. Obviously, he had wandered into the wrong lecture hall. To our astonishment, he stopped in front of the class and proceeded to talk about various complicated pieces of mathematics which most of the class had either not met before or had not understood. It rapidly became clear that the class was in the presence of a mind
+
+85
+
+-----------------------------------------------------Page 1-----------------------------------------------------
+﻿
+86                                          The Nobel Prizes
+
+which operated on a di erent level to those of the audience. My later experiences of David merely reinforced this early impression. My next meeting with him was in 1971 in the Department of Mathematical Physics at Birmingham University in England where I went by accident as a postdoctoral fellow in high energy physics. A er being frustrated for a year, I looked for a new tractable problem and David introduced me to the new worlds of topology and phase transitions in two dimensional systems.
+
+As far as I am concerned, the study of topological excitations started in 1970 when I was a postdoc in high energy physics at the Istituto di Fisica Teorica at Torino University, Italy. As a very disorganized person, I failed to submit my application for a position at CERN, Geneva in a timely fashion and, instead, found myself without a position for the following year. A er replying to some advertisements in the British newspapers, I was o ered a postdoctoral position in the department of Mathematical Physics at Birmingham University in Eng- land. I did not want to go to Birmingham which, at that time, was a large indus- trial city in the at middle of England where a lot of cars and trucks were built. It was certainly not my ideal place to live, but my girlfriend and I decided that it was better than the alternative of unemployment. During my rst year there, I con- tinued some elaborate eld theory calculations but I had an unhappy experience. I was about to write up my calculations for publication when a preprint from a group in Berkeley doing exactly the same thing appeared on my desk. A er two or three repeats of this, I became very disillusioned. In desperation, I went round the department looking for a tractable problem in any branch of physics. I appeared in David ouless’ o ce listening to him describing several new and mysterious concepts such as topology, vortices in super uids and dislocations in two dimensional crystals. To make matters even worse, my knowledge of sta- tistical mechanics was almost non-existent as I had omitted that course as irrel- evant to high energy physics which I considered to be the only eld of physics of any interest. However, to my surprise, David’s ideas made sense to me as being new and very di erent and they seemed worth considering. We began to work on the problem of phase transitions mediated by topological defects, which to my untutored mind seemed just another application of eld theoretic ideas and was therefore worthy of consideration. Little did I know just how di erent and important these ideas and their applications would be in the following decades and where they would take us.
+
+At this point, I would like to talk about David’s vital contribution to our understanding of two dimensional phase transitions. In fact, one of our moti- vations for looking at two dimensions was that we thought that life was easier in two than in three dimensions. David had already done some work on the
+
+-----------------------------------------------------Page 2-----------------------------------------------------
+﻿
+Topological Defects and Phase Transitions                         87
+
+importance of topological defect driven phase transitions in the context of the one dimensional Ising chain with interactions between spins decaying as 1/ r 2 . is model can be discussed in terms of topological defects, or domain walls, interacting as ln r / a [1] and David had shown that the magnetization dropped discontinuously to zero at T c although it was not a rst order transition. is was later made quantitative by Anderson and Yuval [2] who used an early version of the renormalization group. is work was very in uential in our thinking about defect driven phase transitions because it led us to seek other systems in which there are point topological defects with a logarithmic interaction. Examples of this are point vortices in 4 He lms, in superconducting lms and point disloca- tions in 2 D crystals. is, in turn, led us to the Coulomb gas description of such systems. However, those of you who are paying attention to the details will have noticed a serious aw in this analogy since our basic 1 D example is di erent from our other systems which are Coulomb gases in 2 D . e reason why the 1 D system with logarithmic interactions works is because of the constraint that the charges or domain walls alternate in sign along the line. If this constraint is relaxed, the phase transition disappears. Of course, this is not the rst time that a correct conclusion is arrived at for the wrong reason.
+
+e rst thing we had to understand was the role of long range order in crystals and super uids, as the standard picture of a crystal in two dimensions is a system of molecules in which knowledge of the position of a single particle means that one knows the positions of all the others from the equation r ( n , m ) = n e 1 + m e 2 where e 1 , e 2 are the fundamental lattice vectors and n , m = ±1, ±2, . . . ± ∞. e problem here is the Peierls argument [3, 4] which says that long range order is not possible in two dimensional solids because low energy phonons give a mean square deviation of atoms from their equilibrium positions in an L × L system increasing logarithmically with the size of the system, L . A useful picture of a two dimensional crystal is to consider a at elastic sheet on which is drawn a lattice of dots representing the atoms of a crystal. Now, stretch some regions and compress other regions of the sheet without tearing it, representing smooth elastic distortions of the crystal. Clearly, the dots (particles) will move far from their initial positions—in fact a distance proportional to ln L —although the lat- tice structure is preserved. e absence of long range order in this form has been shown rigorously by Mermin [5]. Similar arguments show that there is no spon- taneous magnetization in a 2 D Heisenberg magnet [6] and that the expectation value of the super uid order parameter vanishes in a 2 D Bose liquid is zero [7]. According to the conventional wisdom of the early 1970s, this implies that there can be no phase transition to an ordered state at any nite temperature because an ordered state does not exist! However, this minor contradiction did
+
+-----------------------------------------------------Page 3-----------------------------------------------------
+﻿
+88                                          The Nobel Prizes
+
+not deter David and myself because David understood the subtleties of the situ- ation and could see a way out of the apparent contradiction while I was too igno- rant to realize that there was any such contradiction. In hindsight, I understood that, very occasionally, being ignorant of the fact that a problem is insoluble, allows one to proceed and solve it anyway. As luck had it, this was one of those few occasions for me. Of course, it also helped that there existed some experi- mental and numerical evidence for transitions to more ordered low temperature phases in 2 D crystals [8, 9], very thin lms of 4 He [10, 11] and 2 D models of magnets [12, 13, 14]. e most compelling piece of experimental evidence for us is shown in Figure 1 where the deviation of − ∆ f , the decrease in the resonant frequency f of the crystal with a lm of 4 He adsorbed on the surface, from the
+
+FIGURE 1.    e horizontal axis is a measure of the total areal mass density of the adsorbed lm and the vertical axis is − ∆ f , a measure of the adsorbed mass which decouples from the oscillating substrate. Reprinted from M. Chester, L. C. Yang and J. B. Stephens, Phys. Rev. Lett. 31 211 (1972) with permission. Copyright American Physical Society.
+
+-----------------------------------------------------Page 4-----------------------------------------------------
+﻿
+Topological Defects and Phase Transitions                         89
+
+straight line is a measure of the areal super uid mass density. Clearly, the 2 D lm undergoes an abrupt transition as the adsorbed mass density increases with a probable nite discontinuity in s ( T ). is behavior seemed very strange as conventional wisdom said that s would increase continuously from zero as the ordered phase is entered. is needed an explanation which, clearly, had to be rather di erent from anything known previously.
+
+2. BREAKTHROUGH
+
+e solution to this puzzle is that there can be a more subtle type of order called topological order in some two dimensional systems. e simplest example is the Ising ferromagnet which consists of a set of spins S = ±1 on a D -dimensional cubic lattice. e rules of statistical mechanics are (i) any con guration of the system occurs with probability e (– E / k B T ) where E is the energy of that con gura-
+
+tion and (ii) compute the partition function Z ( T ) ∑ configs exp ( − E / k B T ) , which
+
+gives all necessary thermodynamic information. e most probable excitations are the low energy ones which are responsible for the absence of true long range order but, otherwise, have no e ect. To discuss the destruction of super uidity and the melting of a 2 D crystal, we have to include the very improbable high energy topological defects responsible for the destruction of a super uid and of a crystal. ese are the vortices in a super uid and dislocations in a crystal [15, 16, 17]. I should point out that similar ideas had been proposed a bit earlier by Ber- ezinskii [18, 19] but, when we did our work, we were not aware of this. For some reason, our work has received much more attention than that of Berezinskii. Of course, you may well ask about the connection between topology which is the study of spheres with N holes while our physical systems all lie on a at simply connected 2 D surface with no holes. e topology we are considering is determined by the underlying physics and its corresponding energetics and a phase transition can be thought of as a transition between topological sectors de ned by the topological invariants. We can discuss the importance of topol- ogy by comparing the 2 D planar rotor magnet with two component spins and the Heisenberg model with three component spins. For the planar rotor model
+
+s i = ( s ix , s iy ) = s ( cos φ i ,sin φ i )
+
+Ψ i = s ix + is iy = se i φ i
+
+where s denotes the length of the spins, usually taken as unity. Consider a large L x × L y system with periodic boundary conditions (similar considerations hold for other boundary conditions). In the planar rotor model, the direction of
+
+-----------------------------------------------------Page 5-----------------------------------------------------
+﻿
+90                                          The Nobel Prizes
+
+magnetization in a region is de ned by the angle which varies slowly in space. Although the angle    uctuates by a large amount in a large system, the number of multiples of 2 it changes by on a path which goes completely round the system is a topological invariant, so that
+
+1
+
+2 π
+
+1
+
+2 π
+
+L x
+
+0
+
+L y
+
+0
+
+x
+
+y
+
+are numbers de ning a particular metastable state. Transitions can take place from one metastable state to another only if a vortex–antivortex pair is formed, separate and recombine a er one has gone right round the system. is process causes n x or n y to change by one, but there is an energy barrier proportional to the logarithm of the system size to prevent such a transition.
+
+e same system composed of three component spins
+
+s i = ( s ix , s iy , s iz ) = s ( sin θ i cos φ i ,sin θ i sin φ i ,cos θ i )
+
+L x ∂ φ
+
+2 p
+
+invariant. A twist of the azimuthal angle   by 2 across the system can be con- tinuously unwound by changing the polar angle , which we take to be the same everywhere from /2 to zero. In fact, the Heisenberg model in two dimensions has a single topological invariant N = 0, ±1, ±2, . . . where
+
+N =   1
+
+⎛ ∂ θ ∂ φ ⎝ ∂ x ∂ y
+
+∂ y ∂ x ⎟
+
+.
+
+If we regard the direction of magnetization in space as giving a mapping of the space on to the surface of a unit sphere, the invariant N measures the number of times space encloses the unit sphere. is invariant is of no signi cance in statistical mechanics because the energy barrier separating con gurations with di erent values of N is of order unity. us, there is no barrier between di erent topological sectors (di erent values of N ) which implies that there is no ordered state for the 2 D n = 3 Heisenberg magnet. In the 2 D planar rotor model, there is an in nite energy barrier between di erent topological sectors parametrized by n x and n y and, in consequence, there is a phase transition when the system can
+
+uctuate between di erent topological sectors.
+
+∂ φ
+
+∫ ∂ x dx = n ,
+
+∂ φ
+
+∫ ∂ x dy = n ,
+
+is called the Heisenberg model. A quantity such as   1
+
+∫ 0 ∂ x is not a topological
+
+4 p ∫
+
+dx dy sin θ ⎜
+
+−   ∂ θ ∂ φ ⎞
+
+-----------------------------------------------------Page 6-----------------------------------------------------
+﻿
+Topological Defects and Phase Transitions                         91
+
+We can show this by showing how a con guration with N = 1 can be continu- ously deformed into one with N = 0. A simple example of an N = 1 con gura- tion is one where   is a continuous function of r =   x 2 + y 2 and   =   for r >
+
+−1
+
+con guration is
+
+E =   Js 2
+
+a
+
+0 ⎣
+
++
+
+rdr
+
+for this con guration. Even if varies linearly between r = 0 and r = a , E is nite and independent of a . Of course, for small values of a this expression for the energy is invalid, but the number of spins in the disk of radius a is small so that any energy barrier is also small and the topological invariant N can be changed by small thermal uctuations. e conclusion is that the 2 D planar rotor and related models can have a nite temperature topologically ordered state while the three component Heisenberg model does not. is is consistent with numerical studies [14], a later renormalization group study by Polyakov [20] and experi- ments on super uids [10, 11]. Note that the calculation by Polyakov is performed in a single topological sector N = 0 so that the absence of a phase transition in the 2 D Heisenberg model is veri ed by both arguments separately.
+
+3. VORTICES IN THE PLANAR ROTOR MODEL IN TWO DIMENSIONS
+
+e importance of topological defects in phase transitions in these two dimen- sional systems was discussed in our 1972 paper [15] where our defect free energy argument was presented. e planar rotor and the super uid lm free energy can be written as
+
+H K ( T ) d 2 r
+
+2
+
+2
+
+where a 0 is the lattice spacing or some microscopic cut-o length scale and
+
+⎧ J
+
+⎪ ⎪
+
+⎩
+
+2 0
+
+.
+
+a and ( r = 0) = 0. e angle ( x , y ) = tan ( y / x ). e energy of a slowly varying
+
+2 ∫
+
+⎡ d q ⎞ 2 sin 2 q ⎤
+
+dx dy [ ( ∇ q ) 2 + sin 2 q ( ∇ f ) 2 ] = p Js 2 ∫ ⎢ ⎛ ⎝ dr ⎠
+
+r 2 ⎥ ⎦
+
+∫ a 02 ( ∇ q ( r ) )
+
+k B T   = 0
+
+k B T     planar rotor
+
+K 0 ( T ) = ⎨
+
+⎪ ! r s ( T ) superfluid film
+
+⎪ m 2 k B T
+
+-----------------------------------------------------Page 7-----------------------------------------------------
+﻿
+92                                          The Nobel Prizes
+
+Here, J is the exchange interaction between nearest neighbor unit length
+
+. For a 4 He lm,
+
+H =   1 d 2 r r 0 ( T , r ) v 2
+
+where v s =   !
+
+order parameter   ( r ) = | ( r ) | e i ( r ) and 0 ( T , r ) is the position dependent bare super uid density. 0 ( T , r ) = 0 at the vortex cores and constant elsewhere. It turns out that its exact spatial dependence is irrelevant as the only important conse- quence is that there is a nite energy E c associated with each vortex core. e physical reason is that a vortex core costs a nite free energy because the vortex core is a region where the super uid order parameter vanishes. Now we can see how the topology arises—each vortex corresponds to a hole in the surface and
+
+the super uid lives on the 2 D surface with a set of holes where ! C d q = 2 n and
+
+a vortex can be called a topological defect.
+
+Since vortices interact pairwise by a logarithmic energy H ⎛ R − R ′ ⎞ 2
+
+R , R ′ R
+
+the Hamiltonian is exactly that of a neutral plasma of Coulomb charges. Also, one can restrict consideration to the lowest charges n = 0, ±1 since the larger values are suppressed by powers of the fugacity y 0 = e − E c / k B T << 1. Our rst attempt at solving this was to consider a single isolated vortex of unit circulation in a L × L system. e free energy of such a vortex is ∆ F = ∆ E − T ∆ S = k B T ( K 0 ( T ) − 2) ln( L / a ) since ∆ E /( k B T ) = K 0 ( T )ln L / a and the entropy ∆ S = k B ln L 2 / a 2 . Now, at low temperature T , 2 k B T < J , ∆ F   + and the probability of having a vortex P e −∆ F / k B T    0 while, for 2 k B T > J , P   1 and there will be a nite concentration of free vortices. David and I realized that we could treat the Coulomb plasma of n charges q = +1 and nq = − 1 charges by introducing a scale dependent dielectric function ( r ) such that the force between a pair of test charges separated by a
+
+r
+
+a r ′
+
+= U ( r )ln( r / a ). Our self consistent equation for K ( r = e l ) becomes
+
+l
+
+K − 1 ( l ) = K − 1 (0) + 4 p 3 y 02 ∫ d l ′ e 4 l ′ − 2 p U ( l ′ )
+
+0
+
+spins so that H [{ s }] =   2 ∑ < r , r ′ > [ s ( r ) − s ( r ′ ) ] 2 = J ∑ < r , r ′ > [ 1 − cos ( q ( r ) − q ( r ′ ) ) ]
+
+2 ∫ a 02 s
+
+m   ∇ q is the super uid velocity, ( r ) is the phase of the super uid
+
+k B T   = − p K 0 ( T ) ∑ n ( R ) n ( R ′ )ln ⎜
+
+⎟ ⎠ − ln y 0 ∑ n ( R )
+
+⎝ a
+
+K ( r ′ )
+
+distance r is 2 K 0 / r ( r ) = 2 K ( r )/ r . e energy of this pair is E ( r ) = ∫ d r ′
+
+-----------------------------------------------------Page 8-----------------------------------------------------
+﻿
+Topological Defects and Phase Transitions                         93
+
+Kosterlitz and ouless [15] derived this self consistent integral equation for the e ective interaction energy [16].
+
+e central problem is to solve this equation since it is clear that a transi- tion between a phase of bound dipoles and a phase of free charges will happen when K ( ) = 2. However, to nd the behavior of the system near T c requires solving the self consistent equation for K ( l ). Unfortunately, KT made an unnec- essary approximation by replacing U ( r ) by K ( r ) and solving self consistently for K ( r ). e approximation was justi ed on the grounds that U ( r ) − K ( r ) << 1 but this led to incorrect results. A proper treatment has been given by Young [21] who showed that this is equivalent to the renormalization group equations of Kosterlitz [17].
+
+dK − 1 dy
+
+(1)
+
+Remarkably, these approximate RG equations to lowest order in the vortex fugacity y yield an exact , inescapable prediction for an experimentally measur- able quantity. e ows are shown in Figure 2. If the experimental number is di erent from the theoretical prediction then, either the experiment is wrong or
+
+0.10
+
+0.08
+
+0.06
+
+0.04
+
+0.02
+
+II C   0, 0   t    8 Π y 0
+
+III C>0, t    8 Π y 0
+
+I C>0, t<0
+
+0.00
+
+0.3      0.4      0.5      0.6      0.7      0.8      0.9      1.0
+
+K
+
+FIGURE 2. Renormalization group ows from equation (1) for the 2 D planar rotor model. Note that for T ≤ T c , y ( ) = 0 and K −1 ( ) = /2.
+
+y
+
+dl   = 4 p 3 y 2 + O ( y 4 )
+
+dl   = (2 − p K ) y + O ( y 3 )
+
+-----------------------------------------------------Page 9-----------------------------------------------------
+﻿
+94                                          The Nobel Prizes
+
+the whole theory is wrong. To our great relief and pleasure the key experiment by Bishop and Reppy was done in 1978 [23].
+
+e theoretical prediction [24]
+
+r sR ( T c − )
+
+has been checked experimentally [23, 25] and the data from several di erent experiments [26, 27, 28, 29, 30] is presented in Figure 3. It is of interest to note that the experimental data were obtained and plotted before the authors were aware of our theoretical prediction. is can be viewed as experimental con r- mation of the BKT theory. ere has also been extensive experimental investiga- tion into melting in 2 D by the Maret group [32, 32, 33].
+
+4. MELTING OF TWO DIMENSIONAL CRYSTALS
+
+ere is quantitative agreement with the theory of melting by topological defects due to Young, Halperin and Nelson [35, 36]. In the theory of melting of 2 D
+
+FIGURE 3. Results of third sound and torsional oscillator experiments for the super uid density discontinuity s ( T − ) as a function of temperature. e solid line is the theoretical prediction for the static theory. Reprinted from D J Bishop and J D Reppy, Phys Rev Lett 40 1727 (1978) with permission. Copyright American Physical Society.
+
+T c   =   2 m 2 k B
+
+p ! 2   = 3.491 × 10 − 8 gm cm − 2 K − 1
+
+-----------------------------------------------------Page 10-----------------------------------------------------
+﻿
+Topological Defects and Phase Transitions                         95
+
+crystals, one starts with the expression for linear elasticity of a triangular lattice, which is the usual lattice structure in 2 D .
+
+F =   1
+ d 2 r (      ) ,
+
+1 ⎛ ∂ u i
+
+∂ r ⎟
+
+,
+
+where u ij is the linear elastic strain tensor and u i is the displacement eld. e strain eld can be decomposed into a smooth part ij and a singular part u s ( r ) due to dislocations [37]. ese are characterized by the integral of the displace- ment u ( r ) round a contour enclosing a topological defect or dislocation
+
+! d u = a 0 b ( r ) = a 0 ( n ( r ) e
+
+C
+
+1
+
++ m ( r ) e 2 )
+
+.
+
+Here, b ( r ) is the dimensionless Burgers vector, a 0 is the crystal lattice spacing and n , m are integers. Within continuum elasticty theory, one can show that [36]
+
+1 ⎛ 1 ⎞
+
+4 m ( l + m ) ij ⎠ r ′
+
+,
+
+n
+
+⎡ ⎛ r − r ′ ⎞ ⎤
+
+.
+
+From this, one obtains the energy of an set of dislocations of Burgers vec-
+
+tors b ( r ) as
+
+H D K ( T )
+
+⎛
+
+⎝ ( r − r ′ ) 2 ⎟
+
+.
+
+In our paper, we ignored the second term in this equation on the grounds that it is less relevant than the logarithmic term, which was an unfortunate error. is was corrected by Halperin and Nelson who predicted the now famous hexatic uid phase with 6-fold orientational symmetry. We assumed that dislocation unbinding led directly to an isotropic uid which is now known to be wrong. Melting in 2 D is a two stage process. At temperature T m , the crystal melts by dis- location unbinding to an anisotropic hexatic uid and, at T i > T m , this undergoes
+
+2 ∫
+
+2 ⎝ ∂ r j   +   ∂ u j ⎞
+
+u ij = ⎜
+
+2 ⎝ 2 m   ∈ ik ∈ jl   ∂ ∂ r   −   l
+
+d ∇ 2 ⎟ a 0 ∑ b m G m ( r , r ′ )
+
+u ijs ( r ) = ⎜
+
+G m ( r , r ′ ) = −   K 0 2
+
+4 p ∑ 1 = nm n
+
+∈ ( r − r n ′ ) ⎢ ln ⎜
+
+⎟ ⎠ + C ⎥
+
+⎣
+ ⎦
+
+⎝ a
+
+8 p ∫
+
+k B T   = − 0
+
+d r d r ′ ⎜ b ( r ) ⋅ b ( r ′ )ln   r −   −   b ( r ) ⋅ ( r − r ′ ) b ( r ′ ) ⋅ ( r − r ′ ) ⎞
+
+-----------------------------------------------------Page 11-----------------------------------------------------
+﻿
+96                                          The Nobel Prizes
+
+a transition where the algebraic orientational order is destroyed by disclination unbinding, resulting in the expected high temperature isotropic uid [35, 36]. e predictions from this theory are similar to those for super uid 4 He lms and the corresponding universal jump is for the renormalized (measured)
+
+Young’s modulus
+
+T → T m 2 m R ( T ) + l R ( T )    = 16 p
+
+where m R ( T ) is the renormalized value of m / k B T One of the interesting but
+
+unmeasurable predictions of the dislocation theory is the X-ray structure function
+
+S ( q ) = r ( q )
+
+2
+
+= ∑ e i q ⋅ r e i q ⋅ ( u ( r ) − u (0)) ∼ q − G
+
+r
+
+− 2 + h G ( T )
+
+2
+
+ere are no -function Bragg peaks in the structure function but algebraic
+
+peaks behaving as
+
+S ( q ) ∼ q − G   − 2 + h G ( T )
+
+We see that this diverges at q = G for small | G | so that the expected X-ray structure function looks like that sketched in Figure 4. is is one of the
+
+FIGURE 4. A schematic sketch of the structure function S ( q ) of a 2 D crystal. For T ≤ T m , peaks for small G diverge as | q − G | −2+ G but for larger G are nite cusps. For T > T m , all peaks are nite with maximum height   + ( T ) 2− G   . Reprinted from [34] with permission. Copyright 2002 Cambridge University Press.
+
+K ! R ( T m − ) = lim −   4 m ! R ( T ) m ! R ( T ) + l ! R ( T ) (   )
+
+4 p     3 m R ( T ) + l R ( T ) m R ( T ) ( 2 m R ( T ) + l R ( T ) )
+
+h G ( T ) =   k B T G
+
+-----------------------------------------------------Page 12-----------------------------------------------------
+﻿
+Topological Defects and Phase Transitions                         97
+
+characteristic predictions of the dislocation theory of melting but, unfortunately, it is not measurable by experiment because the accessible system size and quality are not yet su cient.
+
+One of the main measurable predictions of the dislocation theory of melting is the renormalized (measured) Young’s modulus for which there is remark- able agreement between experiment and theory as shown in Figure 5. Although the theoretical predictions were made in the 1970s [35, 36], experimental mea- surements [31, 32] were not done for several decades because of the di culties of realizing a suitable experimental system. In general, these 2 D systems are extremely sensitive to perturbations due to the supporting substrate and the theory assumes no substrate e ects.
+
+In our original papers, we did consider melting of a crystal by dislocations but we did not discuss the uid phase described by a periodic lattice with a ne concentration of free dislocations. A periodic solid has two types of order— translational order and orientational order—describing the orientation of the crystal axes. ese order parameters are the density ( r ) and the orientational order parameter 6 ( r ) = e 6 i ( r )
+
+r ( r ) = r 0 ( r ) + ∑ r G ( r ) e i G ⋅ u ( r )
+
+G
+
+y 6 ( r ) = e 6 i q ( r )
+
+FIGURE 5. Young’s modulus K R ( T ) as a function of the e ective inverse temperature . e solid line is the dislocation theory prediction of Halperin and Nelson and the symbols are the experimental points. Reprinted from Fig. (2) of J. Phys.: Condens. Matter 17 (2005) S3579-S3586 doi: 10.1088/0953-8984/17/45/051 with permission. Copyright 2005 IOP.
+
+-----------------------------------------------------Page 13-----------------------------------------------------
+﻿
+98                                          The Nobel Prizes
+
+e topological defects are (i) dislocations which are responsible for the melting of the solid to an orientationally ordered hexatic uid, and (ii) disclina- tions (vortices) responsible for the transition to a high temperature isotropic
+
+uid [35, 36].
+
+e theory has been worked out by Young [35] and Halperin and Nelson [36] with very detailed predictions which have been con rmed by experiment [31, 32] and summarized in Figure 5. One of the most sensitive tests of the theory to date are the numerical simulations by Kapfer and Krauth [38] who performed large scale simulations on up to 10 6 particles interacting by V ( r ) = ( / r ) n repulsive potentials. ey found that melting does proceed via the KTHNY scenario with an intermediate hexatic uid for long range ( n < 6) potentials, which includes the colloid experiments with n = 3 [31, 32] and the electrons on the surface of 4 He [39] n = 1 while for n > 6, the hexatic-isotropic transition becomes rst order, which agrees with the hard disk ( n = ) simulations. Note that these simulations are on larger systems than the experimental ones.
+
+BKT theory has also been applied to superconductivity in thin lms. In our original paper, we stated that true superconductivity in a 2 D superconducting lm could not exist because of the nite penetration depth ( T ) which limits the range of the logarithmic interaction between vortices. For separations ( T ), the vortex-vortex interaction behaves as 1/ r so that the vortices are always free at any T > 0 thus destroying superconductivity. Although our argument is correct, in many thin lm superconductors, the penetration depth can be O (1cm) which is a typical system size. For the small applied currents used, this is so large that its e ects are smaller than that of the nite currents or the nite frequencies so that the behavior of the system is indistinguishable from that of the   =   limit [40, 41]. e theory has also been applied to 2 D layers of cold atoms [42, 43] with reasonable agreement which may be improved in the future.
+
+REFERENCES
+
+1.   D J ouless Phys Rev 187 732 (1969)
+
+2.   P W Anderson, G Yuval and D R Hamann Phys Rev B 1 4464 (1970) 3.   R E Peierls, Helv. Phys. Acta. 7 Suppl. II 81–3 (1934) 4.   R E Peierls, it Ann. Inst. Henri Poincaré 5 177–222 (1935) 5.   N D Mermin Phys Rev 176 250–4 (1968)
+
+6.   N D Mermin and H Wagner, Phys Rev Lett 17 1133–6 (1966) 7.   P C Hohenberg, Phys Rev 158 383–6 (1967)
+
+8.   B J Alder and T E Wainwright, J Chem Phys 33 (1960) 9.   B J Alder and T E Wainwright, Phys Rev 127 359–61 (1962)
+
+10.   M Chester, L C Yang and J B Stephens Phys Rev Lett 29 211–4 (1972)
+
+-----------------------------------------------------Page 14-----------------------------------------------------
+﻿
+Topological Defects and Phase Transitions                         99
+
+11.   M Chester and L C Yang Phys Rev Lett 31 1377–80 (1973) 12.   H E Stanley and T A Kaplan Phys Rev Lett 17 913–5 (1966) 13.   H E Stanley Phys Rev Lett 20 589–92 (1968) 14.   M A Moore Phys Rev Lett 23 861–3 (1969)
+
+15.   J M Kosterlitz and D J ouless J Phys C: Solid State Phys 5 L124–6 (1972) 16.   J M Kosterlitz and D J ouless J Phys C: Solid State Phys 6 1181–203 (1973) 17.   J M Kosterlitz J Phys C: Solid State Phys 7 1046–60 (1974)
+
+18.   V L Berezinskii Zh Eksp Teor Fiz 59 907 (1970); JETP 32 493 (1971) 19.   V L Berezinskii Zh Eksp Teor Fiz 61 1144 (1971); JETP 34 601 (1972) 20.   A M Polyakov Phys Lett B 59 79–81 (1975)
+
+21.   A P Young J Phys C: Solid State Phys 11 L453–5 (1978) 22.   J M Kosterlitz J Phys C: Solid State Phys 7 1046–60
+
+23.   D J Bishop and J D Reppy Phys Rev Lett 40 1727–30 (1978) 24.   D R Nelson and J M Kosterlitz Phys Rev Lett 39 1201 (1977) 25.   D J Bishop and J D Reppy Phys Rev B 22 5171 (1980) 26.   I Rudnick Phys Rev Lett 40 1454 (1978)
+
+27.   J Maps and R B Hallock Phys Rev Lett 47 1533 (1981) 28.   J Maps and R B Hallock Phys Rev B 27 5491 (1983)
+
+29.   J E Rutledge, W L McMillan and J M Mochel Phys Rev B 18 2155 (1978) 30.   A L Buck and J M Mochel Physica B 107 403 (1980)]
+
+31.   J Zanghellini, P Keim and H H von Grünberg J Phys: Condens Matter 17 S3579 (2005) 32.   H H von Grünberg, P Keim and G Maret So Matter vol 3: Colloidal Order from Entropic and Surface Forces eds G Gomper and M Schick (Weinheim: Wiley) pp 40–83 (2007)
+
+33.   U Gasser, C Eisenmann, G Maret and P Keim ChemPhysChem 11 963 (2010) 34.   D R Nelson Defects and Geometry in Condensed Matter Physics Cambridge University
+
+Press (2002)
+
+35.   A P Young Phys Rev B 19 1855 (1979)
+
+36.   B I Halperin and D R Nelson Phys Rev Lett 41 121 (1978); Phys Rev B 19 2457 (1979) 37.   F R N Nabarro   eory of Dislocations Oxford University Press (1967) 38.   S C Kapfer and W Krauth Phys Rev Lett 114 035702 (2015) 39.   C C Grimes and G Adams Phys Rev Lett 42 795 (1979)
+
+40.   D J Resnick, J C Garland, J T Boyd, S Shoemaker and R S Newrock Phys Rev Lett
+
+47 1542 (1981)
+
+41.   A F Hebard and A T Fiory Phys Rev Lett 50 1603 (1983)
+
+42.   Z Hadzibabic, P Krüger, M Chenau, B Battelier and J Dalibard Nature 441 1118 (2006) 43.   M Holzmann, G Baym, J-P Blaizot and F Laloë Proc Natl Acad Sci 104 1476 (2007)
+
+-----------------------------------------------------Page 15-----------------------------------------------------
